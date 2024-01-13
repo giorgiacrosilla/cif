@@ -3675,8 +3675,8 @@ textarea.form-control-lg {
 }
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: var(--bs-nav-tabs-link-active-color);
-  background-color: var(--bs-nav-tabs-link-active-bg);
+  color: white;
+  background-color: var(--colore3);
   border-color: var(--bs-nav-tabs-link-active-border-color);
 }
 .nav-tabs .dropdown-menu {
@@ -10849,6 +10849,13 @@ html {
   }
 }
 
+.containeranalysis {
+  margin-top:5%;
+}
+
+.scrollspy {
+  margin-top:110px;
+}
 .divider-custom {
   margin: 1.25rem 0 1.5rem;
   width: 100%;
