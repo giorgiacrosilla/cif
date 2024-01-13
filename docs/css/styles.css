@@ -3663,6 +3663,8 @@ textarea.form-control-lg {
   border: var(--bs-nav-tabs-border-width) solid transparent;
   border-top-left-radius: var(--bs-nav-tabs-border-radius);
   border-top-right-radius: var(--bs-nav-tabs-border-radius);
+  color: var(--bs-secondary-rgb);
+  font-weight:bold;
 }
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
   isolation: isolate;
@@ -3688,12 +3690,13 @@ textarea.form-control-lg {
 .nav-pills {
   --bs-nav-pills-border-radius: 0.5rem;
   --bs-nav-pills-link-active-color: #fff;
-  --bs-nav-pills-link-active-bg: #1abc9c;
+  --bs-nav-pills-link-active-bg: var(--colore3);
 }
 .nav-pills .nav-link {
   background: none;
   border: 0;
   border-radius: var(--bs-nav-pills-border-radius);
+  color:var(--colore0);
 }
 .nav-pills .nav-link:disabled {
   color: var(--bs-nav-link-disabled-color);
@@ -3703,7 +3706,7 @@ textarea.form-control-lg {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: var(--bs-nav-pills-link-active-color);
-  background-color: var(--bs-nav-pills-link-active-bg);
+  background-color: var(--colore3);
 }
 
 .nav-fill > .nav-link,
@@ -10836,7 +10839,7 @@ html {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 3rem 0;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -10844,7 +10847,7 @@ html {
 }
 @media (min-width: 992px) {
   .page-section .page-section-heading {
-    font-size: 3rem;
+    font-size: 2.1rem;
     line-height: 2.5rem;
   }
 }
@@ -10855,6 +10858,10 @@ html {
 
 .scrollspy {
   margin-top:110px;
+}
+
+#documentation {
+  width:98%;
 }
 .divider-custom {
   margin: 1.25rem 0 1.5rem;
