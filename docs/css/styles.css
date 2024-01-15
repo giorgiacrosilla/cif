@@ -3693,7 +3693,8 @@ textarea.form-control-lg {
   --bs-nav-pills-link-active-bg: var(--colore3);
 }
 .nav-pills .nav-link {
-  background: none;
+  background: none; 
+  
   border: 0;
   border-radius: var(--bs-nav-pills-border-radius);
   color:var(--colore0);
@@ -3782,6 +3783,18 @@ textarea.form-control-lg {
   color: var(--bs-navbar-brand-color);
   text-decoration: none;
   white-space: nowrap;
+  margin: 15px 25px;
+    position: absolute;
+}
+
+.brain {
+  background-image: url('pngegg.png');
+  width: 100px;
+  height: 70px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: bottom;
 }
 .navbar-brand:hover, .navbar-brand:focus {
   color: var(--bs-navbar-brand-hover-color);
@@ -10917,7 +10930,7 @@ html {
   font-weight: 700;
 }
 #mainNav .navbar-brand {
-  color: #fff;
+  color: transparent;
 }
 #mainNav .navbar-nav {
   margin-top: 1rem;
