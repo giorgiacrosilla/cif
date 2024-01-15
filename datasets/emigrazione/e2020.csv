@@ -1,0 +1,6 @@
+﻿FREQ,Frequenza,REF_AREA,Territorio di origine,DATA_TYPE,Indicatore,CHANGE_OF_RESIDENCE,Tipo di trasferimento,CITIZENSHIP,Cittadinanza,SEX,Sesso,AGE,Età,Tempo (TIME_PERIOD),Osservazione,OBS_STATUS,'Stato dell"'osservazione'
+A,Annuale,IT,Italia,TDEREG,Cancellati  in anagrafe,FREIGN,Estero,IT,Italia,9,Totale,Y18-39,18-39 anni,2020,64845,,
+A,Annuale,ITC,Nord-ovest,TDEREG,Cancellati  in anagrafe,FREIGN,Estero,IT,Italia,9,Totale,Y18-39,18-39 anni,2020,18236,,
+A,Annuale,ITD,Nord-est,TDEREG,Cancellati  in anagrafe,FREIGN,Estero,IT,Italia,9,Totale,Y18-39,18-39 anni,2020,13350,,
+A,Annuale,ITE,Centro,TDEREG,Cancellati  in anagrafe,FREIGN,Estero,IT,Italia,9,Totale,Y18-39,18-39 anni,2020,10168,,
+A,Annuale,ITFG,Mezzogiorno,TDEREG,Cancellati  in anagrafe,FREIGN,Estero,IT,Italia,9,Totale,Y18-39,18-39 anni,2020,23091,,
