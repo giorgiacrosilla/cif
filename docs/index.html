@@ -38,7 +38,8 @@
     >
       <div class="container">
         <div class="brain">
-        <a class="navbar-brand" href="#">CIF</a></div>
+          <a class="navbar-brand" href="#">CIF</a>
+        </div>
         <button
           class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
           type="button"
@@ -107,7 +108,25 @@
         >
           About the project
         </h2>
-        <p>The project stems from the necessity of visualizing the data related to young individuals choosing to leave the country of Italy. The aim is to identify possible correlations between the emigration rate and other factors such as the employment rate after graduation, the average of housing prices over the years and the satisfaction with one's working conditions.<br>Inspiration was taken by a report published on the <a href="https://www.europeandatajournalism.eu/cp_data_news/italy-is-stuck-in-a-european-brain-drain/">European Data Journalism Network</a> by Giuseppe Chiellino (Il Sole 24 Ore) having title "Italy is stuck in a European brain drain". The report highlights the lack of third-level education, especially in the South of Italy, as well as the high emigration rate in the whole country. "Cervelli in Fuga"'s aim is to make an hypothesis on the hidden reasons behind the decision to leave that a lot of Italians make.</p>
+        <p>
+          The project stems from the necessity of visualizing the data related
+          to young individuals choosing to leave the country of Italy. The aim
+          is to identify possible correlations between the emigration rate and
+          other factors such as the employment rate after graduation, the
+          average of housing prices over the years and the satisfaction with
+          one's working conditions.<br />Inspiration was taken by a report
+          published on the
+          <a
+            href="https://www.europeandatajournalism.eu/cp_data_news/italy-is-stuck-in-a-european-brain-drain/"
+            >European Data Journalism Network</a
+          >
+          by Giuseppe Chiellino (Il Sole 24 Ore) having title "Italy is stuck in
+          a European brain drain". The report highlights the lack of third-level
+          education, especially in the South of Italy, as well as the high
+          emigration rate in the whole country. "Cervelli in Fuga"'s aim is to
+          make an hypothesis on the hidden reasons behind the decision to leave
+          that a lot of Italians make.
+        </p>
       </div>
     </section>
     <!-- About Section-->
@@ -119,31 +138,86 @@
         </h2>
         <!-- About Section Content-->
         <div class="row">
-          <div class="col-lg-4 ms-auto">
-            <p class="lead">
-              Freelancer is a free bootstrap theme created by Start Bootstrap.
-              The download includes the complete source files including HTML,
-              CSS, and JavaScript as well as optional SASS stylesheets for easy
-              customization.
-            </p>
-          </div>
-          <div class="col-lg-4 me-auto">
-            <p class="lead">
-              You can create your own custom avatar for the masthead, change the
-              icon in the dividers, and add your email address to the contact
-              form to make it fully functional!
-            </p>
-          </div>
-        </div>
-        <!-- About Section Button-->
-        <div class="text-center mt-4">
-          <a
-            class="btn btn-xl btn-outline-light"
-            href="https://startbootstrap.com/theme/freelancer/"
-          >
-            <i class="fas fa-download me-2"></i>
-            Free Download!
-          </a>
+          
+            <ul class="nav nav-tabs d-none d-lg-flex" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active"
+                  id="o-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#o-tab-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="o-tab-pane"
+                  aria-selected="true"
+                >
+                  Original Datasets
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="i-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#i-tab-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="i-tab-pane"
+                  aria-selected="false"
+                >
+                  Intermediate Datasets
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="m-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#m-tab-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="m-tab-pane"
+                  aria-selected="false"
+                >
+                  Mash-up Datasets
+                </button>
+              </li>
+            </ul>
+            <div class="tab-content accordion" id="myTabContent">
+              <div
+                class="tab-pane fade show active accordion-item"
+                id="o-tab-pane"
+                role="tabpanel"
+                aria-labelledby="o-tab"
+                tabindex="0"
+              >
+                <h2 class="accordion-header d-lg-none" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseO"
+                    aria-expanded="true"
+                    aria-controls="collapseO"
+                  >
+                    Original Datasets
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show d-lg-block"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#myTabContent"
+                >
+                  <div class="accordion-body">
+                    <table>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque provident labore fugiat, quaerat numquam facere accusantium. Quae, tempore? Quasi quae vel quo, quas commodi consectetur doloribus aperiam rem aliquid veritatis.</p>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
         </div>
       </div>
     </section>
@@ -157,7 +231,6 @@
           Analyses
         </h2>
         <div class="containeranalysis">
-
           <!-- ANALYSIS-->
 
           <ul class="nav nav-tabs d-none d-lg-flex" id="myTab" role="tablist">
@@ -245,15 +318,36 @@
                 data-bs-parent="#myTabContent"
               >
                 <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It
-                  is shown by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                  <table>
+                    <tr>
+                      <th></th>
+                      <th>Istat</th>
+                      <th>AlmaLaurea</th>
+                    </tr>
+                    <tr>
+                      <td>Accuracy</td>
+                      <td>ok</td>
+                      <td>ok</td>
+                    </tr>
+                    <tr>
+                      <td>Coherence</td>
+                      <td>ok</td>
+                      <td>arbitrary use of uppercase and lowercase</td>
+                    </tr>
+                    <tr>
+                      <td>Completeness</td>
+                      <td>ok</td>
+                      <td>missing metadata about datasets</td>
+                    </tr>
+                    <tr>
+                      <td>Timeliness</td>
+                      <td>
+                        No information available after 2021 - for retribuzione
+                        lorda dataset annual updates (vedi metadata)
+                      </td>
+                      <td>annual updates but last update not expressed</td>
+                    </tr>
+                  </table>
                 </div>
               </div>
             </div>
@@ -279,7 +373,11 @@
                   Legal Analysis
                 </button>
               </h2> -->
-              <ul class="nav nav-tabs d-none d-lg-flex" id="myTab" role="tablist">
+              <ul
+                class="nav nav-tabs d-none d-lg-flex"
+                id="myTab"
+                role="tablist"
+              >
                 <li class="nav-item" role="presentation">
                   <button
                     class="nav-link active"
@@ -291,7 +389,7 @@
                     aria-controls="dataset1-tab-pane"
                     aria-selected="true"
                   >
-                    Emigration 
+                    Emigration
                   </button>
                 </li>
                 <li class="nav-item" role="presentation">
@@ -453,859 +551,1090 @@
                     <div class="accordion-body">
                       <table>
                         <thead>
-                            <tr>
-                                <th>Issues</th>
-                                <th>Questions</th>
-                                <th><a href="https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,POP,1.0/POP_MIGRATIONS/DCIS_MIGRAZIONI/IT1,28_185_DF_DCIS_MIGRAZIONI_7,1.0">Dataset</a></th>
-                            </tr>
+                          <tr>
+                            <th>Issues</th>
+                            <th>Questions</th>
+                            <th>
+                              <a
+                                href="https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,POP,1.0/POP_MIGRATIONS/DCIS_MIGRAZIONI/IT1,28_185_DF_DCIS_MIGRAZIONI_7,1.0"
+                                >Dataset</a
+                              >
+                            </th>
+                          </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td>Privacy</td>
-                                <td> Is the dataset free of any personal data as defined in the                             Regulation (EU) 2016/679?</td>
-                                <td>yes</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td> Is the dataset free of any indirect personal data that could be 
-                                  used for identifying the natural person?
-                                  If so, is there a law that authorize the PA to release them? Or any 
-                                  other legal basis? Identify the legal basis.
-                                  </td>
-                                <td>yes</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td> Is the dataset free of any particular personal data (art. 9 
-                                  GDPR)?
-                                  If so is there a law that authorize the PA to release them?</td>
-                                <td>yes</td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td> Is the dataset free of any information that combined with 
-                                common data available in the web, could identify the person?
-                                If so, is there a law that authorize the PA to release them?</td>
-                              <td>yes</td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td>  Is the dataset free of any information related to human rights 
-                                (e.g. refugees, witness protection, etc.)? </td>
-                              <td>yes</td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td> Do you use a tool for calculating the range of the risk of de-anonymization?
-                                Do you anonymize the dataset? With which technique?
-                                Did you check the three mandatory parameters: singling out, 
-                                linking out, inference out? </td>
-                              <td>no, the dataset is already anonymized</td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td> Are you using geolocalization capabilities ?
-                                Do you check that the geolocalization process can’t identify single 
-                                individuals in some circumstances?</td>
-                              <td>yes, but we the selected data is related to macro-areas and therefore the individuals cannot be identified</td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td> Did you check that the open data platform respect all the 
-                                privacy regulations (registration of the end-user, profiling, cookies, 
-                                analytics, etc.)?</td>
-                              <td>yes</td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td> Do you know who are in your open data platform the 
-                                Controller and Processor of the privacy data of the system?</td>
-                              <td>the Controller is the National Institute of Statistics, and the Processor is Istat</td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td> Where the datasets are physically stored (country and 
-                                jurisdiction)?
-                                Do you have a cloud computing platform?
-                                Do you have checked the privacy regulation of the country where 
-                                the dataset are physically stored? (territoriality)
-                                </td>
-                              <td>data stored in Italy; there are no details provided on cloud computing platform by Istat; data is subjected to privacy regulation in Italy</td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td>  Do you have non-personal data? 
-                                Are you sure that are not “mixed data”?
-                                </td>
-                              <td>yes, the data is anonymized and therefore non-personal</td>
-                            </tr>
-                            <tr>
-                              <td>IPR of the 
-                                dataset</td>
-                              <td>  Do you have created and generated the dataset ?
-                                </td>
-                              <td>no</td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td>  Are you the owner of the dataset? How is the owner?
-                                </td>
-                              <td>no, the owner is Istat</td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td>  Are you sure to not use third party data without the proper 
-                                authorization and license ?
-                                Are the dataset free from third party licenses or patents?
-                                </td>
-                              <td>yes</td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td>  Have you checked if there are some limitations in your 
-                                national legal system for releasing some kind of datasets with 
-                                open license?
-                                </td>
-                              <td>yes</td>
-                            </tr>
-                            <tr>
-                              <td>Licences</td>
-                              <td>  Do you release the dataset with an open data license ?
-                                In case of the use of CC0 do you check that you have all the right 
-                                necessary for this particular kind of license (e.g., jurisdiction)?
-                                </td>
-                              <td>yes</td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td>  Do you include the clause: "In any case the dataset can’t be 
-                                used for re-identifying the person" ?                            
-                                </td>
-                              <td>yes</td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td>  Do you release the API (in case you have) with an open 
-                                source license ?                            
-                                </td>
-                              <td>no, because we have not released the API</td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td>  Do you check that the open data/API platform license regime 
-                                is compliant with your IPR policy ?
-                                Do you have all the licences related to the open data platform/API 
-                                software?                           
-                                </td>
-                              <td>yes</td>
-                            </tr>
-                            <tr>
-                              <td> Limitations on
-                                public access</td>
-                              <td>  Do you check that the dataset concerns your institutional 
-                                competences, scope and finality?
-                                Do you check if the dataset concerns other public administration 
-                                competences?                           
-                                </td>
-                              <td>yes</td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td>  Do you check the limitations for the publication stated by your 
-                                national legislation or by the EU directives ?                           
-                                </td>
-                              <td>yes</td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td> Do you check if there are some limitations connected to the 
-                                international relations, public security or national defence?</td>
-                              <td>yes</td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td> Do you check if there are some limitations concerning the 
-                                public interest ?</td>
-                              <td>yes</td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td>  Do you check the international law limitations ?</td>
-                              <td>yes</td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td>  Do you check the INSPIRE law limitations for the spatial data?</td>
-                              <td>yes</td>
-                            </tr>
-                            <tr>
-                              <td>Economical 
-                                Conditions</td>
-                              <td>   Do you check that the dataset could be released for free ?
-                              </td>
-                              <td>yes</td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td> Do you check if there are some agreements with some other 
-                                partners in order to release the dataset with a reasonable price ?
-                              </td>
-                              <td>Istat allows third parties to adapt their dataset also for commercial purposes</td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td> Do you check if the open data platform terms of service 
-                                include a clause of “non liability agreement” regarding the dataset 
-                                and API provided ?
-                              </td>
-                              <td>yes, there is a non liability statement</td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td> In case you decide to release the dataset to a reasonable 
-                                price do you check if the limitation imposed by the new directive 
-                                2019/1024/EU are respected ?
-                                Are you able to calculate the “marginal cost”?
-                                Are you able to justify the “reasonable return on investment” limited to cover the costs of collection, production, reproduction, 
-                                dissemination, preservation and rights clearance?
-                                There is a national law that justify your public administration to 
-                                apply the “reasonable return of investment”?                            
-                              </td>
-                              <td>yes, to calculate the "marginal cost" and justify the "reasonable return on investment," it's essential to consider the costs associated with the various stages of data provision and the specific conditions outlined in the Open Data Directive. This may involve assessing the direct costs of data collection, production, and dissemination, as well as indirect costs such as preservation and rights clearance. The Italian legal framework for the re-use of public sector information (PSI) is governed by several laws and regulations. The main law for cost-free access to PSI is Act no. 241 of 7 August 1990, which provides for general access to government documents, although access in many cases depends on the existence of a legal interest.</td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td> In case you decide to release the dataset to a reasonable 
-                                price do you check the e-Commerce directive and regulation?                      
-                              </td>
-                              <td>yes</td>
-                            </tr>
-                            <tr>
-                              <td>Temporary 
-                                aspects</td>
-                              <td> Do you have a temporary policy for updating the dataset ?
-                              </td>
-                              <td>no</td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td> Do you have some mechanism for informing the end-user that 
-                                the dataset is updated at a given time to avoid mis-usage and so 
-                                potential risk of damage ?
-                              </td>
-                              <td>yes</td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td> Did you check if the dataset for some reason can’t be indexed 
-                                by the research engines (e.g. Google, Yahoo, etc.) ?
-                              </td>
-                              <td>yes, it is indexed correctly</td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td> In case of personal data, do you have a reasonable technical 
-                                mechanism for collecting request of deletion (e.g. right to be 
-                                forgotten)?
-                              </td>
-                              <td>the data dealt with is non-personal</td>
-                            </tr>
-                      </tbody>
-                    </table>
+                          <tr>
+                            <td>Privacy</td>
+                            <td>
+                              Is the dataset free of any personal data as
+                              defined in the Regulation (EU) 2016/679?
+                            </td>
+                            <td>yes</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Is the dataset free of any indirect personal data
+                              that could be used for identifying the natural
+                              person? If so, is there a law that authorize the
+                              PA to release them? Or any other legal basis?
+                              Identify the legal basis.
+                            </td>
+                            <td>yes</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Is the dataset free of any particular personal
+                              data (art. 9 GDPR)? If so is there a law that
+                              authorize the PA to release them?
+                            </td>
+                            <td>yes</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Is the dataset free of any information that
+                              combined with common data available in the web,
+                              could identify the person? If so, is there a law
+                              that authorize the PA to release them?
+                            </td>
+                            <td>yes</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Is the dataset free of any information related to
+                              human rights (e.g. refugees, witness protection,
+                              etc.)?
+                            </td>
+                            <td>yes</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Do you use a tool for calculating the range of the
+                              risk of de-anonymization? Do you anonymize the
+                              dataset? With which technique? Did you check the
+                              three mandatory parameters: singling out, linking
+                              out, inference out?
+                            </td>
+                            <td>no, the dataset is already anonymized</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Are you using geolocalization capabilities ? Do
+                              you check that the geolocalization process can’t
+                              identify single individuals in some circumstances?
+                            </td>
+                            <td>
+                              yes, but we the selected data is related to
+                              macro-areas and therefore the individuals cannot
+                              be identified
+                            </td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Did you check that the open data platform respect
+                              all the privacy regulations (registration of the
+                              end-user, profiling, cookies, analytics, etc.)?
+                            </td>
+                            <td>yes</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Do you know who are in your open data platform the
+                              Controller and Processor of the privacy data of
+                              the system?
+                            </td>
+                            <td>
+                              the Controller is the National Institute of
+                              Statistics, and the Processor is Istat
+                            </td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Where the datasets are physically stored (country
+                              and jurisdiction)? Do you have a cloud computing
+                              platform? Do you have checked the privacy
+                              regulation of the country where the dataset are
+                              physically stored? (territoriality)
+                            </td>
+                            <td>
+                              data stored in Italy; there are no details
+                              provided on cloud computing platform by Istat;
+                              data is subjected to privacy regulation in Italy
+                            </td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Do you have non-personal data? Are you sure that
+                              are not “mixed data”?
+                            </td>
+                            <td>
+                              yes, the data is anonymized and therefore
+                              non-personal
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>IPR of the dataset</td>
+                            <td>
+                              Do you have created and generated the dataset ?
+                            </td>
+                            <td>no</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Are you the owner of the dataset? How is the
+                              owner?
+                            </td>
+                            <td>no, the owner is Istat</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Are you sure to not use third party data without
+                              the proper authorization and license ? Are the
+                              dataset free from third party licenses or patents?
+                            </td>
+                            <td>yes</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Have you checked if there are some limitations in
+                              your national legal system for releasing some kind
+                              of datasets with open license?
+                            </td>
+                            <td>yes</td>
+                          </tr>
+                          <tr>
+                            <td>Licences</td>
+                            <td>
+                              Do you release the dataset with an open data
+                              license ? In case of the use of CC0 do you check
+                              that you have all the right necessary for this
+                              particular kind of license (e.g., jurisdiction)?
+                            </td>
+                            <td>yes</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Do you include the clause: "In any case the
+                              dataset can’t be used for re-identifying the
+                              person" ?
+                            </td>
+                            <td>yes</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Do you release the API (in case you have) with an
+                              open source license ?
+                            </td>
+                            <td>no, because we have not released the API</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Do you check that the open data/API platform
+                              license regime is compliant with your IPR policy ?
+                              Do you have all the licences related to the open
+                              data platform/API software?
+                            </td>
+                            <td>yes</td>
+                          </tr>
+                          <tr>
+                            <td>Limitations on public access</td>
+                            <td>
+                              Do you check that the dataset concerns your
+                              institutional competences, scope and finality? Do
+                              you check if the dataset concerns other public
+                              administration competences?
+                            </td>
+                            <td>yes</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Do you check the limitations for the publication
+                              stated by your national legislation or by the EU
+                              directives ?
+                            </td>
+                            <td>yes</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Do you check if there are some limitations
+                              connected to the international relations, public
+                              security or national defence?
+                            </td>
+                            <td>yes</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Do you check if there are some limitations
+                              concerning the public interest ?
+                            </td>
+                            <td>yes</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Do you check the international law limitations ?
+                            </td>
+                            <td>yes</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Do you check the INSPIRE law limitations for the
+                              spatial data?
+                            </td>
+                            <td>yes</td>
+                          </tr>
+                          <tr>
+                            <td>Economical Conditions</td>
+                            <td>
+                              Do you check that the dataset could be released
+                              for free ?
+                            </td>
+                            <td>yes</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Do you check if there are some agreements with
+                              some other partners in order to release the
+                              dataset with a reasonable price ?
+                            </td>
+                            <td>
+                              Istat allows third parties to adapt their dataset
+                              also for commercial purposes
+                            </td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Do you check if the open data platform terms of
+                              service include a clause of “non liability
+                              agreement” regarding the dataset and API provided
+                              ?
+                            </td>
+                            <td>yes, there is a non liability statement</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              In case you decide to release the dataset to a
+                              reasonable price do you check if the limitation
+                              imposed by the new directive 2019/1024/EU are
+                              respected ? Are you able to calculate the
+                              “marginal cost”? Are you able to justify the
+                              “reasonable return on investment” limited to cover
+                              the costs of collection, production, reproduction,
+                              dissemination, preservation and rights clearance?
+                              There is a national law that justify your public
+                              administration to apply the “reasonable return of
+                              investment”?
+                            </td>
+                            <td>
+                              yes, to calculate the "marginal cost" and justify
+                              the "reasonable return on investment," it's
+                              essential to consider the costs associated with
+                              the various stages of data provision and the
+                              specific conditions outlined in the Open Data
+                              Directive. This may involve assessing the direct
+                              costs of data collection, production, and
+                              dissemination, as well as indirect costs such as
+                              preservation and rights clearance. The Italian
+                              legal framework for the re-use of public sector
+                              information (PSI) is governed by several laws and
+                              regulations. The main law for cost-free access to
+                              PSI is Act no. 241 of 7 August 1990, which
+                              provides for general access to government
+                              documents, although access in many cases depends
+                              on the existence of a legal interest.
+                            </td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              In case you decide to release the dataset to a
+                              reasonable price do you check the e-Commerce
+                              directive and regulation?
+                            </td>
+                            <td>yes</td>
+                          </tr>
+                          <tr>
+                            <td>Temporary aspects</td>
+                            <td>
+                              Do you have a temporary policy for updating the
+                              dataset ?
+                            </td>
+                            <td>no</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Do you have some mechanism for informing the
+                              end-user that the dataset is updated at a given
+                              time to avoid mis-usage and so potential risk of
+                              damage ?
+                            </td>
+                            <td>yes</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Did you check if the dataset for some reason can’t
+                              be indexed by the research engines (e.g. Google,
+                              Yahoo, etc.) ?
+                            </td>
+                            <td>yes, it is indexed correctly</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              In case of personal data, do you have a reasonable
+                              technical mechanism for collecting request of
+                              deletion (e.g. right to be forgotten)?
+                            </td>
+                            <td>the data dealt with is non-personal</td>
+                          </tr>
+                        </tbody>
+                      </table>
                     </div>
                   </div>
                 </div>
-              </div>  
-              
-            <!-- SECOND DATASET -->
+              </div>
 
-            <div class="tab-content accordion" id="Legal2Content">
-              <div
-                class="tab-pane fade show active accordion-item"
-                id="dataset2-tab-pane"
-                role="tabpanel"
-                aria-labelledby="dataset2-tab"
-                tabindex="0"
-              >
-                <h2 class="accordion-header d-lg-none" id="headingDataset2">
-                  <button
-                    class="accordion-button"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwoData"
-                    aria-expanded="true"
-                    aria-controls="collapseTwoData"
-                  >
-                    Dataset2
-                  </button>
-                </h2>
+              <!-- SECOND DATASET -->
+
+              <div class="tab-content accordion" id="Legal2Content">
                 <div
-                  id="collapseTwoData"
-                  class="accordion-collapse collapse show d-lg-block"
-                  aria-labelledby="headingDataset2"
-                  data-bs-parent="#Legal2Content"
+                  class="tab-pane fade show active accordion-item"
+                  id="dataset2-tab-pane"
+                  role="tabpanel"
+                  aria-labelledby="dataset2-tab"
+                  tabindex="0"
                 >
-                  <div class="accordion-body">
-                    <table>
-                      <thead>
+                  <h2 class="accordion-header d-lg-none" id="headingDataset2">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwoData"
+                      aria-expanded="true"
+                      aria-controls="collapseTwoData"
+                    >
+                      Dataset2
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwoData"
+                    class="accordion-collapse collapse show d-lg-block"
+                    aria-labelledby="headingDataset2"
+                    data-bs-parent="#Legal2Content"
+                  >
+                    <div class="accordion-body">
+                      <table>
+                        <thead>
                           <tr>
-                              <th>Issues</th>
-                              <th>Questions</th>
-                              <th>Dataset</th>
+                            <th>Issues</th>
+                            <th>Questions</th>
+                            <th>Dataset</th>
                           </tr>
-                      </thead>
-                      <tbody>
+                        </thead>
+                        <tbody>
                           <tr>
-                              <td>Privacy</td>
-                              <td> Is the dataset free of any personal data as defined in the                             Regulation (EU) 2016/679?</td>
-                              <td>yes/no</td>
-                          </tr>
-                          <tr>
-                              <td></td>
-                              <td> Is the dataset free of any indirect personal data that could be 
-                                used for identifying the natural person?
-                                If so, is there a law that authorize the PA to release them? Or any 
-                                other legal basis? Identify the legal basis.
-                                </td>
-                              <td>yes/no</td>
-                          </tr>
-                          <tr>
-                              <td></td>
-                              <td> Is the dataset free of any particular personal data (art. 9 
-                                GDPR)?
-                                If so is there a law that authorize the PA to release them?</td>
-                              <td>yes/no</td>
-                          </tr>
-                          <tr>
-                            <td></td>
-                            <td> Is the dataset free of any information that combined with 
-                              common data available in the web, could identify the person?
-                              If so, is there a law that authorize the PA to release them?</td>
+                            <td>Privacy</td>
+                            <td>
+                              Is the dataset free of any personal data as
+                              defined in the Regulation (EU) 2016/679?
+                            </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td>  Is the dataset free of any information related to human rights 
-                              (e.g. refugees, witness protection, etc.)? </td>
+                            <td>
+                              Is the dataset free of any indirect personal data
+                              that could be used for identifying the natural
+                              person? If so, is there a law that authorize the
+                              PA to release them? Or any other legal basis?
+                              Identify the legal basis.
+                            </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td> Do you use a tool for calculating the range of the risk of de-anonymization?
-                              Do you anonymize the dataset? With which technique?
-                              Did you check the three mandatory parameters: singling out, 
-                              linking out, inference out? </td>
+                            <td>
+                              Is the dataset free of any particular personal
+                              data (art. 9 GDPR)? If so is there a law that
+                              authorize the PA to release them?
+                            </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td> Are you using geolocalization capabilities ?
-                              Do you check that the geolocalization process can’t identify single 
-                              individuals in some circumstances?</td>
+                            <td>
+                              Is the dataset free of any information that
+                              combined with common data available in the web,
+                              could identify the person? If so, is there a law
+                              that authorize the PA to release them?
+                            </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td> Did you check that the open data platform respect all the 
-                              privacy regulations (registration of the end-user, profiling, cookies, 
-                              analytics, etc.)?</td>
+                            <td>
+                              Is the dataset free of any information related to
+                              human rights (e.g. refugees, witness protection,
+                              etc.)?
+                            </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td> Do you know who are in your open data platform the 
-                              Controller and Processor of the privacy data of the system?</td>
+                            <td>
+                              Do you use a tool for calculating the range of the
+                              risk of de-anonymization? Do you anonymize the
+                              dataset? With which technique? Did you check the
+                              three mandatory parameters: singling out, linking
+                              out, inference out?
+                            </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td> Where the datasets are physically stored (country and 
-                              jurisdiction)?
-                              Do you have a cloud computing platform?
-                              Do you have checked the privacy regulation of the country where 
-                              the dataset are physically stored? (territoriality)
-                              </td>
+                            <td>
+                              Are you using geolocalization capabilities ? Do
+                              you check that the geolocalization process can’t
+                              identify single individuals in some circumstances?
+                            </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td>  Do you have non-personal data? 
-                              Are you sure that are not “mixed data”?
-                              </td>
-                            <td>yes/no</td>
-                          </tr>
-                          <tr>
-                            <td>IPR of the 
-                              dataset</td>
-                            <td>  Do you have created and generated the dataset ?
-                              </td>
+                            <td>
+                              Did you check that the open data platform respect
+                              all the privacy regulations (registration of the
+                              end-user, profiling, cookies, analytics, etc.)?
+                            </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td>  Are you the owner of the dataset? How is the owner?
-                              </td>
+                            <td>
+                              Do you know who are in your open data platform the
+                              Controller and Processor of the privacy data of
+                              the system?
+                            </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td>  Are you sure to not use third party data without the proper 
-                              authorization and license ?
-                              Are the dataset free from third party licenses or patents?
-                              </td>
+                            <td>
+                              Where the datasets are physically stored (country
+                              and jurisdiction)? Do you have a cloud computing
+                              platform? Do you have checked the privacy
+                              regulation of the country where the dataset are
+                              physically stored? (territoriality)
+                            </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td>  Do you have checked if there are some limitations in your 
-                              national legal system for releasing some kind of datasets with 
-                              open license?
-                              </td>
+                            <td>
+                              Do you have non-personal data? Are you sure that
+                              are not “mixed data”?
+                            </td>
+                            <td>yes/no</td>
+                          </tr>
+                          <tr>
+                            <td>IPR of the dataset</td>
+                            <td>
+                              Do you have created and generated the dataset ?
+                            </td>
+                            <td>yes/no</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Are you the owner of the dataset? How is the
+                              owner?
+                            </td>
+                            <td>yes/no</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Are you sure to not use third party data without
+                              the proper authorization and license ? Are the
+                              dataset free from third party licenses or patents?
+                            </td>
+                            <td>yes/no</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Do you have checked if there are some limitations
+                              in your national legal system for releasing some
+                              kind of datasets with open license?
+                            </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td>Licences</td>
-                            <td>  Do you release the dataset with an open data license ?
-                              In case of the use of CC0 do you check that you have all the right 
-                              necessary for this particular kind of license (e.g., jurisdiction)?
-                              </td>
-                            <td>yes/no</td>
-                          </tr>
-                          <tr>
-                            <td></td>
-                            <td>  Do you include the clause: "In any case the dataset can’t be 
-                              used for re-identifying the person" ?                            
-                              </td>
-                            <td>yes/no</td>
-                          </tr>
-                          <tr>
-                            <td></td>
-                            <td>  Do you release the API (in case you have) with an open 
-                              source license ?                            
-                              </td>
-                            <td>yes/no</td>
-                          </tr>
-                          <tr>
-                            <td></td>
-                            <td>  Do you check that the open data/API platform license regime 
-                              is compliance with your IPR policy ?
-                              Do you have all the licences related to the open data platform/API 
-                              software?                           
-                              </td>
-                            <td>yes/no</td>
-                          </tr>
-                          <tr>
-                            <td> Limitations on
-                              public access</td>
-                            <td>  Do you check that the dataset concerns your institutional 
-                              competences, scope and finality?
-                              Do you check if the dataset concerns other public administration 
-                              competences?                           
-                              </td>
-                            <td>yes/no</td>
-                          </tr>
-                          <tr>
-                            <td></td>
-                            <td>  Do you check the limitations for the publication stated by your 
-                              national legislation or by the EU directives ?                           
-                              </td>
-                            <td>yes/no</td>
-                          </tr>
-                          <tr>
-                            <td></td>
-                            <td> Do you check if there are some limitations connected to the 
-                              international relations, public security or national defence?</td>
-                            <td>yes/no</td>
-                          </tr>
-                          <tr>
-                            <td></td>
-                            <td> Do you check if there are some limitations concerning the 
-                              public interest ?</td>
-                            <td>yes/no</td>
-                          </tr>
-                          <tr>
-                            <td></td>
-                            <td>  Do you check the international law limitations ?</td>
-                            <td>yes/no</td>
-                          </tr>
-                          <tr>
-                            <td></td>
-                            <td>  Do you check the INSPIRE law limitations for the spatial data?</td>
-                            <td>yes/no</td>
-                          </tr>
-                          <tr>
-                            <td>Economical 
-                              Conditions</td>
-                            <td>   Do you check that the dataset could be released for free ?
+                            <td>
+                              Do you release the dataset with an open data
+                              license ? In case of the use of CC0 do you check
+                              that you have all the right necessary for this
+                              particular kind of license (e.g., jurisdiction)?
                             </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td> Do you check if there are some agreements with some other 
-                              partners in order to release the dataset with a reasonable price ?
+                            <td>
+                              Do you include the clause: "In any case the
+                              dataset can’t be used for re-identifying the
+                              person" ?
                             </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td> Do you check if the open data platform terms of service 
-                              include a clause of “non liability agreement” regarding the dataset 
-                              and API provided ?
+                            <td>
+                              Do you release the API (in case you have) with an
+                              open source license ?
                             </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td> In case you decide to release the dataset to a reasonable 
-                              price do you check if the limitation imposed by the new directive 
-                              2019/1024/EU are respected ?
-                              Are you able to calculate the “marginal cost”?
-                              Are you able to justify the “reasonable return on investment” limited to cover the costs of collection, production, reproduction, 
+                            <td>
+                              Do you check that the open data/API platform
+                              license regime is compliance with your IPR policy
+                              ? Do you have all the licences related to the open
+                              data platform/API software?
+                            </td>
+                            <td>yes/no</td>
+                          </tr>
+                          <tr>
+                            <td>Limitations on public access</td>
+                            <td>
+                              Do you check that the dataset concerns your
+                              institutional competences, scope and finality? Do
+                              you check if the dataset concerns other public
+                              administration competences?
+                            </td>
+                            <td>yes/no</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Do you check the limitations for the publication
+                              stated by your national legislation or by the EU
+                              directives ?
+                            </td>
+                            <td>yes/no</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Do you check if there are some limitations
+                              connected to the international relations, public
+                              security or national defence?
+                            </td>
+                            <td>yes/no</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Do you check if there are some limitations
+                              concerning the public interest ?
+                            </td>
+                            <td>yes/no</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Do you check the international law limitations ?
+                            </td>
+                            <td>yes/no</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Do you check the INSPIRE law limitations for the
+                              spatial data?
+                            </td>
+                            <td>yes/no</td>
+                          </tr>
+                          <tr>
+                            <td>Economical Conditions</td>
+                            <td>
+                              Do you check that the dataset could be released
+                              for free ?
+                            </td>
+                            <td>yes/no</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Do you check if there are some agreements with
+                              some other partners in order to release the
+                              dataset with a reasonable price ?
+                            </td>
+                            <td>yes/no</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Do you check if the open data platform terms of
+                              service include a clause of “non liability
+                              agreement” regarding the dataset and API provided
+                              ?
+                            </td>
+                            <td>yes/no</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              In case you decide to release the dataset to a
+                              reasonable price do you check if the limitation
+                              imposed by the new directive 2019/1024/EU are
+                              respected ? Are you able to calculate the
+                              “marginal cost”? Are you able to justify the
+                              “reasonable return on investment” limited to cover
+                              the costs of collection, production, reproduction,
                               dissemination, preservation and rights clearance?
-                              There is a national law that justify your public administration to 
-                              apply the “reasonable return of investment”?                            
+                              There is a national law that justify your public
+                              administration to apply the “reasonable return of
+                              investment”?
                             </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td> In case you decide to release the dataset to a reasonable 
-                              price do you check the e-Commerce directive1 and regulation?                      
+                            <td>
+                              In case you decide to release the dataset to a
+                              reasonable price do you check the e-Commerce
+                              directive1 and regulation?
                             </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
-                            <td>Temporary 
-                              aspects</td>
-                            <td> Do you have a temporary policy for updating the dataset ?
-                            </td>
-                            <td>yes/no</td>
-                          </tr>
-                          <tr>
-                            <td></td>
-                            <td> Do you have some mechanism for informing the end-user that 
-                              the dataset is updated at a given time to avoid mis-usage and so 
-                              potential risk of damage ?
+                            <td>Temporary aspects</td>
+                            <td>
+                              Do you have a temporary policy for updating the
+                              dataset ?
                             </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td> Did you check if the dataset for some reason can’t be indexed 
-                              by the research engines (e.g. Google, Yahoo, etc.) ?
+                            <td>
+                              Do you have some mechanism for informing the
+                              end-user that the dataset is updated at a given
+                              time to avoid mis-usage and so potential risk of
+                              damage ?
                             </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td> In case of personal data, do you have a reasonable technical 
-                              mechanism for collecting request of deletion (e.g. right to be 
-                              forgotten)?
+                            <td>
+                              Did you check if the dataset for some reason can’t
+                              be indexed by the research engines (e.g. Google,
+                              Yahoo, etc.) ?
                             </td>
                             <td>yes/no</td>
                           </tr>
-                    </tbody>
-                  </table>
+                          <tr>
+                            <td></td>
+                            <td>
+                              In case of personal data, do you have a reasonable
+                              technical mechanism for collecting request of
+                              deletion (e.g. right to be forgotten)?
+                            </td>
+                            <td>yes/no</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
                   </div>
                 </div>
-              </div>  
-            </div>
+              </div>
 
-            <!-- THIRD DATASET -->
+              <!-- THIRD DATASET -->
 
-            <div class="tab-content accordion" id="Legal3Content">
-              <div
-                class="tab-pane fade show active accordion-item"
-                id="dataset3-tab-pane"
-                role="tabpanel"
-                aria-labelledby="dataset3-tab"
-                tabindex="0"
-              >
-                <h2 class="accordion-header d-lg-none" id="headingDataset3">
-                  <button
-                    class="accordion-button"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseThreeData"
-                    aria-expanded="true"
-                    aria-controls="collapseThreeData"
-                  >
-                    Dataset2
-                  </button>
-                </h2>
+              <div class="tab-content accordion" id="Legal3Content">
                 <div
-                  id="collapseThreeData"
-                  class="accordion-collapse collapse show d-lg-block"
-                  aria-labelledby="headingDataset3"
-                  data-bs-parent="#Legal3Content"
+                  class="tab-pane fade show active accordion-item"
+                  id="dataset3-tab-pane"
+                  role="tabpanel"
+                  aria-labelledby="dataset3-tab"
+                  tabindex="0"
                 >
-                  <div class="accordion-body">
-                    <table>
-                      <thead>
+                  <h2 class="accordion-header d-lg-none" id="headingDataset3">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThreeData"
+                      aria-expanded="true"
+                      aria-controls="collapseThreeData"
+                    >
+                      Dataset2
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThreeData"
+                    class="accordion-collapse collapse show d-lg-block"
+                    aria-labelledby="headingDataset3"
+                    data-bs-parent="#Legal3Content"
+                  >
+                    <div class="accordion-body">
+                      <table>
+                        <thead>
                           <tr>
-                              <th>Issues</th>
-                              <th>Questions</th>
-                              <th>Dataset</th>
+                            <th>Issues</th>
+                            <th>Questions</th>
+                            <th>Dataset</th>
                           </tr>
-                      </thead>
-                      <tbody>
+                        </thead>
+                        <tbody>
                           <tr>
-                              <td>Privacy</td>
-                              <td> Is the dataset free of any personal data as defined in the                             Regulation (EU) 2016/679?</td>
-                              <td>yes/no</td>
-                          </tr>
-                          <tr>
-                              <td></td>
-                              <td> Is the dataset free of any indirect personal data that could be 
-                                used for identifying the natural person?
-                                If so, is there a law that authorize the PA to release them? Or any 
-                                other legal basis? Identify the legal basis.
-                                </td>
-                              <td>yes/no</td>
-                          </tr>
-                          <tr>
-                              <td></td>
-                              <td> Is the dataset free of any particular personal data (art. 9 
-                                GDPR)?
-                                If so is there a law that authorize the PA to release them?</td>
-                              <td>yes/no</td>
-                          </tr>
-                          <tr>
-                            <td></td>
-                            <td> Is the dataset free of any information that combined with 
-                              common data available in the web, could identify the person?
-                              If so, is there a law that authorize the PA to release them?</td>
+                            <td>Privacy</td>
+                            <td>
+                              Is the dataset free of any personal data as
+                              defined in the Regulation (EU) 2016/679?
+                            </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td>  Is the dataset free of any information related to human rights 
-                              (e.g. refugees, witness protection, etc.)? </td>
+                            <td>
+                              Is the dataset free of any indirect personal data
+                              that could be used for identifying the natural
+                              person? If so, is there a law that authorize the
+                              PA to release them? Or any other legal basis?
+                              Identify the legal basis.
+                            </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td> Do you use a tool for calculating the range of the risk of de-anonymization?
-                              Do you anonymize the dataset? With which technique?
-                              Did you check the three mandatory parameters: singling out, 
-                              linking out, inference out? </td>
+                            <td>
+                              Is the dataset free of any particular personal
+                              data (art. 9 GDPR)? If so is there a law that
+                              authorize the PA to release them?
+                            </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td> Are you using geolocalization capabilities ?
-                              Do you check that the geolocalization process can’t identify single 
-                              individuals in some circumstances?</td>
+                            <td>
+                              Is the dataset free of any information that
+                              combined with common data available in the web,
+                              could identify the person? If so, is there a law
+                              that authorize the PA to release them?
+                            </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td> Did you check that the open data platform respect all the 
-                              privacy regulations (registration of the end-user, profiling, cookies, 
-                              analytics, etc.)?</td>
+                            <td>
+                              Is the dataset free of any information related to
+                              human rights (e.g. refugees, witness protection,
+                              etc.)?
+                            </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td> Do you know who are in your open data platform the 
-                              Controller and Processor of the privacy data of the system?</td>
+                            <td>
+                              Do you use a tool for calculating the range of the
+                              risk of de-anonymization? Do you anonymize the
+                              dataset? With which technique? Did you check the
+                              three mandatory parameters: singling out, linking
+                              out, inference out?
+                            </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td> Where the datasets are physically stored (country and 
-                              jurisdiction)?
-                              Do you have a cloud computing platform?
-                              Do you have checked the privacy regulation of the country where 
-                              the dataset are physically stored? (territoriality)
-                              </td>
+                            <td>
+                              Are you using geolocalization capabilities ? Do
+                              you check that the geolocalization process can’t
+                              identify single individuals in some circumstances?
+                            </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td>  Do you have non-personal data? 
-                              Are you sure that are not “mixed data”?
-                              </td>
-                            <td>yes/no</td>
-                          </tr>
-                          <tr>
-                            <td>IPR of the 
-                              dataset</td>
-                            <td>  Do you have created and generated the dataset ?
-                              </td>
+                            <td>
+                              Did you check that the open data platform respect
+                              all the privacy regulations (registration of the
+                              end-user, profiling, cookies, analytics, etc.)?
+                            </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td>  Are you the owner of the dataset? How is the owner?
-                              </td>
+                            <td>
+                              Do you know who are in your open data platform the
+                              Controller and Processor of the privacy data of
+                              the system?
+                            </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td>  Are you sure to not use third party data without the proper 
-                              authorization and license ?
-                              Are the dataset free from third party licenses or patents?
-                              </td>
+                            <td>
+                              Where the datasets are physically stored (country
+                              and jurisdiction)? Do you have a cloud computing
+                              platform? Do you have checked the privacy
+                              regulation of the country where the dataset are
+                              physically stored? (territoriality)
+                            </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td>  Do you have checked if there are some limitations in your 
-                              national legal system for releasing some kind of datasets with 
-                              open license?
-                              </td>
+                            <td>
+                              Do you have non-personal data? Are you sure that
+                              are not “mixed data”?
+                            </td>
+                            <td>yes/no</td>
+                          </tr>
+                          <tr>
+                            <td>IPR of the dataset</td>
+                            <td>
+                              Do you have created and generated the dataset ?
+                            </td>
+                            <td>yes/no</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Are you the owner of the dataset? How is the
+                              owner?
+                            </td>
+                            <td>yes/no</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Are you sure to not use third party data without
+                              the proper authorization and license ? Are the
+                              dataset free from third party licenses or patents?
+                            </td>
+                            <td>yes/no</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Do you have checked if there are some limitations
+                              in your national legal system for releasing some
+                              kind of datasets with open license?
+                            </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td>Licences</td>
-                            <td>  Do you release the dataset with an open data license ?
-                              In case of the use of CC0 do you check that you have all the right 
-                              necessary for this particular kind of license (e.g., jurisdiction)?
-                              </td>
-                            <td>yes/no</td>
-                          </tr>
-                          <tr>
-                            <td></td>
-                            <td>  Do you include the clause: "In any case the dataset can’t be 
-                              used for re-identifying the person" ?                            
-                              </td>
-                            <td>yes/no</td>
-                          </tr>
-                          <tr>
-                            <td></td>
-                            <td>  Do you release the API (in case you have) with an open 
-                              source license ?                            
-                              </td>
-                            <td>yes/no</td>
-                          </tr>
-                          <tr>
-                            <td></td>
-                            <td>  Do you check that the open data/API platform license regime 
-                              is compliance with your IPR policy ?
-                              Do you have all the licences related to the open data platform/API 
-                              software?                           
-                              </td>
-                            <td>yes/no</td>
-                          </tr>
-                          <tr>
-                            <td> Limitations on
-                              public access</td>
-                            <td>  Do you check that the dataset concerns your institutional 
-                              competences, scope and finality?
-                              Do you check if the dataset concerns other public administration 
-                              competences?                           
-                              </td>
-                            <td>yes/no</td>
-                          </tr>
-                          <tr>
-                            <td></td>
-                            <td>  Do you check the limitations for the publication stated by your 
-                              national legislation or by the EU directives ?                           
-                              </td>
-                            <td>yes/no</td>
-                          </tr>
-                          <tr>
-                            <td></td>
-                            <td> Do you check if there are some limitations connected to the 
-                              international relations, public security or national defence?</td>
-                            <td>yes/no</td>
-                          </tr>
-                          <tr>
-                            <td></td>
-                            <td> Do you check if there are some limitations concerning the 
-                              public interest ?</td>
-                            <td>yes/no</td>
-                          </tr>
-                          <tr>
-                            <td></td>
-                            <td>  Do you check the international law limitations ?</td>
-                            <td>yes/no</td>
-                          </tr>
-                          <tr>
-                            <td></td>
-                            <td>  Do you check the INSPIRE law limitations for the spatial data?</td>
-                            <td>yes/no</td>
-                          </tr>
-                          <tr>
-                            <td>Economical 
-                              Conditions</td>
-                            <td>   Do you check that the dataset could be released for free ?
+                            <td>
+                              Do you release the dataset with an open data
+                              license ? In case of the use of CC0 do you check
+                              that you have all the right necessary for this
+                              particular kind of license (e.g., jurisdiction)?
                             </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td> Do you check if there are some agreements with some other 
-                              partners in order to release the dataset with a reasonable price ?
+                            <td>
+                              Do you include the clause: "In any case the
+                              dataset can’t be used for re-identifying the
+                              person" ?
                             </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td> Do you check if the open data platform terms of service 
-                              include a clause of “non liability agreement” regarding the dataset 
-                              and API provided ?
+                            <td>
+                              Do you release the API (in case you have) with an
+                              open source license ?
                             </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td> In case you decide to release the dataset to a reasonable 
-                              price do you check if the limitation imposed by the new directive 
-                              2019/1024/EU are respected ?
-                              Are you able to calculate the “marginal cost”?
-                              Are you able to justify the “reasonable return on investment” limited to cover the costs of collection, production, reproduction, 
+                            <td>
+                              Do you check that the open data/API platform
+                              license regime is compliance with your IPR policy
+                              ? Do you have all the licences related to the open
+                              data platform/API software?
+                            </td>
+                            <td>yes/no</td>
+                          </tr>
+                          <tr>
+                            <td>Limitations on public access</td>
+                            <td>
+                              Do you check that the dataset concerns your
+                              institutional competences, scope and finality? Do
+                              you check if the dataset concerns other public
+                              administration competences?
+                            </td>
+                            <td>yes/no</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Do you check the limitations for the publication
+                              stated by your national legislation or by the EU
+                              directives ?
+                            </td>
+                            <td>yes/no</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Do you check if there are some limitations
+                              connected to the international relations, public
+                              security or national defence?
+                            </td>
+                            <td>yes/no</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Do you check if there are some limitations
+                              concerning the public interest ?
+                            </td>
+                            <td>yes/no</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Do you check the international law limitations ?
+                            </td>
+                            <td>yes/no</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Do you check the INSPIRE law limitations for the
+                              spatial data?
+                            </td>
+                            <td>yes/no</td>
+                          </tr>
+                          <tr>
+                            <td>Economical Conditions</td>
+                            <td>
+                              Do you check that the dataset could be released
+                              for free ?
+                            </td>
+                            <td>yes/no</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Do you check if there are some agreements with
+                              some other partners in order to release the
+                              dataset with a reasonable price ?
+                            </td>
+                            <td>yes/no</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              Do you check if the open data platform terms of
+                              service include a clause of “non liability
+                              agreement” regarding the dataset and API provided
+                              ?
+                            </td>
+                            <td>yes/no</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              In case you decide to release the dataset to a
+                              reasonable price do you check if the limitation
+                              imposed by the new directive 2019/1024/EU are
+                              respected ? Are you able to calculate the
+                              “marginal cost”? Are you able to justify the
+                              “reasonable return on investment” limited to cover
+                              the costs of collection, production, reproduction,
                               dissemination, preservation and rights clearance?
-                              There is a national law that justify your public administration to 
-                              apply the “reasonable return of investment”?                            
+                              There is a national law that justify your public
+                              administration to apply the “reasonable return of
+                              investment”?
                             </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td> In case you decide to release the dataset to a reasonable 
-                              price do you check the e-Commerce directive1 and regulation?                      
+                            <td>
+                              In case you decide to release the dataset to a
+                              reasonable price do you check the e-Commerce
+                              directive1 and regulation?
                             </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
-                            <td>Temporary 
-                              aspects</td>
-                            <td> Do you have a temporary policy for updating the dataset ?
-                            </td>
-                            <td>yes/no</td>
-                          </tr>
-                          <tr>
-                            <td></td>
-                            <td> Do you have some mechanism for informing the end-user that 
-                              the dataset is updated at a given time to avoid mis-usage and so 
-                              potential risk of damage ?
+                            <td>Temporary aspects</td>
+                            <td>
+                              Do you have a temporary policy for updating the
+                              dataset ?
                             </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td> Did you check if the dataset for some reason can’t be indexed 
-                              by the research engines (e.g. Google, Yahoo, etc.) ?
+                            <td>
+                              Do you have some mechanism for informing the
+                              end-user that the dataset is updated at a given
+                              time to avoid mis-usage and so potential risk of
+                              damage ?
                             </td>
                             <td>yes/no</td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td> In case of personal data, do you have a reasonable technical 
-                              mechanism for collecting request of deletion (e.g. right to be 
-                              forgotten)?
+                            <td>
+                              Did you check if the dataset for some reason can’t
+                              be indexed by the research engines (e.g. Google,
+                              Yahoo, etc.) ?
                             </td>
                             <td>yes/no</td>
                           </tr>
-                    </tbody>
-                  </table>
+                          <tr>
+                            <td></td>
+                            <td>
+                              In case of personal data, do you have a reasonable
+                              technical mechanism for collecting request of
+                              deletion (e.g. right to be forgotten)?
+                            </td>
+                            <td>yes/no</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
                   </div>
                 </div>
-              </div>  
-            </div>
+              </div>
             </div>
 
             <div
