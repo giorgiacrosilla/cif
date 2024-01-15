@@ -3694,7 +3694,7 @@ textarea.form-control-lg {
 }
 .nav-pills .nav-link {
   background: none; 
-  
+
   border: 0;
   border-radius: var(--bs-nav-pills-border-radius);
   color:var(--colore0);
@@ -10870,7 +10870,7 @@ html {
 }
 
 .scrollspy {
-  margin-top:110px;
+  margin-top:150px;
 }
 
 #documentation {
