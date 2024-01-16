@@ -138,86 +138,236 @@
         </h2>
         <!-- About Section Content-->
         <div class="row">
-          
-            <ul class="nav nav-tabs d-none d-lg-flex" id="myTab" role="tablist">
-              <li class="nav-item" role="presentation">
+          <ul class="nav nav-tabs d-none d-lg-flex" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="o-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#o-tab-pane"
+                type="button"
+                role="tab"
+                aria-controls="o-tab-pane"
+                aria-selected="true"
+              >
+                Original Datasets
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="i-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#i-tab-pane"
+                type="button"
+                role="tab"
+                aria-controls="i-tab-pane"
+                aria-selected="false"
+              >
+                Intermediate Datasets
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="m-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#m-tab-pane"
+                type="button"
+                role="tab"
+                aria-controls="m-tab-pane"
+                aria-selected="false"
+              >
+                Mash-up Datasets
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content accordion" id="myTabContent">
+            <div
+              class="tab-pane fade show active accordion-item"
+              id="o-tab-pane"
+              role="tabpanel"
+              aria-labelledby="o-tab"
+              tabindex="0"
+            >
+              <h2 class="accordion-header d-lg-none" id="headingOne">
                 <button
-                  class="nav-link active"
-                  id="o-tab"
-                  data-bs-toggle="tab"
-                  data-bs-target="#o-tab-pane"
+                  class="accordion-button"
                   type="button"
-                  role="tab"
-                  aria-controls="o-tab-pane"
-                  aria-selected="true"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseO"
+                  aria-expanded="true"
+                  aria-controls="collapseO"
                 >
                   Original Datasets
                 </button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link"
-                  id="i-tab"
-                  data-bs-toggle="tab"
-                  data-bs-target="#i-tab-pane"
-                  type="button"
-                  role="tab"
-                  aria-controls="i-tab-pane"
-                  aria-selected="false"
-                >
-                  Intermediate Datasets
-                </button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link"
-                  id="m-tab"
-                  data-bs-toggle="tab"
-                  data-bs-target="#m-tab-pane"
-                  type="button"
-                  role="tab"
-                  aria-controls="m-tab-pane"
-                  aria-selected="false"
-                >
-                  Mash-up Datasets
-                </button>
-              </li>
-            </ul>
-            <div class="tab-content accordion" id="myTabContent">
+              </h2>
               <div
-                class="tab-pane fade show active accordion-item"
-                id="o-tab-pane"
-                role="tabpanel"
-                aria-labelledby="o-tab"
-                tabindex="0"
+                id="collapseOne"
+                class="accordion-collapse collapse show d-lg-block"
+                aria-labelledby="headingOne"
+                data-bs-parent="#myTabContent"
               >
-                <h2 class="accordion-header d-lg-none" id="headingOne">
-                  <button
-                    class="accordion-button"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseO"
-                    aria-expanded="true"
-                    aria-controls="collapseO"
-                  >
-                    Original Datasets
-                  </button>
-                </h2>
-                <div
-                  id="collapseOne"
-                  class="accordion-collapse collapse show d-lg-block"
-                  aria-labelledby="headingOne"
-                  data-bs-parent="#myTabContent"
-                >
-                  <div class="accordion-body">
-                    <table>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque provident labore fugiat, quaerat numquam facere accusantium. Quae, tempore? Quasi quae vel quo, quas commodi consectetur doloribus aperiam rem aliquid veritatis.</p>
-                    </table>
-                  </div>
+                <div class="accordion-body">
+                  <table>
+                    <tr>
+                      <th>Name</th>
+                      <th>Source/URL</th>
+                      <th>Format</th>
+                      <th>file</th>
+                    </tr>
+                    <tr>
+                      <td>
+                        D1. Young people (18-39) of Italian citizenship
+                        emigrated in foreign countries from 2014 to 2022
+                      </td>
+                      <td><a href="">Istat</a></td>
+                      <td>CSV</td>
+                      <td><a href=""></a></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        D2. Young people (18-34) still living with at least one
+                        of their parents (2014-2022)
+                      </td>
+                      <td><a href="">Istat</a></td>
+                      <td>CSV</td>
+                      <td><a href=""></a></td>
+                    </tr>
+                    <tr>
+                      <td>D3. House prices</td>
+                      <td><a href="">Istat</a></td>
+                      <td>CSV</td>
+                      <td><a href=""></a></td>
+                    </tr>
+                    <tr>
+                      <td>D4. Work satisfaction</td>
+                      <td><a href="">Istat</a></td>
+                      <td>CSV</td>
+                      <td><a href=""></a></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        D5. Hourly wage based on type of contract (2014-2021)
+                      </td>
+                      <td><a href="">Istat</a></td>
+                      <td>CSV</td>
+                      <td><a href=""></a></td>
+                    </tr>
+                    <tr>
+                      <td>D6. Wage by age bracket (2014-2021)</td>
+                      <td><a href="">Istat</a></td>
+                      <td>CSV</td>
+                      <td><a href=""></a></td>
+                    </tr>
+                    <tr>
+                      <td>D7. Wage by educational qualification (2014-2021)</td>
+                      <td><a href="">Istat</a></td>
+                      <td>CSV</td>
+                      <td><a href=""></a></td>
+                    </tr>
+                    <tr>
+                      <td>D8. Employment rate after graduation (2022)</td>
+                      <td><a href="">AlmaLaurea</a></td>
+                      <td>CSV</td>
+                      <td><a href=""></a></td>
+                    </tr>
+                    <tr>
+                      <td>D9. Employment rate after graduation (2021)</td>
+                      <td><a href="">AlmaLaurea</a></td>
+                      <td>CSV</td>
+                      <td><a href=""></a></td>
+                    </tr>
+                    <tr>
+                      <td>D10. Employment rate after graduation (2020)</td>
+                      <td><a href="">AlmaLaurea</a></td>
+                      <td>CSV</td>
+                      <td><a href=""></a></td>
+                    </tr>
+                    <tr>
+                      <td>D11. Employment rate after graduation (2019)</td>
+                      <td><a href="">AlmaLaurea</a></td>
+                      <td>CSV</td>
+                      <td><a href=""></a></td>
+                    </tr>
+                    <tr>
+                      <td>D12. Employment rate after graduation (2018)</td>
+                      <td><a href="">AlmaLaurea</a></td>
+                      <td>CSV</td>
+                      <td><a href=""></a></td>
+                    </tr>
+                    <tr>
+                      <td>D13. Employment rate after graduation (2017)</td>
+                      <td><a href="">AlmaLaurea</a></td>
+                      <td>CSV</td>
+                      <td><a href=""></a></td>
+                    </tr>
+                    <tr>
+                      <td>D14. Employment rate after graduation (2016)</td>
+                      <td><a href="">AlmaLaurea</a></td>
+                      <td>CSV</td>
+                      <td><a href=""></a></td>
+                    </tr>
+                    <tr>
+                      <td>D15. Employment rate after graduation (2015)</td>
+                      <td><a href="">AlmaLaurea</a></td>
+                      <td>CSV</td>
+                      <td><a href=""></a></td>
+                    </tr>
+                    <tr>
+                      <td>D16. Employment rate after graduation (2014)</td>
+                      <td><a href="">AlmaLaurea</a></td>
+                      <td>CSV</td>
+                      <td><a href=""></a></td>
+                    </tr>
+                  </table>
                 </div>
               </div>
             </div>
-          
+            <div
+              class="tab-pane fade accordion-item"
+              id="i-tab-pane"
+              role="tabpanel"
+              aria-labelledby="home-tab"
+              tabindex="0"
+            >
+              <h2 class="accordion-header d-lg-none" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseI"
+                  aria-expanded="true"
+                  aria-controls="collapseI"
+                >
+                  Intermediate Datasets
+                </button>
+              </h2>
+              <div
+                id="collapseI"
+                class="accordion-collapse collapse show d-lg-block"
+                aria-labelledby="headingOne"
+                data-bs-parent="#myTabContent"
+              >
+                <div class="accordion-body">
+                  <table>
+                    <tr>
+                      <th>Name</th>
+                      <th>Source Datasets</th>
+                      <th>File</th>
+                    </tr>
+                    <tr>
+                      <td>D.17 Employment rate after graduation (2014-2022)</td>
+                      <td>
+                        D.8, D.9, D.10, D.11, D.12, D.13, D.14, D.15, D.16
+                      </td>
+                      <td><a href=""></a></td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

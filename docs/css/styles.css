@@ -3458,14 +3458,7 @@ fieldset:disabled .btn {
     left: auto;
   }
 
-  #myTabz {
-    flex-direction: column;
-    width: 150px;
-  }
 
-  #profile-tab-pane {
-    display: flex;
-  }
 }
 @media (min-width: 1200px) {
   .dropdown-menu-xl-start {
