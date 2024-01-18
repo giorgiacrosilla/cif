@@ -1,4 +1,4 @@
-area,economic_activity,education,time_period,hourly_wage
+area,economic_activity,qualification,time_period,hourly_wage
 Italy,TOTAL,"No educational degree, primary and lower secondary school certificate",2014,10.53
 Italy,TOTAL,"No educational degree, primary and lower secondary school certificate",2015,10.7
 Italy,TOTAL,"No educational degree, primary and lower secondary school certificate",2016,10.69

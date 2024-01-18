@@ -1,0 +1,37 @@
+area,time_period,num_young,indices
+Nord-ovest,2014,60.6,104.3
+Nord-ovest,2015,58.4,100.0
+Nord-ovest,2016,59.3,100.2
+Nord-ovest,2017,57.2,99.5
+Nord-ovest,2018,57.6,99.4
+Nord-ovest,2019,58.7,100.4
+Nord-ovest,2020,57.6,103.4
+Nord-ovest,2021,63.3,106.0
+Nord-ovest,2022,63.7,110.6
+Nord-est,2014,59.5,103.9
+Nord-est,2015,57.7,100.0
+Nord-est,2016,61.1,99.1
+Nord-est,2017,58.5,97.9
+Nord-est,2018,57.7,98.5
+Nord-est,2019,60.3,99.3
+Nord-est,2020,62.0,101.6
+Nord-est,2021,64.0,104.6
+Nord-est,2022,65.1,109.5
+Centro (I),2014,57.7,104.9
+Centro (I),2015,61.4,100.0
+Centro (I),2016,62.9,100.6
+Centro (I),2017,65.0,98.9
+Centro (I),2018,61.6,97.1
+Centro (I),2019,66.1,95.2
+Centro (I),2020,63.4,95.5
+Centro (I),2021,67.0,98.4
+Centro (I),2022,67.3,101.4
+Mezzogiorno,2014,67.4,102.3
+Mezzogiorno,2015,67.8,100.0
+Mezzogiorno,2016,67.5,101.0
+Mezzogiorno,2017,66.8,100.3
+Mezzogiorno,2018,67.3,99.4
+Mezzogiorno,2019,69.2,98.6
+Mezzogiorno,2020,71.7,100.1
+Mezzogiorno,2021,72.8,101.3
+Mezzogiorno,2022,71.5,103.9
