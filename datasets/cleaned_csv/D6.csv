@@ -1,0 +1,841 @@
+area,economic_activity,time_period,hourly_wage
+Italy,TOTAL,2014,9.76
+Italy,TOTAL,2015,9.9
+Italy,TOTAL,2016,9.92
+Italy,TOTAL,2017,10.03
+Italy,TOTAL,2018,10.06
+Italy,TOTAL,2019,10.15
+Italy,TOTAL,2020,10.35
+Italy,TOTAL,2021,10.37
+Italy,TOTAL INDUSTRY (b to f),2014,9.84
+Italy,TOTAL INDUSTRY (b to f),2015,10.08
+Italy,TOTAL INDUSTRY (b to f),2016,10.06
+Italy,TOTAL INDUSTRY (b to f),2017,10.12
+Italy,TOTAL INDUSTRY (b to f),2018,10.15
+Italy,TOTAL INDUSTRY (b to f),2019,10.3
+Italy,TOTAL INDUSTRY (b to f),2020,10.45
+Italy,TOTAL INDUSTRY (b to f),2021,10.56
+Italy,TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2014,9.95
+Italy,TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2015,10.15
+Italy,TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2016,10.17
+Italy,TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2017,10.24
+Italy,TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2018,10.3
+Italy,TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2019,10.5
+Italy,TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2020,10.68
+Italy,TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2021,10.83
+Italy,Mining and quarrying,2014,12.93
+Italy,Mining and quarrying,2015,13.47
+Italy,Mining and quarrying,2016,13.02
+Italy,Mining and quarrying,2017,12.75
+Italy,Mining and quarrying,2018,12.1
+Italy,Mining and quarrying,2019,12.86
+Italy,Mining and quarrying,2020,13.11
+Italy,Mining and quarrying,2021,13.07
+Italy,Manufacturing,2014,9.88
+Italy,Manufacturing,2015,10.09
+Italy,Manufacturing,2016,10.11
+Italy,Manufacturing,2017,10.19
+Italy,Manufacturing,2018,10.26
+Italy,Manufacturing,2019,10.46
+Italy,Manufacturing,2020,10.65
+Italy,Manufacturing,2021,10.79
+Italy,"Electricity, gas, steam and air conditioning supply",2014,12.61
+Italy,"Electricity, gas, steam and air conditioning supply",2015,13.27
+Italy,"Electricity, gas, steam and air conditioning supply",2016,13.12
+Italy,"Electricity, gas, steam and air conditioning supply",2017,13.8
+Italy,"Electricity, gas, steam and air conditioning supply",2018,14.05
+Italy,"Electricity, gas, steam and air conditioning supply",2019,14.07
+Italy,"Electricity, gas, steam and air conditioning supply",2020,14.08
+Italy,"Electricity, gas, steam and air conditioning supply",2021,14.32
+Italy,"Water supply sewerage, waste management and remediation activities",2014,11.17
+Italy,"Water supply sewerage, waste management and remediation activities",2015,11.15
+Italy,"Water supply sewerage, waste management and remediation activities",2016,11.06
+Italy,"Water supply sewerage, waste management and remediation activities",2017,10.8
+Italy,"Water supply sewerage, waste management and remediation activities",2018,10.75
+Italy,"Water supply sewerage, waste management and remediation activities",2019,10.76
+Italy,"Water supply sewerage, waste management and remediation activities",2020,10.74
+Italy,"Water supply sewerage, waste management and remediation activities",2021,10.78
+Italy,Construction,2014,9.59
+Italy,Construction,2015,9.92
+Italy,Construction,2016,9.79
+Italy,Construction,2017,9.75
+Italy,Construction,2018,9.67
+Italy,Construction,2019,9.67
+Italy,Construction,2020,9.76
+Italy,Construction,2021,9.9
+Italy,"Services (g to s, except o)",2014,9.74
+Italy,"Services (g to s, except o)",2015,9.86
+Italy,"Services (g to s, except o)",2016,9.89
+Italy,"Services (g to s, except o)",2017,10.01
+Italy,"Services (g to s, except o)",2018,10.04
+Italy,"Services (g to s, except o)",2019,10.13
+Italy,"Services (g to s, except o)",2020,10.32
+Italy,"Services (g to s, except o)",2021,10.33
+Italy,Wholesale and retail trade repair of motor vehicles and motorcycles,2014,10.03
+Italy,Wholesale and retail trade repair of motor vehicles and motorcycles,2015,10.08
+Italy,Wholesale and retail trade repair of motor vehicles and motorcycles,2016,10.21
+Italy,Wholesale and retail trade repair of motor vehicles and motorcycles,2017,10.38
+Italy,Wholesale and retail trade repair of motor vehicles and motorcycles,2018,10.45
+Italy,Wholesale and retail trade repair of motor vehicles and motorcycles,2019,10.49
+Italy,Wholesale and retail trade repair of motor vehicles and motorcycles,2020,10.57
+Italy,Wholesale and retail trade repair of motor vehicles and motorcycles,2021,10.51
+Italy,Transportation and storage,2014,9.77
+Italy,Transportation and storage,2015,9.76
+Italy,Transportation and storage,2016,9.84
+Italy,Transportation and storage,2017,9.96
+Italy,Transportation and storage,2018,10.11
+Italy,Transportation and storage,2019,10.47
+Italy,Transportation and storage,2020,10.82
+Italy,Transportation and storage,2021,10.78
+Italy,Accommodation and food service activities,2014,9.57
+Italy,Accommodation and food service activities,2015,9.57
+Italy,Accommodation and food service activities,2016,9.54
+Italy,Accommodation and food service activities,2017,9.71
+Italy,Accommodation and food service activities,2018,9.76
+Italy,Accommodation and food service activities,2019,9.85
+Italy,Accommodation and food service activities,2020,10.03
+Italy,Accommodation and food service activities,2021,10.04
+Italy,Information and communication,2014,10.63
+Italy,Information and communication,2015,11.22
+Italy,Information and communication,2016,10.93
+Italy,Information and communication,2017,11.26
+Italy,Information and communication,2018,11.54
+Italy,Information and communication,2019,11.7
+Italy,Information and communication,2020,12.18
+Italy,Information and communication,2021,12.13
+Italy,Financial and insurance activities,2014,14.16
+Italy,Financial and insurance activities,2015,13.69
+Italy,Financial and insurance activities,2016,14.13
+Italy,Financial and insurance activities,2017,14.1
+Italy,Financial and insurance activities,2018,14.06
+Italy,Financial and insurance activities,2019,14.17
+Italy,Financial and insurance activities,2020,15.3
+Italy,Financial and insurance activities,2021,15.36
+Italy,Real estate activities,2014,9.58
+Italy,Real estate activities,2015,9.66
+Italy,Real estate activities,2016,9.87
+Italy,Real estate activities,2017,10.0
+Italy,Real estate activities,2018,10.04
+Italy,Real estate activities,2019,10.07
+Italy,Real estate activities,2020,10.2
+Italy,Real estate activities,2021,10.22
+Italy,"Professional, scientific and technical activities",2014,9.61
+Italy,"Professional, scientific and technical activities",2015,9.7
+Italy,"Professional, scientific and technical activities",2016,9.91
+Italy,"Professional, scientific and technical activities",2017,10.07
+Italy,"Professional, scientific and technical activities",2018,10.07
+Italy,"Professional, scientific and technical activities",2019,10.25
+Italy,"Professional, scientific and technical activities",2020,10.61
+Italy,"Professional, scientific and technical activities",2021,10.68
+Italy,Administrative and support service activities,2014,9.72
+Italy,Administrative and support service activities,2015,10.11
+Italy,Administrative and support service activities,2016,10.09
+Italy,Administrative and support service activities,2017,10.2
+Italy,Administrative and support service activities,2018,10.13
+Italy,Administrative and support service activities,2019,10.2
+Italy,Administrative and support service activities,2020,10.3
+Italy,Administrative and support service activities,2021,10.33
+Italy,Education,2014,9.38
+Italy,Education,2015,9.47
+Italy,Education,2016,9.57
+Italy,Education,2017,9.76
+Italy,Education,2018,9.88
+Italy,Education,2019,9.95
+Italy,Education,2020,10.16
+Italy,Education,2021,10.07
+Italy,Human health and social work activities,2014,9.72
+Italy,Human health and social work activities,2015,9.7
+Italy,Human health and social work activities,2016,9.79
+Italy,Human health and social work activities,2017,9.92
+Italy,Human health and social work activities,2018,9.92
+Italy,Human health and social work activities,2019,10.09
+Italy,Human health and social work activities,2020,10.4
+Italy,Human health and social work activities,2021,10.36
+Italy,"Arts, entertainment and recreation",2014,9.64
+Italy,"Arts, entertainment and recreation",2015,9.75
+Italy,"Arts, entertainment and recreation",2016,9.68
+Italy,"Arts, entertainment and recreation",2017,9.75
+Italy,"Arts, entertainment and recreation",2018,9.82
+Italy,"Arts, entertainment and recreation",2019,9.83
+Italy,"Arts, entertainment and recreation",2020,9.88
+Italy,"Arts, entertainment and recreation",2021,9.78
+Italy,Other service activities,2014,7.51
+Italy,Other service activities,2015,7.66
+Italy,Other service activities,2016,7.72
+Italy,Other service activities,2017,7.76
+Italy,Other service activities,2018,7.75
+Italy,Other service activities,2019,7.78
+Italy,Other service activities,2020,7.86
+Italy,Other service activities,2021,7.88
+Nord-ovest,TOTAL,2014,10.01
+Nord-ovest,TOTAL,2015,10.18
+Nord-ovest,TOTAL,2016,10.19
+Nord-ovest,TOTAL,2017,10.29
+Nord-ovest,TOTAL,2018,10.31
+Nord-ovest,TOTAL,2019,10.38
+Nord-ovest,TOTAL,2020,10.67
+Nord-ovest,TOTAL,2021,10.64
+Nord-ovest,TOTAL INDUSTRY (b to f),2014,10.3
+Nord-ovest,TOTAL INDUSTRY (b to f),2015,10.54
+Nord-ovest,TOTAL INDUSTRY (b to f),2016,10.53
+Nord-ovest,TOTAL INDUSTRY (b to f),2017,10.57
+Nord-ovest,TOTAL INDUSTRY (b to f),2018,10.62
+Nord-ovest,TOTAL INDUSTRY (b to f),2019,10.75
+Nord-ovest,TOTAL INDUSTRY (b to f),2020,10.89
+Nord-ovest,TOTAL INDUSTRY (b to f),2021,11.0
+Nord-ovest,TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2014,10.53
+Nord-ovest,TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2015,10.71
+Nord-ovest,TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2016,10.71
+Nord-ovest,TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2017,10.78
+Nord-ovest,TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2018,10.86
+Nord-ovest,TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2019,11.03
+Nord-ovest,TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2020,11.19
+Nord-ovest,TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2021,11.34
+Nord-ovest,Mining and quarrying,2014,14.83
+Nord-ovest,Mining and quarrying,2015,16.85
+Nord-ovest,Mining and quarrying,2016,15.32
+Nord-ovest,Mining and quarrying,2017,16.33
+Nord-ovest,Mining and quarrying,2018,14.54
+Nord-ovest,Mining and quarrying,2019,16.05
+Nord-ovest,Mining and quarrying,2020,15.8
+Nord-ovest,Mining and quarrying,2021,16.63
+Nord-ovest,Manufacturing,2014,10.47
+Nord-ovest,Manufacturing,2015,10.65
+Nord-ovest,Manufacturing,2016,10.66
+Nord-ovest,Manufacturing,2017,10.72
+Nord-ovest,Manufacturing,2018,10.82
+Nord-ovest,Manufacturing,2019,10.98
+Nord-ovest,Manufacturing,2020,11.14
+Nord-ovest,Manufacturing,2021,11.3
+Nord-ovest,"Electricity, gas, steam and air conditioning supply",2014,13.08
+Nord-ovest,"Electricity, gas, steam and air conditioning supply",2015,13.04
+Nord-ovest,"Electricity, gas, steam and air conditioning supply",2016,13.38
+Nord-ovest,"Electricity, gas, steam and air conditioning supply",2017,13.89
+Nord-ovest,"Electricity, gas, steam and air conditioning supply",2018,14.04
+Nord-ovest,"Electricity, gas, steam and air conditioning supply",2019,14.13
+Nord-ovest,"Electricity, gas, steam and air conditioning supply",2020,14.24
+Nord-ovest,"Electricity, gas, steam and air conditioning supply",2021,14.41
+Nord-ovest,"Water supply sewerage, waste management and remediation activities",2014,11.5
+Nord-ovest,"Water supply sewerage, waste management and remediation activities",2015,11.61
+Nord-ovest,"Water supply sewerage, waste management and remediation activities",2016,11.46
+Nord-ovest,"Water supply sewerage, waste management and remediation activities",2017,11.19
+Nord-ovest,"Water supply sewerage, waste management and remediation activities",2018,11.23
+Nord-ovest,"Water supply sewerage, waste management and remediation activities",2019,11.47
+Nord-ovest,"Water supply sewerage, waste management and remediation activities",2020,11.41
+Nord-ovest,"Water supply sewerage, waste management and remediation activities",2021,11.55
+Nord-ovest,Construction,2014,9.76
+Nord-ovest,Construction,2015,10.1
+Nord-ovest,Construction,2016,9.95
+Nord-ovest,Construction,2017,9.91
+Nord-ovest,Construction,2018,9.79
+Nord-ovest,Construction,2019,9.79
+Nord-ovest,Construction,2020,9.96
+Nord-ovest,Construction,2021,10.09
+Nord-ovest,"Services (g to s, except o)",2014,9.94
+Nord-ovest,"Services (g to s, except o)",2015,10.1
+Nord-ovest,"Services (g to s, except o)",2016,10.12
+Nord-ovest,"Services (g to s, except o)",2017,10.24
+Nord-ovest,"Services (g to s, except o)",2018,10.25
+Nord-ovest,"Services (g to s, except o)",2019,10.31
+Nord-ovest,"Services (g to s, except o)",2020,10.62
+Nord-ovest,"Services (g to s, except o)",2021,10.56
+Nord-ovest,Wholesale and retail trade repair of motor vehicles and motorcycles,2014,10.5
+Nord-ovest,Wholesale and retail trade repair of motor vehicles and motorcycles,2015,10.55
+Nord-ovest,Wholesale and retail trade repair of motor vehicles and motorcycles,2016,10.68
+Nord-ovest,Wholesale and retail trade repair of motor vehicles and motorcycles,2017,10.84
+Nord-ovest,Wholesale and retail trade repair of motor vehicles and motorcycles,2018,10.94
+Nord-ovest,Wholesale and retail trade repair of motor vehicles and motorcycles,2019,10.96
+Nord-ovest,Wholesale and retail trade repair of motor vehicles and motorcycles,2020,11.08
+Nord-ovest,Wholesale and retail trade repair of motor vehicles and motorcycles,2021,10.95
+Nord-ovest,Transportation and storage,2014,9.56
+Nord-ovest,Transportation and storage,2015,9.69
+Nord-ovest,Transportation and storage,2016,9.76
+Nord-ovest,Transportation and storage,2017,9.93
+Nord-ovest,Transportation and storage,2018,10.07
+Nord-ovest,Transportation and storage,2019,10.44
+Nord-ovest,Transportation and storage,2020,10.95
+Nord-ovest,Transportation and storage,2021,10.88
+Nord-ovest,Accommodation and food service activities,2014,9.66
+Nord-ovest,Accommodation and food service activities,2015,9.66
+Nord-ovest,Accommodation and food service activities,2016,9.61
+Nord-ovest,Accommodation and food service activities,2017,9.81
+Nord-ovest,Accommodation and food service activities,2018,9.86
+Nord-ovest,Accommodation and food service activities,2019,9.92
+Nord-ovest,Accommodation and food service activities,2020,10.12
+Nord-ovest,Accommodation and food service activities,2021,10.13
+Nord-ovest,Information and communication,2014,10.93
+Nord-ovest,Information and communication,2015,11.51
+Nord-ovest,Information and communication,2016,11.25
+Nord-ovest,Information and communication,2017,11.49
+Nord-ovest,Information and communication,2018,11.52
+Nord-ovest,Information and communication,2019,11.68
+Nord-ovest,Information and communication,2020,12.43
+Nord-ovest,Information and communication,2021,12.22
+Nord-ovest,Financial and insurance activities,2014,14.31
+Nord-ovest,Financial and insurance activities,2015,14.15
+Nord-ovest,Financial and insurance activities,2016,14.58
+Nord-ovest,Financial and insurance activities,2017,14.45
+Nord-ovest,Financial and insurance activities,2018,14.54
+Nord-ovest,Financial and insurance activities,2019,14.46
+Nord-ovest,Financial and insurance activities,2020,15.57
+Nord-ovest,Financial and insurance activities,2021,15.61
+Nord-ovest,Real estate activities,2014,9.78
+Nord-ovest,Real estate activities,2015,9.89
+Nord-ovest,Real estate activities,2016,10.03
+Nord-ovest,Real estate activities,2017,10.11
+Nord-ovest,Real estate activities,2018,10.17
+Nord-ovest,Real estate activities,2019,10.24
+Nord-ovest,Real estate activities,2020,10.41
+Nord-ovest,Real estate activities,2021,10.42
+Nord-ovest,"Professional, scientific and technical activities",2014,9.85
+Nord-ovest,"Professional, scientific and technical activities",2015,9.97
+Nord-ovest,"Professional, scientific and technical activities",2016,10.03
+Nord-ovest,"Professional, scientific and technical activities",2017,10.28
+Nord-ovest,"Professional, scientific and technical activities",2018,10.38
+Nord-ovest,"Professional, scientific and technical activities",2019,10.53
+Nord-ovest,"Professional, scientific and technical activities",2020,11.14
+Nord-ovest,"Professional, scientific and technical activities",2021,11.15
+Nord-ovest,Administrative and support service activities,2014,9.83
+Nord-ovest,Administrative and support service activities,2015,10.27
+Nord-ovest,Administrative and support service activities,2016,10.27
+Nord-ovest,Administrative and support service activities,2017,10.36
+Nord-ovest,Administrative and support service activities,2018,10.27
+Nord-ovest,Administrative and support service activities,2019,10.31
+Nord-ovest,Administrative and support service activities,2020,10.48
+Nord-ovest,Administrative and support service activities,2021,10.48
+Nord-ovest,Education,2014,9.95
+Nord-ovest,Education,2015,10.16
+Nord-ovest,Education,2016,10.04
+Nord-ovest,Education,2017,10.21
+Nord-ovest,Education,2018,10.37
+Nord-ovest,Education,2019,10.57
+Nord-ovest,Education,2020,10.93
+Nord-ovest,Education,2021,10.71
+Nord-ovest,Human health and social work activities,2014,9.75
+Nord-ovest,Human health and social work activities,2015,9.73
+Nord-ovest,Human health and social work activities,2016,9.82
+Nord-ovest,Human health and social work activities,2017,9.97
+Nord-ovest,Human health and social work activities,2018,9.99
+Nord-ovest,Human health and social work activities,2019,10.15
+Nord-ovest,Human health and social work activities,2020,10.42
+Nord-ovest,Human health and social work activities,2021,10.39
+Nord-ovest,"Arts, entertainment and recreation",2014,10.0
+Nord-ovest,"Arts, entertainment and recreation",2015,9.92
+Nord-ovest,"Arts, entertainment and recreation",2016,9.94
+Nord-ovest,"Arts, entertainment and recreation",2017,10.02
+Nord-ovest,"Arts, entertainment and recreation",2018,10.15
+Nord-ovest,"Arts, entertainment and recreation",2019,9.98
+Nord-ovest,"Arts, entertainment and recreation",2020,10.23
+Nord-ovest,"Arts, entertainment and recreation",2021,10.11
+Nord-ovest,Other service activities,2014,7.55
+Nord-ovest,Other service activities,2015,7.7
+Nord-ovest,Other service activities,2016,7.75
+Nord-ovest,Other service activities,2017,7.78
+Nord-ovest,Other service activities,2018,7.77
+Nord-ovest,Other service activities,2019,7.81
+Nord-ovest,Other service activities,2020,7.92
+Nord-ovest,Other service activities,2021,7.93
+Nord-est,TOTAL,2014,10.04
+Nord-est,TOTAL,2015,10.19
+Nord-est,TOTAL,2016,10.22
+Nord-est,TOTAL,2017,10.32
+Nord-est,TOTAL,2018,10.35
+Nord-est,TOTAL,2019,10.48
+Nord-est,TOTAL,2020,10.62
+Nord-est,TOTAL,2021,10.63
+Nord-est,TOTAL INDUSTRY (b to f),2014,10.27
+Nord-est,TOTAL INDUSTRY (b to f),2015,10.52
+Nord-est,TOTAL INDUSTRY (b to f),2016,10.53
+Nord-est,TOTAL INDUSTRY (b to f),2017,10.61
+Nord-est,TOTAL INDUSTRY (b to f),2018,10.66
+Nord-est,TOTAL INDUSTRY (b to f),2019,10.82
+Nord-est,TOTAL INDUSTRY (b to f),2020,10.98
+Nord-est,TOTAL INDUSTRY (b to f),2021,11.11
+Nord-est,TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2014,10.41
+Nord-est,TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2015,10.64
+Nord-est,TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2016,10.68
+Nord-est,TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2017,10.77
+Nord-est,TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2018,10.82
+Nord-est,TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2019,11.02
+Nord-est,TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2020,11.22
+Nord-est,TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2021,11.39
+Nord-est,Mining and quarrying,2014,13.7
+Nord-est,Mining and quarrying,2015,15.01
+Nord-est,Mining and quarrying,2016,13.7
+Nord-est,Mining and quarrying,2017,12.77
+Nord-est,Mining and quarrying,2018,11.79
+Nord-est,Mining and quarrying,2019,11.8
+Nord-est,Mining and quarrying,2020,12.17
+Nord-est,Mining and quarrying,2021,12.88
+Nord-est,Manufacturing,2014,10.38
+Nord-est,Manufacturing,2015,10.61
+Nord-est,Manufacturing,2016,10.65
+Nord-est,Manufacturing,2017,10.75
+Nord-est,Manufacturing,2018,10.8
+Nord-est,Manufacturing,2019,11.0
+Nord-est,Manufacturing,2020,11.2
+Nord-est,Manufacturing,2021,11.37
+Nord-est,"Electricity, gas, steam and air conditioning supply",2014,13.29
+Nord-est,"Electricity, gas, steam and air conditioning supply",2015,13.61
+Nord-est,"Electricity, gas, steam and air conditioning supply",2016,13.07
+Nord-est,"Electricity, gas, steam and air conditioning supply",2017,13.58
+Nord-est,"Electricity, gas, steam and air conditioning supply",2018,13.85
+Nord-est,"Electricity, gas, steam and air conditioning supply",2019,13.75
+Nord-est,"Electricity, gas, steam and air conditioning supply",2020,13.9
+Nord-est,"Electricity, gas, steam and air conditioning supply",2021,14.02
+Nord-est,"Water supply sewerage, waste management and remediation activities",2014,11.17
+Nord-est,"Water supply sewerage, waste management and remediation activities",2015,11.28
+Nord-est,"Water supply sewerage, waste management and remediation activities",2016,11.38
+Nord-est,"Water supply sewerage, waste management and remediation activities",2017,10.79
+Nord-est,"Water supply sewerage, waste management and remediation activities",2018,10.97
+Nord-est,"Water supply sewerage, waste management and remediation activities",2019,11.16
+Nord-est,"Water supply sewerage, waste management and remediation activities",2020,11.29
+Nord-est,"Water supply sewerage, waste management and remediation activities",2021,11.4
+Nord-est,Construction,2014,9.82
+Nord-est,Construction,2015,10.08
+Nord-est,Construction,2016,9.9
+Nord-est,Construction,2017,9.89
+Nord-est,Construction,2018,9.97
+Nord-est,Construction,2019,9.97
+Nord-est,Construction,2020,10.0
+Nord-est,Construction,2021,10.11
+Nord-est,"Services (g to s, except o)",2014,9.98
+Nord-est,"Services (g to s, except o)",2015,10.1
+Nord-est,"Services (g to s, except o)",2016,10.13
+Nord-est,"Services (g to s, except o)",2017,10.25
+Nord-est,"Services (g to s, except o)",2018,10.28
+Nord-est,"Services (g to s, except o)",2019,10.4
+Nord-est,"Services (g to s, except o)",2020,10.52
+Nord-est,"Services (g to s, except o)",2021,10.51
+Nord-est,Wholesale and retail trade repair of motor vehicles and motorcycles,2014,10.32
+Nord-est,Wholesale and retail trade repair of motor vehicles and motorcycles,2015,10.38
+Nord-est,Wholesale and retail trade repair of motor vehicles and motorcycles,2016,10.51
+Nord-est,Wholesale and retail trade repair of motor vehicles and motorcycles,2017,10.68
+Nord-est,Wholesale and retail trade repair of motor vehicles and motorcycles,2018,10.76
+Nord-est,Wholesale and retail trade repair of motor vehicles and motorcycles,2019,10.86
+Nord-est,Wholesale and retail trade repair of motor vehicles and motorcycles,2020,10.94
+Nord-est,Wholesale and retail trade repair of motor vehicles and motorcycles,2021,10.84
+Nord-est,Transportation and storage,2014,9.93
+Nord-est,Transportation and storage,2015,9.99
+Nord-est,Transportation and storage,2016,10.14
+Nord-est,Transportation and storage,2017,10.31
+Nord-est,Transportation and storage,2018,10.46
+Nord-est,Transportation and storage,2019,10.83
+Nord-est,Transportation and storage,2020,11.11
+Nord-est,Transportation and storage,2021,11.08
+Nord-est,Accommodation and food service activities,2014,9.95
+Nord-est,Accommodation and food service activities,2015,9.97
+Nord-est,Accommodation and food service activities,2016,9.92
+Nord-est,Accommodation and food service activities,2017,10.05
+Nord-est,Accommodation and food service activities,2018,10.13
+Nord-est,Accommodation and food service activities,2019,10.19
+Nord-est,Accommodation and food service activities,2020,10.34
+Nord-est,Accommodation and food service activities,2021,10.35
+Nord-est,Information and communication,2014,10.51
+Nord-est,Information and communication,2015,10.63
+Nord-est,Information and communication,2016,10.69
+Nord-est,Information and communication,2017,10.86
+Nord-est,Information and communication,2018,10.9
+Nord-est,Information and communication,2019,11.2
+Nord-est,Information and communication,2020,11.36
+Nord-est,Information and communication,2021,11.49
+Nord-est,Financial and insurance activities,2014,14.66
+Nord-est,Financial and insurance activities,2015,14.26
+Nord-est,Financial and insurance activities,2016,14.32
+Nord-est,Financial and insurance activities,2017,14.07
+Nord-est,Financial and insurance activities,2018,13.85
+Nord-est,Financial and insurance activities,2019,13.9
+Nord-est,Financial and insurance activities,2020,15.05
+Nord-est,Financial and insurance activities,2021,15.09
+Nord-est,Real estate activities,2014,9.7
+Nord-est,Real estate activities,2015,9.67
+Nord-est,Real estate activities,2016,10.01
+Nord-est,Real estate activities,2017,10.1
+Nord-est,Real estate activities,2018,10.19
+Nord-est,Real estate activities,2019,10.25
+Nord-est,Real estate activities,2020,10.32
+Nord-est,Real estate activities,2021,10.3
+Nord-est,"Professional, scientific and technical activities",2014,9.77
+Nord-est,"Professional, scientific and technical activities",2015,9.91
+Nord-est,"Professional, scientific and technical activities",2016,10.08
+Nord-est,"Professional, scientific and technical activities",2017,10.19
+Nord-est,"Professional, scientific and technical activities",2018,10.16
+Nord-est,"Professional, scientific and technical activities",2019,10.36
+Nord-est,"Professional, scientific and technical activities",2020,10.49
+Nord-est,"Professional, scientific and technical activities",2021,10.54
+Nord-est,Administrative and support service activities,2014,9.81
+Nord-est,Administrative and support service activities,2015,10.26
+Nord-est,Administrative and support service activities,2016,10.24
+Nord-est,Administrative and support service activities,2017,10.38
+Nord-est,Administrative and support service activities,2018,10.3
+Nord-est,Administrative and support service activities,2019,10.48
+Nord-est,Administrative and support service activities,2020,10.5
+Nord-est,Administrative and support service activities,2021,10.49
+Nord-est,Education,2014,9.89
+Nord-est,Education,2015,10.2
+Nord-est,Education,2016,10.23
+Nord-est,Education,2017,10.63
+Nord-est,Education,2018,10.74
+Nord-est,Education,2019,10.85
+Nord-est,Education,2020,11.05
+Nord-est,Education,2021,10.79
+Nord-est,Human health and social work activities,2014,9.85
+Nord-est,Human health and social work activities,2015,9.84
+Nord-est,Human health and social work activities,2016,9.98
+Nord-est,Human health and social work activities,2017,10.1
+Nord-est,Human health and social work activities,2018,10.08
+Nord-est,Human health and social work activities,2019,10.28
+Nord-est,Human health and social work activities,2020,10.5
+Nord-est,Human health and social work activities,2021,10.47
+Nord-est,"Arts, entertainment and recreation",2014,10.09
+Nord-est,"Arts, entertainment and recreation",2015,10.15
+Nord-est,"Arts, entertainment and recreation",2016,10.09
+Nord-est,"Arts, entertainment and recreation",2017,10.14
+Nord-est,"Arts, entertainment and recreation",2018,10.23
+Nord-est,"Arts, entertainment and recreation",2019,10.36
+Nord-est,"Arts, entertainment and recreation",2020,10.36
+Nord-est,"Arts, entertainment and recreation",2021,10.29
+Nord-est,Other service activities,2014,7.49
+Nord-est,Other service activities,2015,7.67
+Nord-est,Other service activities,2016,7.74
+Nord-est,Other service activities,2017,7.78
+Nord-est,Other service activities,2018,7.77
+Nord-est,Other service activities,2019,7.8
+Nord-est,Other service activities,2020,7.88
+Nord-est,Other service activities,2021,7.87
+Centro (I),TOTAL,2014,9.66
+Centro (I),TOTAL,2015,9.81
+Centro (I),TOTAL,2016,9.81
+Centro (I),TOTAL,2017,9.91
+Centro (I),TOTAL,2018,9.96
+Centro (I),TOTAL,2019,10.08
+Centro (I),TOTAL,2020,10.25
+Centro (I),TOTAL,2021,10.31
+Centro (I),TOTAL INDUSTRY (b to f),2014,9.36
+Centro (I),TOTAL INDUSTRY (b to f),2015,9.6
+Centro (I),TOTAL INDUSTRY (b to f),2016,9.59
+Centro (I),TOTAL INDUSTRY (b to f),2017,9.63
+Centro (I),TOTAL INDUSTRY (b to f),2018,9.65
+Centro (I),TOTAL INDUSTRY (b to f),2019,9.83
+Centro (I),TOTAL INDUSTRY (b to f),2020,10.02
+Centro (I),TOTAL INDUSTRY (b to f),2021,10.09
+Centro (I),TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2014,9.36
+Centro (I),TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2015,9.56
+Centro (I),TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2016,9.57
+Centro (I),TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2017,9.66
+Centro (I),TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2018,9.7
+Centro (I),TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2019,9.93
+Centro (I),TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2020,10.16
+Centro (I),TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2021,10.25
+Centro (I),Mining and quarrying,2014,13.32
+Centro (I),Mining and quarrying,2015,12.69
+Centro (I),Mining and quarrying,2016,12.96
+Centro (I),Mining and quarrying,2017,12.43
+Centro (I),Mining and quarrying,2018,12.67
+Centro (I),Mining and quarrying,2019,14.08
+Centro (I),Mining and quarrying,2020,13.67
+Centro (I),Mining and quarrying,2021,12.78
+Centro (I),Manufacturing,2014,9.26
+Centro (I),Manufacturing,2015,9.47
+Centro (I),Manufacturing,2016,9.47
+Centro (I),Manufacturing,2017,9.56
+Centro (I),Manufacturing,2018,9.62
+Centro (I),Manufacturing,2019,9.86
+Centro (I),Manufacturing,2020,10.1
+Centro (I),Manufacturing,2021,10.19
+Centro (I),"Electricity, gas, steam and air conditioning supply",2014,13.35
+Centro (I),"Electricity, gas, steam and air conditioning supply",2015,13.11
+Centro (I),"Electricity, gas, steam and air conditioning supply",2016,13.38
+Centro (I),"Electricity, gas, steam and air conditioning supply",2017,14.24
+Centro (I),"Electricity, gas, steam and air conditioning supply",2018,14.3
+Centro (I),"Electricity, gas, steam and air conditioning supply",2019,14.61
+Centro (I),"Electricity, gas, steam and air conditioning supply",2020,14.49
+Centro (I),"Electricity, gas, steam and air conditioning supply",2021,14.77
+Centro (I),"Water supply sewerage, waste management and remediation activities",2014,11.94
+Centro (I),"Water supply sewerage, waste management and remediation activities",2015,11.74
+Centro (I),"Water supply sewerage, waste management and remediation activities",2016,11.59
+Centro (I),"Water supply sewerage, waste management and remediation activities",2017,11.29
+Centro (I),"Water supply sewerage, waste management and remediation activities",2018,11.21
+Centro (I),"Water supply sewerage, waste management and remediation activities",2019,10.86
+Centro (I),"Water supply sewerage, waste management and remediation activities",2020,11.03
+Centro (I),"Water supply sewerage, waste management and remediation activities",2021,11.03
+Centro (I),Construction,2014,9.35
+Centro (I),Construction,2015,9.69
+Centro (I),Construction,2016,9.64
+Centro (I),Construction,2017,9.56
+Centro (I),Construction,2018,9.47
+Centro (I),Construction,2019,9.5
+Centro (I),Construction,2020,9.59
+Centro (I),Construction,2021,9.67
+Centro (I),"Services (g to s, except o)",2014,9.73
+Centro (I),"Services (g to s, except o)",2015,9.85
+Centro (I),"Services (g to s, except o)",2016,9.86
+Centro (I),"Services (g to s, except o)",2017,9.95
+Centro (I),"Services (g to s, except o)",2018,10.01
+Centro (I),"Services (g to s, except o)",2019,10.13
+Centro (I),"Services (g to s, except o)",2020,10.3
+Centro (I),"Services (g to s, except o)",2021,10.35
+Centro (I),Wholesale and retail trade repair of motor vehicles and motorcycles,2014,10.0
+Centro (I),Wholesale and retail trade repair of motor vehicles and motorcycles,2015,10.05
+Centro (I),Wholesale and retail trade repair of motor vehicles and motorcycles,2016,10.21
+Centro (I),Wholesale and retail trade repair of motor vehicles and motorcycles,2017,10.37
+Centro (I),Wholesale and retail trade repair of motor vehicles and motorcycles,2018,10.46
+Centro (I),Wholesale and retail trade repair of motor vehicles and motorcycles,2019,10.5
+Centro (I),Wholesale and retail trade repair of motor vehicles and motorcycles,2020,10.57
+Centro (I),Wholesale and retail trade repair of motor vehicles and motorcycles,2021,10.46
+Centro (I),Transportation and storage,2014,9.67
+Centro (I),Transportation and storage,2015,9.4
+Centro (I),Transportation and storage,2016,9.52
+Centro (I),Transportation and storage,2017,9.57
+Centro (I),Transportation and storage,2018,9.74
+Centro (I),Transportation and storage,2019,10.07
+Centro (I),Transportation and storage,2020,10.49
+Centro (I),Transportation and storage,2021,10.52
+Centro (I),Accommodation and food service activities,2014,9.53
+Centro (I),Accommodation and food service activities,2015,9.51
+Centro (I),Accommodation and food service activities,2016,9.5
+Centro (I),Accommodation and food service activities,2017,9.66
+Centro (I),Accommodation and food service activities,2018,9.7
+Centro (I),Accommodation and food service activities,2019,9.79
+Centro (I),Accommodation and food service activities,2020,10.02
+Centro (I),Accommodation and food service activities,2021,10.0
+Centro (I),Information and communication,2014,10.81
+Centro (I),Information and communication,2015,11.67
+Centro (I),Information and communication,2016,11.13
+Centro (I),Information and communication,2017,11.7
+Centro (I),Information and communication,2018,11.87
+Centro (I),Information and communication,2019,12.27
+Centro (I),Information and communication,2020,12.32
+Centro (I),Information and communication,2021,12.7
+Centro (I),Financial and insurance activities,2014,13.98
+Centro (I),Financial and insurance activities,2015,13.33
+Centro (I),Financial and insurance activities,2016,13.8
+Centro (I),Financial and insurance activities,2017,14.16
+Centro (I),Financial and insurance activities,2018,14.05
+Centro (I),Financial and insurance activities,2019,14.58
+Centro (I),Financial and insurance activities,2020,15.4
+Centro (I),Financial and insurance activities,2021,15.61
+Centro (I),Real estate activities,2014,9.52
+Centro (I),Real estate activities,2015,9.59
+Centro (I),Real estate activities,2016,9.75
+Centro (I),Real estate activities,2017,9.97
+Centro (I),Real estate activities,2018,10.01
+Centro (I),Real estate activities,2019,10.09
+Centro (I),Real estate activities,2020,10.19
+Centro (I),Real estate activities,2021,10.23
+Centro (I),"Professional, scientific and technical activities",2014,9.51
+Centro (I),"Professional, scientific and technical activities",2015,9.74
+Centro (I),"Professional, scientific and technical activities",2016,9.97
+Centro (I),"Professional, scientific and technical activities",2017,10.04
+Centro (I),"Professional, scientific and technical activities",2018,10.05
+Centro (I),"Professional, scientific and technical activities",2019,10.38
+Centro (I),"Professional, scientific and technical activities",2020,10.49
+Centro (I),"Professional, scientific and technical activities",2021,10.89
+Centro (I),Administrative and support service activities,2014,9.53
+Centro (I),Administrative and support service activities,2015,9.83
+Centro (I),Administrative and support service activities,2016,9.79
+Centro (I),Administrative and support service activities,2017,9.86
+Centro (I),Administrative and support service activities,2018,9.8
+Centro (I),Administrative and support service activities,2019,9.88
+Centro (I),Administrative and support service activities,2020,9.95
+Centro (I),Administrative and support service activities,2021,10.0
+Centro (I),Education,2014,9.0
+Centro (I),Education,2015,9.09
+Centro (I),Education,2016,9.6
+Centro (I),Education,2017,9.62
+Centro (I),Education,2018,9.71
+Centro (I),Education,2019,9.88
+Centro (I),Education,2020,10.07
+Centro (I),Education,2021,10.17
+Centro (I),Human health and social work activities,2014,9.57
+Centro (I),Human health and social work activities,2015,9.58
+Centro (I),Human health and social work activities,2016,9.7
+Centro (I),Human health and social work activities,2017,9.82
+Centro (I),Human health and social work activities,2018,9.77
+Centro (I),Human health and social work activities,2019,9.94
+Centro (I),Human health and social work activities,2020,10.33
+Centro (I),Human health and social work activities,2021,10.22
+Centro (I),"Arts, entertainment and recreation",2014,9.92
+Centro (I),"Arts, entertainment and recreation",2015,10.07
+Centro (I),"Arts, entertainment and recreation",2016,9.83
+Centro (I),"Arts, entertainment and recreation",2017,10.11
+Centro (I),"Arts, entertainment and recreation",2018,9.97
+Centro (I),"Arts, entertainment and recreation",2019,10.06
+Centro (I),"Arts, entertainment and recreation",2020,10.06
+Centro (I),"Arts, entertainment and recreation",2021,9.9
+Centro (I),Other service activities,2014,7.44
+Centro (I),Other service activities,2015,7.6
+Centro (I),Other service activities,2016,7.68
+Centro (I),Other service activities,2017,7.74
+Centro (I),Other service activities,2018,7.74
+Centro (I),Other service activities,2019,7.79
+Centro (I),Other service activities,2020,7.81
+Centro (I),Other service activities,2021,7.84
+Sud,TOTAL,2014,9.15
+Sud,TOTAL,2015,9.29
+Sud,TOTAL,2016,9.31
+Sud,TOTAL,2017,9.41
+Sud,TOTAL,2018,9.4
+Sud,TOTAL,2019,9.48
+Sud,TOTAL,2020,9.65
+Sud,TOTAL,2021,9.72
+Sud,TOTAL INDUSTRY (b to f),2014,9.07
+Sud,TOTAL INDUSTRY (b to f),2015,9.3
+Sud,TOTAL INDUSTRY (b to f),2016,9.26
+Sud,TOTAL INDUSTRY (b to f),2017,9.31
+Sud,TOTAL INDUSTRY (b to f),2018,9.25
+Sud,TOTAL INDUSTRY (b to f),2019,9.36
+Sud,TOTAL INDUSTRY (b to f),2020,9.53
+Sud,TOTAL INDUSTRY (b to f),2021,9.69
+Sud,TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2014,8.91
+Sud,TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2015,9.1
+Sud,TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2016,9.12
+Sud,TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2017,9.22
+Sud,TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2018,9.2
+Sud,TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2019,9.38
+Sud,TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2020,9.57
+Sud,TOTAL INDUSTRY EXCLUDING CONSTRUCTION (b to e),2021,9.72
+Sud,Mining and quarrying,2014,12.51
+Sud,Mining and quarrying,2015,13.49
+Sud,Mining and quarrying,2016,12.97
+Sud,Mining and quarrying,2017,11.84
+Sud,Mining and quarrying,2018,11.67
+Sud,Mining and quarrying,2019,11.69
+Sud,Mining and quarrying,2020,13.1
+Sud,Mining and quarrying,2021,12.53
+Sud,Manufacturing,2014,8.8
+Sud,Manufacturing,2015,9.02
+Sud,Manufacturing,2016,9.03
+Sud,Manufacturing,2017,9.13
+Sud,Manufacturing,2018,9.13
+Sud,Manufacturing,2019,9.29
+Sud,Manufacturing,2020,9.5
+Sud,Manufacturing,2021,9.67
+Sud,"Electricity, gas, steam and air conditioning supply",2014,10.74
+Sud,"Electricity, gas, steam and air conditioning supply",2015,13.03
+Sud,"Electricity, gas, steam and air conditioning supply",2016,10.98
+Sud,"Electricity, gas, steam and air conditioning supply",2017,12.91
+Sud,"Electricity, gas, steam and air conditioning supply",2018,13.42
+Sud,"Electricity, gas, steam and air conditioning supply",2019,12.75
+Sud,"Electricity, gas, steam and air conditioning supply",2020,13.02
+Sud,"Electricity, gas, steam and air conditioning supply",2021,13.66
+Sud,"Water supply sewerage, waste management and remediation activities",2014,10.41
+Sud,"Water supply sewerage, waste management and remediation activities",2015,10.37
+Sud,"Water supply sewerage, waste management and remediation activities",2016,10.32
+Sud,"Water supply sewerage, waste management and remediation activities",2017,10.41
+Sud,"Water supply sewerage, waste management and remediation activities",2018,10.19
+Sud,"Water supply sewerage, waste management and remediation activities",2019,10.08
+Sud,"Water supply sewerage, waste management and remediation activities",2020,9.97
+Sud,"Water supply sewerage, waste management and remediation activities",2021,9.94
+Sud,Construction,2014,9.35
+Sud,Construction,2015,9.7
+Sud,Construction,2016,9.57
+Sud,Construction,2017,9.55
+Sud,Construction,2018,9.34
+Sud,Construction,2019,9.34
+Sud,Construction,2020,9.42
+Sud,Construction,2021,9.62
+Sud,"Services (g to s, except o)",2014,9.17
+Sud,"Services (g to s, except o)",2015,9.29
+Sud,"Services (g to s, except o)",2016,9.32
+Sud,"Services (g to s, except o)",2017,9.43
+Sud,"Services (g to s, except o)",2018,9.44
+Sud,"Services (g to s, except o)",2019,9.51
+Sud,"Services (g to s, except o)",2020,9.68
+Sud,"Services (g to s, except o)",2021,9.73
+Sud,Wholesale and retail trade repair of motor vehicles and motorcycles,2014,9.32
+Sud,Wholesale and retail trade repair of motor vehicles and motorcycles,2015,9.4
+Sud,Wholesale and retail trade repair of motor vehicles and motorcycles,2016,9.52
+Sud,Wholesale and retail trade repair of motor vehicles and motorcycles,2017,9.66
+Sud,Wholesale and retail trade repair of motor vehicles and motorcycles,2018,9.67
+Sud,Wholesale and retail trade repair of motor vehicles and motorcycles,2019,9.73
+Sud,Wholesale and retail trade repair of motor vehicles and motorcycles,2020,9.78
+Sud,Wholesale and retail trade repair of motor vehicles and motorcycles,2021,9.81
+Sud,Transportation and storage,2014,9.81
+Sud,Transportation and storage,2015,9.77
+Sud,Transportation and storage,2016,9.74
+Sud,Transportation and storage,2017,9.77
+Sud,Transportation and storage,2018,10.0
+Sud,Transportation and storage,2019,10.24
+Sud,Transportation and storage,2020,10.52
+Sud,Transportation and storage,2021,10.45
+Sud,Accommodation and food service activities,2014,9.07
+Sud,Accommodation and food service activities,2015,9.13
+Sud,Accommodation and food service activities,2016,9.13
+Sud,Accommodation and food service activities,2017,9.22
+Sud,Accommodation and food service activities,2018,9.25
+Sud,Accommodation and food service activities,2019,9.33
+Sud,Accommodation and food service activities,2020,9.55
+Sud,Accommodation and food service activities,2021,9.56
+Sud,Information and communication,2014,9.62
+Sud,Information and communication,2015,9.84
+Sud,Information and communication,2016,10.05
+Sud,Information and communication,2017,10.19
+Sud,Information and communication,2018,10.35
+Sud,Information and communication,2019,10.53
+Sud,Information and communication,2020,10.69
+Sud,Information and communication,2021,11.07
+Sud,Financial and insurance activities,2014,10.95
+Sud,Financial and insurance activities,2015,10.81
+Sud,Financial and insurance activities,2016,10.65
+Sud,Financial and insurance activities,2017,10.47
+Sud,Financial and insurance activities,2018,10.9
+Sud,Financial and insurance activities,2019,12.53
+Sud,Financial and insurance activities,2020,12.18
+Sud,Financial and insurance activities,2021,12.67
+Sud,Real estate activities,2014,9.04
+Sud,Real estate activities,2015,9.26
+Sud,Real estate activities,2016,9.48
+Sud,Real estate activities,2017,9.67
+Sud,Real estate activities,2018,9.48
+Sud,Real estate activities,2019,9.5
+Sud,Real estate activities,2020,9.65
+Sud,Real estate activities,2021,9.71
+Sud,"Professional, scientific and technical activities",2014,8.65
+Sud,"Professional, scientific and technical activities",2015,8.5
+Sud,"Professional, scientific and technical activities",2016,9.21
+Sud,"Professional, scientific and technical activities",2017,9.3
+Sud,"Professional, scientific and technical activities",2018,8.98
+Sud,"Professional, scientific and technical activities",2019,9.18
+Sud,"Professional, scientific and technical activities",2020,9.57
+Sud,"Professional, scientific and technical activities",2021,9.5
+Sud,Administrative and support service activities,2014,9.48
+Sud,Administrative and support service activities,2015,9.87
+Sud,Administrative and support service activities,2016,9.72
+Sud,Administrative and support service activities,2017,9.92
+Sud,Administrative and support service activities,2018,9.85
+Sud,Administrative and support service activities,2019,9.83
+Sud,Administrative and support service activities,2020,9.88
+Sud,Administrative and support service activities,2021,9.99
+Sud,Education,2014,8.87
+Sud,Education,2015,8.86
+Sud,Education,2016,8.72
+Sud,Education,2017,9.05
+Sud,Education,2018,9.05
+Sud,Education,2019,9.04
+Sud,Education,2020,9.37
+Sud,Education,2021,9.39
+Sud,Human health and social work activities,2014,9.7
+Sud,Human health and social work activities,2015,9.64
+Sud,Human health and social work activities,2016,9.65
+Sud,Human health and social work activities,2017,9.75
+Sud,Human health and social work activities,2018,9.8
+Sud,Human health and social work activities,2019,9.9
+Sud,Human health and social work activities,2020,10.32
+Sud,Human health and social work activities,2021,10.3
+Sud,"Arts, entertainment and recreation",2014,8.87
+Sud,"Arts, entertainment and recreation",2015,9.14
+Sud,"Arts, entertainment and recreation",2016,9.11
+Sud,"Arts, entertainment and recreation",2017,9.1
+Sud,"Arts, entertainment and recreation",2018,9.16
+Sud,"Arts, entertainment and recreation",2019,9.09
+Sud,"Arts, entertainment and recreation",2020,9.2
+Sud,"Arts, entertainment and recreation",2021,9.2
+Sud,Other service activities,2014,7.52
+Sud,Other service activities,2015,7.63
+Sud,Other service activities,2016,7.71
+Sud,Other service activities,2017,7.72
+Sud,Other service activities,2018,7.67
+Sud,Other service activities,2019,7.7
+Sud,Other service activities,2020,7.81
+Sud,Other service activities,2021,7.87

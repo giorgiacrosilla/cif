@@ -1,0 +1,181 @@
+satisfaction_level,qualification,time_period,percentage
+ very much,"Primary school certificate, no educational degree",2014,31.3
+ very much,"Primary school certificate, no educational degree",2015,18.7
+ very much,"Primary school certificate, no educational degree",2016,0.0
+ very much,"Primary school certificate, no educational degree",2017,32.3
+ very much,"Primary school certificate, no educational degree",2018,44.7
+ very much,"Primary school certificate, no educational degree",2019,23.0
+ very much,"Primary school certificate, no educational degree",2020,17.6
+ very much,"Primary school certificate, no educational degree",2021,15.3
+ very much,"Primary school certificate, no educational degree",2022,6.3
+ very much,Lower secondary school certificate,2014,12.1
+ very much,Lower secondary school certificate,2015,18.5
+ very much,Lower secondary school certificate,2016,14.1
+ very much,Lower secondary school certificate,2017,11.2
+ very much,Lower secondary school certificate,2018,12.3
+ very much,Lower secondary school certificate,2019,16.9
+ very much,Lower secondary school certificate,2020,17.7
+ very much,Lower secondary school certificate,2021,15.9
+ very much,Lower secondary school certificate,2022,13.1
+ very much,Upper and post secondary,2014,20.8
+ very much,Upper and post secondary,2015,19.5
+ very much,Upper and post secondary,2016,18.3
+ very much,Upper and post secondary,2017,18.2
+ very much,Upper and post secondary,2018,18.7
+ very much,Upper and post secondary,2019,21.3
+ very much,Upper and post secondary,2020,21.9
+ very much,Upper and post secondary,2021,21.5
+ very much,Upper and post secondary,2022,20.1
+ very much,"Tertiary (university, doctoral and specialization courses)",2014,17.4
+ very much,"Tertiary (university, doctoral and specialization courses)",2015,31.2
+ very much,"Tertiary (university, doctoral and specialization courses)",2016,22.3
+ very much,"Tertiary (university, doctoral and specialization courses)",2017,16.1
+ very much,"Tertiary (university, doctoral and specialization courses)",2018,18.5
+ very much,"Tertiary (university, doctoral and specialization courses)",2019,20.9
+ very much,"Tertiary (university, doctoral and specialization courses)",2020,24.9
+ very much,"Tertiary (university, doctoral and specialization courses)",2021,17.0
+ very much,"Tertiary (university, doctoral and specialization courses)",2022,20.6
+ very much,Total,2014,18.2
+ very much,Total,2015,19.9
+ very much,Total,2016,17.3
+ very much,Total,2017,16.9
+ very much,Total,2018,17.7
+ very much,Total,2019,20.6
+ very much,Total,2020,21.4
+ very much,Total,2021,19.9
+ very much,Total,2022,18.7
+ quite,"Primary school certificate, no educational degree",2014,4.0
+ quite,"Primary school certificate, no educational degree",2015,15.1
+ quite,"Primary school certificate, no educational degree",2016,85.2
+ quite,"Primary school certificate, no educational degree",2017,44.0
+ quite,"Primary school certificate, no educational degree",2018,47.3
+ quite,"Primary school certificate, no educational degree",2019,6.4
+ quite,"Primary school certificate, no educational degree",2020,82.4
+ quite,"Primary school certificate, no educational degree",2021,80.6
+ quite,"Primary school certificate, no educational degree",2022,41.6
+ quite,Lower secondary school certificate,2014,51.9
+ quite,Lower secondary school certificate,2015,54.0
+ quite,Lower secondary school certificate,2016,37.4
+ quite,Lower secondary school certificate,2017,58.5
+ quite,Lower secondary school certificate,2018,68.1
+ quite,Lower secondary school certificate,2019,57.6
+ quite,Lower secondary school certificate,2020,54.4
+ quite,Lower secondary school certificate,2021,50.6
+ quite,Lower secondary school certificate,2022,65.0
+ quite,Upper and post secondary,2014,53.5
+ quite,Upper and post secondary,2015,56.4
+ quite,Upper and post secondary,2016,57.5
+ quite,Upper and post secondary,2017,58.1
+ quite,Upper and post secondary,2018,56.4
+ quite,Upper and post secondary,2019,55.0
+ quite,Upper and post secondary,2020,57.7
+ quite,Upper and post secondary,2021,59.8
+ quite,Upper and post secondary,2022,62.1
+ quite,"Tertiary (university, doctoral and specialization courses)",2014,43.9
+ quite,"Tertiary (university, doctoral and specialization courses)",2015,55.4
+ quite,"Tertiary (university, doctoral and specialization courses)",2016,53.5
+ quite,"Tertiary (university, doctoral and specialization courses)",2017,48.7
+ quite,"Tertiary (university, doctoral and specialization courses)",2018,65.6
+ quite,"Tertiary (university, doctoral and specialization courses)",2019,58.0
+ quite,"Tertiary (university, doctoral and specialization courses)",2020,68.5
+ quite,"Tertiary (university, doctoral and specialization courses)",2021,61.9
+ quite,"Tertiary (university, doctoral and specialization courses)",2022,70.8
+ quite,Total,2014,52.1
+ quite,Total,2015,55.2
+ quite,Total,2016,53.2
+ quite,Total,2017,57.1
+ quite,Total,2018,59.2
+ quite,Total,2019,55.1
+ quite,Total,2020,58.4
+ quite,Total,2021,58.5
+ quite,Total,2022,63.3
+ not much,"Primary school certificate, no educational degree",2014,27.8
+ not much,"Primary school certificate, no educational degree",2015,30.9
+ not much,"Primary school certificate, no educational degree",2016,11.0
+ not much,"Primary school certificate, no educational degree",2017,12.2
+ not much,"Primary school certificate, no educational degree",2018,8.1
+ not much,"Primary school certificate, no educational degree",2019,0.0
+ not much,"Primary school certificate, no educational degree",2020,0.0
+ not much,"Primary school certificate, no educational degree",2021,2.0
+ not much,"Primary school certificate, no educational degree",2022,21.8
+ not much,Lower secondary school certificate,2014,20.2
+ not much,Lower secondary school certificate,2015,19.8
+ not much,Lower secondary school certificate,2016,25.8
+ not much,Lower secondary school certificate,2017,20.1
+ not much,Lower secondary school certificate,2018,11.9
+ not much,Lower secondary school certificate,2019,9.8
+ not much,Lower secondary school certificate,2020,21.5
+ not much,Lower secondary school certificate,2021,22.8
+ not much,Lower secondary school certificate,2022,13.6
+ not much,Upper and post secondary,2014,18.3
+ not much,Upper and post secondary,2015,18.2
+ not much,Upper and post secondary,2016,16.2
+ not much,Upper and post secondary,2017,14.5
+ not much,Upper and post secondary,2018,17.2
+ not much,Upper and post secondary,2019,14.4
+ not much,Upper and post secondary,2020,13.6
+ not much,Upper and post secondary,2021,11.8
+ not much,Upper and post secondary,2022,10.4
+ not much,"Tertiary (university, doctoral and specialization courses)",2014,19.5
+ not much,"Tertiary (university, doctoral and specialization courses)",2015,13.4
+ not much,"Tertiary (university, doctoral and specialization courses)",2016,16.6
+ not much,"Tertiary (university, doctoral and specialization courses)",2017,22.5
+ not much,"Tertiary (university, doctoral and specialization courses)",2018,8.7
+ not much,"Tertiary (university, doctoral and specialization courses)",2019,13.9
+ not much,"Tertiary (university, doctoral and specialization courses)",2020,2.7
+ not much,"Tertiary (university, doctoral and specialization courses)",2021,11.7
+ not much,"Tertiary (university, doctoral and specialization courses)",2022,6.7
+ not much,Total,2014,19.0
+ not much,Total,2015,18.5
+ not much,Total,2016,18.3
+ not much,Total,2017,16.2
+ not much,Total,2018,15.5
+ not much,Total,2019,13.4
+ not much,Total,2020,13.9
+ not much,Total,2021,13.9
+ not much,Total,2022,10.8
+ not at all,"Primary school certificate, no educational degree",2014,0.0
+ not at all,"Primary school certificate, no educational degree",2015,23.9
+ not at all,"Primary school certificate, no educational degree",2016,0.0
+ not at all,"Primary school certificate, no educational degree",2017,11.5
+ not at all,"Primary school certificate, no educational degree",2018,0.0
+ not at all,"Primary school certificate, no educational degree",2019,7.3
+ not at all,"Primary school certificate, no educational degree",2020,0.0
+ not at all,"Primary school certificate, no educational degree",2021,0.0
+ not at all,"Primary school certificate, no educational degree",2022,0.0
+ not at all,Lower secondary school certificate,2014,7.3
+ not at all,Lower secondary school certificate,2015,3.1
+ not at all,Lower secondary school certificate,2016,3.4
+ not at all,Lower secondary school certificate,2017,1.7
+ not at all,Lower secondary school certificate,2018,4.6
+ not at all,Lower secondary school certificate,2019,7.7
+ not at all,Lower secondary school certificate,2020,3.2
+ not at all,Lower secondary school certificate,2021,2.6
+ not at all,Lower secondary school certificate,2022,2.1
+ not at all,Upper and post secondary,2014,3.2
+ not at all,Upper and post secondary,2015,1.7
+ not at all,Upper and post secondary,2016,2.5
+ not at all,Upper and post secondary,2017,3.5
+ not at all,Upper and post secondary,2018,4.8
+ not at all,Upper and post secondary,2019,3.7
+ not at all,Upper and post secondary,2020,3.0
+ not at all,Upper and post secondary,2021,2.6
+ not at all,Upper and post secondary,2022,1.2
+ not at all,"Tertiary (university, doctoral and specialization courses)",2014,2.2
+ not at all,"Tertiary (university, doctoral and specialization courses)",2015,0.0
+ not at all,"Tertiary (university, doctoral and specialization courses)",2016,0.0
+ not at all,"Tertiary (university, doctoral and specialization courses)",2017,5.9
+ not at all,"Tertiary (university, doctoral and specialization courses)",2018,2.6
+ not at all,"Tertiary (university, doctoral and specialization courses)",2019,0.0
+ not at all,"Tertiary (university, doctoral and specialization courses)",2020,1.6
+ not at all,"Tertiary (university, doctoral and specialization courses)",2021,5.1
+ not at all,"Tertiary (university, doctoral and specialization courses)",2022,0.0
+ not at all,Total,2014,4.3
+ not at all,Total,2015,2.2
+ not at all,Total,2016,2.5
+ not at all,Total,2017,3.5
+ not at all,Total,2018,4.6
+ not at all,Total,2019,4.1
+ not at all,Total,2020,2.9
+ not at all,Total,2021,2.7
+ not at all,Total,2022,1.3

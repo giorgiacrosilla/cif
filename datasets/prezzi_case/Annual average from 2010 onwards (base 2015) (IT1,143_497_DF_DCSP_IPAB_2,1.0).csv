@@ -1,0 +1,10 @@
+﻿FREQ,Frequency,REF_AREA,Territory,DATA_TYPE,Indicator,MEASURE,Measure (DESC),PURCHASES_DWELLINGS,Purchases of dwellings,Time (TIME_PERIOD),Observation,OBS_STATUS,Observation status
+A,Annual,ITC,Nord-ovest,60,House price index (base 2015=100) - annual average,4,Index number,ALL,H1 - all items,2014,104.3,,
+A,Annual,ITC,Nord-ovest,60,House price index (base 2015=100) - annual average,4,Index number,ALL,H1 - all items,2015,100,,
+A,Annual,ITC,Nord-ovest,60,House price index (base 2015=100) - annual average,4,Index number,ALL,H1 - all items,2016,100.2,,
+A,Annual,ITC,Nord-ovest,60,House price index (base 2015=100) - annual average,4,Index number,ALL,H1 - all items,2017,99.5,,
+A,Annual,ITC,Nord-ovest,60,House price index (base 2015=100) - annual average,4,Index number,ALL,H1 - all items,2018,99.4,,
+A,Annual,ITC,Nord-ovest,60,House price index (base 2015=100) - annual average,4,Index number,ALL,H1 - all items,2019,100.4,,
+A,Annual,ITC,Nord-ovest,60,House price index (base 2015=100) - annual average,4,Index number,ALL,H1 - all items,2020,103.4,,
+A,Annual,ITC,Nord-ovest,60,House price index (base 2015=100) - annual average,4,Index number,ALL,H1 - all items,2021,106,,
+A,Annual,ITC,Nord-ovest,60,House price index (base 2015=100) - annual average,4,Index number,ALL,H1 - all items,2022,110.6,,
