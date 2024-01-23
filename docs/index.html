@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <!-- Font Awesome icons (free version)-->
     <script
       src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
@@ -111,7 +112,7 @@
         >
           About the project
         </h2>
-        <br>
+        <div class="containeranalysis">
         <p>
           The project stems from the necessity of visualizing the data related
           to young individuals choosing to leave the country of Italy. The aim
@@ -131,6 +132,7 @@
           make an hypothesis on the hidden reasons behind the decision to leave
           that a lot of Italians make.
         </p>
+        </div>
       </div>
     </section>
     <!-- About Section-->
@@ -140,6 +142,7 @@
         <h2 class="page-section-heading text-center text-uppercase text-white">
           Datasets
         </h2>
+        <div class="containeranalysis">
         <!-- About Section Content-->
         <div class="row">
           <ul class="nav nav-tabs d-none d-lg-flex" id="myTab" role="tablist">
@@ -376,6 +379,7 @@
           </div>
         </div>
       </div>
+      </div>
     </section>
     <!-- Contact Section-->
     <section class="page-section" id="contact">
@@ -392,7 +396,7 @@
           <ul class="nav nav-tabs d-none d-lg-flex" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
               <button
-                class="nav-link active"
+                class="nav-link"
                 id="home-tab"
                 data-bs-toggle="tab"
                 data-bs-target="#home-tab-pane"
@@ -401,7 +405,8 @@
                 aria-controls="home-tab-pane"
                 aria-selected="true"
               >
-                Quality Analysis
+              <div id="element1"></div>
+                <p>Quality Analysis</p>
               </button>
             </li>
             <li class="nav-item" role="presentation">
@@ -415,7 +420,7 @@
                 aria-controls="profile-tab-pane"
                 aria-selected="false"
               >
-                Legal Analysis
+                <div id="element4"></div><p>Legal Analysis</p>
               </button>
             </li>
             <li class="nav-item" role="presentation">
@@ -429,7 +434,8 @@
                 aria-controls="contact-tab-pane"
                 aria-selected="false"
               >
-                Ethical Analysis
+              <div id="element3"></div><p>
+                Ethical Analysis</p>
               </button>
             </li>
             <li class="nav-item" role="presentation">
@@ -442,14 +448,14 @@
                 role="tab"
                 aria-controls="t-tab-pane"
                 aria-selected="false"
-              >
-                Technical Analysis
+              ><div id="element2"></div>
+                <p>Technical Analysis</p>
               </button>
             </li>
           </ul>
           <div class="tab-content accordion" id="myTabContent">
             <div
-              class="tab-pane fade show active accordion-item"
+              class="tab-pane fade accordion-item"
               id="home-tab-pane"
               role="tabpanel"
               aria-labelledby="home-tab"
@@ -474,25 +480,6 @@
                 data-bs-parent="#myTabContent"
               >
                 <div class="accordion-body">
-                  <p>
-                    The "National Guidelines for Enhancing Public Information
-                    Heritage", in particular considering the section related to
-                    <a
-                      href="https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati"
-                      >Data quality</a
-                    >, underline four among other characteristics that are
-                    necessary to point out when analyzing the goodness of data.
-                    This step is necessary in order to guarantee the
-                    "certification of the accuracy of the provided data and,
-                    above all, its suitability for the intended use." These four characteristics are:
-                    <ul>
-                      <li>
-                        Accuracy (syntactic and semantic) </li>
-                        <li>Coherence</li>
-                        <li>Completeness</li>
-                        <li>Timeliness (or timeliness of updating)</li>
-                    </ul>
-                  </p>
                   <table>
                     <tr>
                       <th></th>
@@ -3786,6 +3773,54 @@
         scale: 1.0,
         scaleMobile: 1.0,
       });
+      $(document).ready(function() {
+    $('#home-tab').on('click', function() {
+      // Check if the tab pane has 'active' and 'show' classes
+      if ($('#home-tab-pane').hasClass('active show')) {
+        // Remove 'active' and 'show' classes
+        $('#home-tab-pane').removeClass('active show');
+      } else {
+        // Add 'active' and 'show' classes
+        $('#home-tab-pane').addClass('active show');
+      }
+    });
+  });
+  $(document).ready(function() {
+    $('#profile-tab').on('click', function() {
+      // Check if the tab pane has 'active' and 'show' classes
+      if ($('#profile-tab-pane').hasClass('active show')) {
+        // Remove 'active' and 'show' classes
+        $('#profile-tab-pane').removeClass('active show');
+      } else {
+        // Add 'active' and 'show' classes
+        $('#profile-tab-pane').addClass('active show');
+      }
+    });
+  });
+  $(document).ready(function() {
+    $('#contact-tab').on('click', function() {
+      // Check if the tab pane has 'active' and 'show' classes
+      if ($('#contact-tab-pane').hasClass('active show')) {
+        // Remove 'active' and 'show' classes
+        $('#contact-tab-pane').removeClass('active show');
+      } else {
+        // Add 'active' and 'show' classes
+        $('#contact-tab-pane').addClass('active show');
+      }
+    });
+  });
+  $(document).ready(function() {
+    $('#t-tab').on('click', function() {
+      // Check if the tab pane has 'active' and 'show' classes
+      if ($('#t-tab-pane').hasClass('active show')) {
+        // Remove 'active' and 'show' classes
+        $('#t-tab-pane').removeClass('active show');
+      } else {
+        // Add 'active' and 'show' classes
+        $('#t-tab-pane').addClass('active show');
+      }
+    });
+  });
     </script>
   </body>
 </html>
