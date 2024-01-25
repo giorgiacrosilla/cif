@@ -201,8 +201,50 @@
                 </div>
                 <div id="item-3">
                   <h4>Mash up</h4>
-                  <p>...</p>
-                </div>
+                  <p>
+                    The dataset mash-up was carried out in two phases: the creation of intermediate datasets and then the creation of the final mashed datasets.
+                    <h6>Intermediate datasets.</h6>
+                    The creation of intermediate datasets was necessary to facilitate the subsequent combination of datasets, particularly considering the initial data from AlmaLaurea. As mentioned earlier, it was necessary to download the datasets in their entirety from the source, as filtering was not possible. Additionally, the CSV file was not formatted correctly, requiring a cleaning process where only a specific row of the dataset related to the employment of individuals 3 years after obtaining a master's degree. In this case, the intermediate dataset allows the consolidation of the previous 9 datasets into a single dataset, bringing together all the data collected over the 2014-2021 timeframe.
+                    <br>
+                    The second intermediate dataset combines data on house price indices and the percentage of young people still living with their parents. This dataset was created as an indicator of economic independence and is necessary for conducting the final analysis presented in the last dataset mash-up.</p>
+                    <h6>Mash-up datasets.</h6>
+                    <p>The process of creation of the four different datasets is explained in the <a href="../datasets/intermediate_datasets.ipynb">Jupyter Notebook</a> both through text and code.
+                    <ul>
+                      <li><b>I2 : Working status by age</b>
+
+                        This dataset merges data related to the satisfaction of young people at work and the gross hourly wage retribution. The goal is trying to understand if there is a correlation between the wage and the satisfaction at work, and if this could be a parameter that could influence emigration to foreign countries. 
+                        
+                        It is necessary to notice that the age span analyzed in D4 is 15-24 while D6 consideres an age bracket 15-29 years. 
+                        Even though the two age spans do not coincide, we still considered them as representative of young people, and since no alignment of this data was possible, we chose to work with these different age spans. 
+                        
+                        Furthermore, D6 does not contain data related to 2022, for this reason this mash-up dataset takes into consideration only data from 2014 to 2021.</li>
+                      <li><b>I3 : Work wages across sectors</b>
+
+                        This dataset aims at combining data related to the average salary based on type of contract, age of the employees and educational qualification. The final dataset takes in consideration not only the temporal span, but also italian geographical macroareas (North-west, North-east, Center and South) and the economic activity.
+                        
+                        In all of the three starting datasets only data related to 2014-2021 was available. </li>
+                        <li><b>I4 : Graduates' employment status</b>
+
+                          This dataset focuses mainly on the graduates' working conditions, in particular considering their level of satisfaction at work, the employment rate and the average wage. 
+                          This analysis is quite general, since no geographical subdivision nor economic activities are taken into consideration. This is due to the fact that this information was not present in D4 and D17. 
+                          
+                          Moreover, the age span considered in this analysis is not consistent:<ul>
+                          <li>D4 presents an age span of 15-24 </li>
+                          <li>D17 consideres employment rate of graduates after 3 years from graduation. No data about their age is present. </li>
+                          <li>D7 consideres only hourly wage by educational qualification with no data related to age. </li></ul>
+                          
+                          Although we had considered eliminating the age range in D4, removing this variable would have meant not paying proper attention to young people. D4 does not provide any information regarding an age group considered as "youth" different from the one indicated, so the chosen age range has been retained.
+                          
+                          D17 provides information related to the 3 years following the completion of a master's degree. According to AlmaLaurea data, on average, obtaining a master's degree occurs around the age of 27, so the reference to these data would be relevant to 30 years old graduates.
+                          
+                          The hourly salary based on the level of education is considered as the median, allowing for the analysis of the central position relative to the ordered data and is not sensitive to the presence of outliers. 
+                          
+                          Even in this case the temporal span considered for this analysis is 2014-2021 since D7 contained only data related to this time span.</li>
+                          <li><b>I5 : Emigration and economic independence</b>
+
+                            This dataset contains the number of young people emigrated from Italy, indices of house prices and number of young people still living at home with their parents from 2014 to 2022.</li>
+                    </ul></p>
+                  </div>
                 <div id="item-4">
                   <h4>Visualization</h4>
                   <p>Data visualization is a key step in the process of turning raw data into information understandable to everyone. That is why we processed our main datasets resulting from the mash-up into visualization charts. During this process, we encountered some difficulties primarily given by the fact that within the same datasets there was data expressed in different measuraments units (percentages, units of people, euros). However, the problem was solved by making sure that the data did not mix in the visualization (for example, by referring to the same y axis). Out of four visualizations, three are charts that aim to show the evolution in time of a specific phenomenon. For the fourth visualization, we chose to show the differences by highlighting the role played by the geographical area on various phenomena.</p>
