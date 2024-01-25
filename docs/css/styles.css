@@ -367,6 +367,8 @@ caption {
 th {
   text-align: inherit;
   text-align: -webkit-match-parent;
+  text-transform: uppercase;
+  font-weight: bolder;
 }
 
 thead,
@@ -379,6 +381,7 @@ th {
   border-style: solid;
   border-width: 0;
   border-bottom-width: 1.5px;
+  border-color: var(--colore4);
 }
 
 #profile-tab-pane {
