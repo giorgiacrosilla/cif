@@ -1,4 +1,164 @@
 Area,Economic activity,Time period,Hourly wage by age (15-29) (€)
+Italy,TOTAL,2014,9.76
+Italy,TOTAL,2015,9.9
+Italy,TOTAL,2016,9.92
+Italy,TOTAL,2017,10.03
+Italy,TOTAL,2018,10.06
+Italy,TOTAL,2019,10.15
+Italy,TOTAL,2020,10.35
+Italy,TOTAL,2021,10.37
+Italy,Mining and quarrying,2014,12.93
+Italy,Mining and quarrying,2015,13.47
+Italy,Mining and quarrying,2016,13.02
+Italy,Mining and quarrying,2017,12.75
+Italy,Mining and quarrying,2018,12.1
+Italy,Mining and quarrying,2019,12.86
+Italy,Mining and quarrying,2020,13.11
+Italy,Mining and quarrying,2021,13.07
+Italy,Manufacturing,2014,9.88
+Italy,Manufacturing,2015,10.09
+Italy,Manufacturing,2016,10.11
+Italy,Manufacturing,2017,10.19
+Italy,Manufacturing,2018,10.26
+Italy,Manufacturing,2019,10.46
+Italy,Manufacturing,2020,10.65
+Italy,Manufacturing,2021,10.79
+Italy,"Electricity, gas, steam and air conditioning supply",2014,12.61
+Italy,"Electricity, gas, steam and air conditioning supply",2015,13.27
+Italy,"Electricity, gas, steam and air conditioning supply",2016,13.12
+Italy,"Electricity, gas, steam and air conditioning supply",2017,13.8
+Italy,"Electricity, gas, steam and air conditioning supply",2018,14.05
+Italy,"Electricity, gas, steam and air conditioning supply",2019,14.07
+Italy,"Electricity, gas, steam and air conditioning supply",2020,14.08
+Italy,"Electricity, gas, steam and air conditioning supply",2021,14.32
+Italy,"Water supply sewerage, waste management and remediation activities",2014,11.17
+Italy,"Water supply sewerage, waste management and remediation activities",2015,11.15
+Italy,"Water supply sewerage, waste management and remediation activities",2016,11.06
+Italy,"Water supply sewerage, waste management and remediation activities",2017,10.8
+Italy,"Water supply sewerage, waste management and remediation activities",2018,10.75
+Italy,"Water supply sewerage, waste management and remediation activities",2019,10.76
+Italy,"Water supply sewerage, waste management and remediation activities",2020,10.74
+Italy,"Water supply sewerage, waste management and remediation activities",2021,10.78
+Italy,Construction,2014,9.59
+Italy,Construction,2015,9.92
+Italy,Construction,2016,9.79
+Italy,Construction,2017,9.75
+Italy,Construction,2018,9.67
+Italy,Construction,2019,9.67
+Italy,Construction,2020,9.76
+Italy,Construction,2021,9.9
+Italy,"Services (g to s, except o)",2014,9.74
+Italy,"Services (g to s, except o)",2015,9.86
+Italy,"Services (g to s, except o)",2016,9.89
+Italy,"Services (g to s, except o)",2017,10.01
+Italy,"Services (g to s, except o)",2018,10.04
+Italy,"Services (g to s, except o)",2019,10.13
+Italy,"Services (g to s, except o)",2020,10.32
+Italy,"Services (g to s, except o)",2021,10.33
+Italy,Wholesale and retail trade repair of motor vehicles and motorcycles,2014,10.03
+Italy,Wholesale and retail trade repair of motor vehicles and motorcycles,2015,10.08
+Italy,Wholesale and retail trade repair of motor vehicles and motorcycles,2016,10.21
+Italy,Wholesale and retail trade repair of motor vehicles and motorcycles,2017,10.38
+Italy,Wholesale and retail trade repair of motor vehicles and motorcycles,2018,10.45
+Italy,Wholesale and retail trade repair of motor vehicles and motorcycles,2019,10.49
+Italy,Wholesale and retail trade repair of motor vehicles and motorcycles,2020,10.57
+Italy,Wholesale and retail trade repair of motor vehicles and motorcycles,2021,10.51
+Italy,Transportation and storage,2014,9.77
+Italy,Transportation and storage,2015,9.76
+Italy,Transportation and storage,2016,9.84
+Italy,Transportation and storage,2017,9.96
+Italy,Transportation and storage,2018,10.11
+Italy,Transportation and storage,2019,10.47
+Italy,Transportation and storage,2020,10.82
+Italy,Transportation and storage,2021,10.78
+Italy,Accommodation and food service activities,2014,9.57
+Italy,Accommodation and food service activities,2015,9.57
+Italy,Accommodation and food service activities,2016,9.54
+Italy,Accommodation and food service activities,2017,9.71
+Italy,Accommodation and food service activities,2018,9.76
+Italy,Accommodation and food service activities,2019,9.85
+Italy,Accommodation and food service activities,2020,10.03
+Italy,Accommodation and food service activities,2021,10.04
+Italy,Information and communication,2014,10.63
+Italy,Information and communication,2015,11.22
+Italy,Information and communication,2016,10.93
+Italy,Information and communication,2017,11.26
+Italy,Information and communication,2018,11.54
+Italy,Information and communication,2019,11.7
+Italy,Information and communication,2020,12.18
+Italy,Information and communication,2021,12.13
+Italy,Financial and insurance activities,2014,14.16
+Italy,Financial and insurance activities,2015,13.69
+Italy,Financial and insurance activities,2016,14.13
+Italy,Financial and insurance activities,2017,14.1
+Italy,Financial and insurance activities,2018,14.06
+Italy,Financial and insurance activities,2019,14.17
+Italy,Financial and insurance activities,2020,15.3
+Italy,Financial and insurance activities,2021,15.36
+Italy,Real estate activities,2014,9.58
+Italy,Real estate activities,2015,9.66
+Italy,Real estate activities,2016,9.87
+Italy,Real estate activities,2017,10.0
+Italy,Real estate activities,2018,10.04
+Italy,Real estate activities,2019,10.07
+Italy,Real estate activities,2020,10.2
+Italy,Real estate activities,2021,10.22
+Italy,"Professional, scientific and technical activities",2014,9.61
+Italy,"Professional, scientific and technical activities",2015,9.7
+Italy,"Professional, scientific and technical activities",2016,9.91
+Italy,"Professional, scientific and technical activities",2017,10.07
+Italy,"Professional, scientific and technical activities",2018,10.07
+Italy,"Professional, scientific and technical activities",2019,10.25
+Italy,"Professional, scientific and technical activities",2020,10.61
+Italy,"Professional, scientific and technical activities",2021,10.68
+Italy,Administrative and support service activities,2014,9.72
+Italy,Administrative and support service activities,2015,10.11
+Italy,Administrative and support service activities,2016,10.09
+Italy,Administrative and support service activities,2017,10.2
+Italy,Administrative and support service activities,2018,10.13
+Italy,Administrative and support service activities,2019,10.2
+Italy,Administrative and support service activities,2020,10.3
+Italy,Administrative and support service activities,2021,10.33
+Italy,Education,2014,9.38
+Italy,Education,2015,9.47
+Italy,Education,2016,9.57
+Italy,Education,2017,9.76
+Italy,Education,2018,9.88
+Italy,Education,2019,9.95
+Italy,Education,2020,10.16
+Italy,Education,2021,10.07
+Italy,Human health and social work activities,2014,9.72
+Italy,Human health and social work activities,2015,9.7
+Italy,Human health and social work activities,2016,9.79
+Italy,Human health and social work activities,2017,9.92
+Italy,Human health and social work activities,2018,9.92
+Italy,Human health and social work activities,2019,10.09
+Italy,Human health and social work activities,2020,10.4
+Italy,Human health and social work activities,2021,10.36
+Italy,"Arts, entertainment and recreation",2014,9.64
+Italy,"Arts, entertainment and recreation",2015,9.75
+Italy,"Arts, entertainment and recreation",2016,9.68
+Italy,"Arts, entertainment and recreation",2017,9.75
+Italy,"Arts, entertainment and recreation",2018,9.82
+Italy,"Arts, entertainment and recreation",2019,9.83
+Italy,"Arts, entertainment and recreation",2020,9.88
+Italy,"Arts, entertainment and recreation",2021,9.78
+Italy,Other service activities,2014,7.51
+Italy,Other service activities,2015,7.66
+Italy,Other service activities,2016,7.72
+Italy,Other service activities,2017,7.76
+Italy,Other service activities,2018,7.75
+Italy,Other service activities,2019,7.78
+Italy,Other service activities,2020,7.86
+Italy,Other service activities,2021,7.88
+Nord-ovest,TOTAL,2014,10.01
+Nord-ovest,TOTAL,2015,10.18
+Nord-ovest,TOTAL,2016,10.19
+Nord-ovest,TOTAL,2017,10.29
+Nord-ovest,TOTAL,2018,10.31
+Nord-ovest,TOTAL,2019,10.38
+Nord-ovest,TOTAL,2020,10.67
+Nord-ovest,TOTAL,2021,10.64
 Nord-ovest,Mining and quarrying,2014,14.83
 Nord-ovest,Mining and quarrying,2015,16.85
 Nord-ovest,Mining and quarrying,2016,15.32
@@ -143,6 +303,14 @@ Nord-ovest,Other service activities,2018,7.77
 Nord-ovest,Other service activities,2019,7.81
 Nord-ovest,Other service activities,2020,7.92
 Nord-ovest,Other service activities,2021,7.93
+Nord-est,TOTAL,2014,10.04
+Nord-est,TOTAL,2015,10.19
+Nord-est,TOTAL,2016,10.22
+Nord-est,TOTAL,2017,10.32
+Nord-est,TOTAL,2018,10.35
+Nord-est,TOTAL,2019,10.48
+Nord-est,TOTAL,2020,10.62
+Nord-est,TOTAL,2021,10.63
 Nord-est,Mining and quarrying,2014,13.7
 Nord-est,Mining and quarrying,2015,15.01
 Nord-est,Mining and quarrying,2016,13.7
@@ -287,6 +455,14 @@ Nord-est,Other service activities,2018,7.77
 Nord-est,Other service activities,2019,7.8
 Nord-est,Other service activities,2020,7.88
 Nord-est,Other service activities,2021,7.87
+Centro (I),TOTAL,2014,9.66
+Centro (I),TOTAL,2015,9.81
+Centro (I),TOTAL,2016,9.81
+Centro (I),TOTAL,2017,9.91
+Centro (I),TOTAL,2018,9.96
+Centro (I),TOTAL,2019,10.08
+Centro (I),TOTAL,2020,10.25
+Centro (I),TOTAL,2021,10.31
 Centro (I),Mining and quarrying,2014,13.32
 Centro (I),Mining and quarrying,2015,12.69
 Centro (I),Mining and quarrying,2016,12.96
@@ -431,6 +607,14 @@ Centro (I),Other service activities,2018,7.74
 Centro (I),Other service activities,2019,7.79
 Centro (I),Other service activities,2020,7.81
 Centro (I),Other service activities,2021,7.84
+Sud,TOTAL,2014,9.15
+Sud,TOTAL,2015,9.29
+Sud,TOTAL,2016,9.31
+Sud,TOTAL,2017,9.41
+Sud,TOTAL,2018,9.4
+Sud,TOTAL,2019,9.48
+Sud,TOTAL,2020,9.65
+Sud,TOTAL,2021,9.72
 Sud,Mining and quarrying,2014,12.51
 Sud,Mining and quarrying,2015,13.49
 Sud,Mining and quarrying,2016,12.97
