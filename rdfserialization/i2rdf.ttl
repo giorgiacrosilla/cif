@@ -46,7 +46,7 @@
 
 <https://github.com/giorgiacrosilla/cif/blob/main/datasets/intermediate_datasets/i2.csv>
         a dcat:Distribution ;
-        dcterms:title "CSV i2"@en ;
+        dcterms:title "CSV I2"@en ;
         dcterms:description "Mashup dataset regarding working satisfaction per hourly wage of workers between 15 and 24 y/o (2014-2021)"@en ;
         dct:format    <http://publications.europa.eu/resource/authority/file-type/CSV> ;
         dcat:mediaType    <http://www.iana.org/assignments/media-types/text/csv> ;

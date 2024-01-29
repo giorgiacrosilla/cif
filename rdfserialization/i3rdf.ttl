@@ -50,9 +50,9 @@
         a    skos:Concept ;
         skos:prefLabel  "Education"@en.
 
-<https://github.com/giorgiacrosilla/cif/blob/main/datasets/intermediate_datasets/i2.csv>
+<https://github.com/giorgiacrosilla/cif/blob/main/datasets/intermediate_datasets/i3.csv>
         a dcat:Distribution ;
-        dcterms:title "CSV i3"@en ;
+        dcterms:title "CSV I3"@en ;
         dcterms:description "Mashup dataset regarding the average salary based on type of contract, age of the employees and educational qualification (2014-2021)."@en ;
         dct:format    <http://publications.europa.eu/resource/authority/file-type/CSV> ;
         dcat:mediaType    <http://www.iana.org/assignments/media-types/text/csv> ;
