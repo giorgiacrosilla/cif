@@ -1,0 +1,69 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix dcatapit: <http://dati.gov.it/onto/dcatapit/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix adms: <http://www.w3.org/ns/adms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix prov: <https://www.w3.org/TR/prov-o/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix cc: <https://wiki.creativecommons.org/wiki/License_Output>.
+
+<https://github.com/giorgiacrosilla/cif/resource/intermediate_dataset/i3>
+ 		a dcatapit:Dataset ,
+        dcat:Dataset ,
+        prov:Entity;
+
+        adms:identifier "I3." ;            
+        dct:title "I3." ;
+        dct:description "Mashup dataset regarding the average salary based on type of contract, age of the employees and educational qualification (2014-2021)." ;
+        dcat:subject  <https://publications.europa.eu/resource/authority/dir-eu-legal-act/05202020>; <https://publications.europa.eu/resource/authority/ed1/ecoicop/10>
+        dcat:keyword "work wages"@en, "working youth"@en , "educational qualification"@en , "italy"@en ;
+        dcat:keyword  "stipendi"@it, "giovan* lavorator*"@it,"competenza"@en "italia"@it ;
+        dcterms:publisher <https://github.com/giorgiacrosilla/cif>;
+        dcterms:creator   <https://github.com/giorgiacrosilla/cif/team/lucia1299>;
+        dcterms:creator   <https://github.com/giorgiacrosilla/cif/team/GaiaOrtona>;
+
+        dcterms:issued      "2024-01-20@"^^xsd:date;
+        dcterms:modified    "2024-01-20@"^^xsd:date;
+
+        prov:wasDerivedFrom  <https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0500LAB,1.0/LAB_EMPLWAGE/DCSC_RACLI/IT1,533_957_DF_DCSC_RACLI_4,1.0>, 
+                             <https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0500LAB,1.0/LAB_EMPLWAGE/DCSC_RACLI/IT1,533_957_DF_DCSC_RACLI_1,1.0>  ,
+                             <https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0500LAB,1.0/LAB_EMPLWAGE/DCSC_RACLI/IT1,533_957_DF_DCSC_RACLI_3,1.0>;
+        dcat:distribution <https://github.com/giorgiacrosilla/cif/blob/main/datasets/intermediate_datasets/i3.csv> ; 
+
+        dcat:startDate     "2014-01-01"^^xsd:date ;
+        dcat:endDate       "2021-12-31"^^xsd:date ;
+
+        dcat:landingPage <https://giorgiacrosilla.github.io/cif/> ;
+        dct:language    <http://publications.europa.eu/resource/authority/language/ENG/> ;
+        dcterms:license	    <https://creativecommons.org/licenses/by/4.0/> ;
+        dcterms:rightsHolder   <https://github.com/giorgiacrosilla/cif> ;
+        dct:type <http://inspire.ec.europa.eu/metadata-codelist/ResourceType/series>
+    .
+
+
+<https://publications.europa.eu/resource/authority/dir-eu-legal-act/05202020>
+        a    skos:Concept ;
+        skos:prefLabel  "Wages, income and working hours"@en.
+
+<https://publications.europa.eu/resource/authority/ed1/ecoicop/10>
+        a    skos:Concept ;
+        skos:prefLabel  "Education"@en.
+
+<https://github.com/giorgiacrosilla/cif/blob/main/datasets/intermediate_datasets/i2.csv>
+        a dcat:Distribution ;
+        dcterms:title "CSV i3"@en ;
+        dcterms:description "Mashup dataset regarding the average salary based on type of contract, age of the employees and educational qualification (2014-2021)."@en ;
+        dct:format    <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+        dcat:mediaType    <http://www.iana.org/assignments/media-types/text/csv> ;
+        dct:licence     <https://creativecommons.org/publicdomain/zero/1.0/>.
+
+<https://github.com/giorgiacrosilla/cif> 
+            a dcatapit:Agent , 
+            dct:identifier "cif".
+   
+<https://creativecommons.org/publicdomain/zero/1.0/>
+            a  dcatapit:LicenseDocument , dct:LicenseDocument ;
+            dct:type  <http://purl.org/adms/licencetype/Attribution> ;
+            foaf:name  "CCO" ;
+            owl:versionInfo  "1.0" .
