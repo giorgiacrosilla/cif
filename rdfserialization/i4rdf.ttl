@@ -1,80 +1,63 @@
-@prefix dcat: <http://www.w3.org/ns/dcat#>.
-@prefix dcatapit: <http://dati.gov.it/onto/dcatapit/>.
-@prefix dcterms: <http://purl.org/dc/terms/>.
-@prefix foaf: <http://xmlns.com/foaf/0.1/>.
-@prefix adms: <http://www.w3.org/ns/adms#>.
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix prov: <https://www.w3.org/TR/prov-o/>.
-@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
-@prefix cc: <https://wiki.creativecommons.org/wiki/License_Output>.
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <https://www.w3.org/TR/prov-o/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 
 <https://github.com/giorgiacrosilla/cif/resource/intermediate_dataset/i4>
- 	a dcatapit:Dataset ,
-        dcat:Dataset ,
-        prov:Entity;
+  a <http://dati.gov.it/onto/dcatapit/Dataset>, dcat:Dataset, <https://www.w3.org/TR/prov-o/Entity> ;
+  adms:identifier "I4." ;
+  dc:title "I4." ;
+  dc:description "Mashup dataset regarding  graduates' employment status based on satisfaction, occupational levels and hourly wages (2014-2022)" ;
+  dcat:subject <http://eurovoc.europa.eu/3907>, <https://publications.europa.eu/resource/authority/dir-eu-legal-act/05202020> ;
+  dcat:keyword "working satisfaction"@en, "working youth"@en, "work wages"@en, "italy"@en, "soddisfazione lavorativa"@it, "giovan* lavorator*"@it, "stipendi"@it, "italia"@it ;
+  dc:publisher <https://github.com/giorgiacrosilla/cif> ;
+  dc:creator <https://github.com/giorgiacrosilla/cif/team/lucia1299>, <https://github.com/giorgiacrosilla/cif/team/GaiaOrtona> ;
+  dc:issued "2024-01-20@"^^xsd:date ;
+  dc:modified "2024-01-20@"^^xsd:date ;
+  prov:wasDerivedFrom <https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0850DAI,1.0/SATISF_LW/WORK_SATISF/IT1,83_63_DF_DCCV_AVQ_PERSONE_152,1.0>, <https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0500LAB,1.0/LAB_EMPLWAGE/DCSC_RACLI/IT1,533_957_DF_DCSC_RACLI_3,1.0>, <https://github.com/giorgiacrosilla/cif/resource/intermediate_dataset/D.17> ;
+  dcat:distribution <https://github.com/giorgiacrosilla/cif/blob/main/datasets/intermediate_datasets/i4.csv> ;
+  dcat:startDate "2014-01-01"^^xsd:date ;
+  dcat:endDate "2022-12-31"^^xsd:date ;
+  dcat:landingPage <https://giorgiacrosilla.github.io/cif/> ;
+  dc:language <http://publications.europa.eu/resource/authority/language/ENG/> ;
+  dc:license <https://creativecommons.org/licenses/by-nc/4.0/>, <https://creativecommons.org/licenses/by-sa/4.0/>;
+  dc:rightsHolder <https://github.com/giorgiacrosilla/cif> ;
+  dc:type <http://inspire.ec.europa.eu/metadata-codelist/ResourceType/series> .
 
-        adms:identifier "I4." ;            
-        dct:title "I4." ;
-        dct:description "Mashup dataset regarding  graduates' employment status based on satisfaction, occupational levels and hourly wages (2014-2022)" ;
-        dcat:subject  <http://eurovoc.europa.eu/3907>, <https://publications.europa.eu/resource/authority/dir-eu-legal-act/05202020>;
-        dcat:keyword "working satisfaction"@en, "working youth"@en , "work wages"@en "italy"@en ;
-        dcat:keyword  "soddisfazione lavorativa"@it, "giovan* lavorator*"@it, "stipendi"@it "italia"@it ;
-        dcterms:publisher <https://github.com/giorgiacrosilla/cif>;
-        dcterms:creator   <https://github.com/giorgiacrosilla/cif/team/lucia1299>;
-        dcterms:creator   <https://github.com/giorgiacrosilla/cif/team/GaiaOrtona>;
-
-        dcterms:issued      "2024-01-20@"^^xsd:date;
-        dcterms:modified    "2024-01-20@"^^xsd:date;
-
-        prov:wasDerivedFrom <https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0850DAI,1.0/SATISF_LW/WORK_SATISF/IT1,83_63_DF_DCCV_AVQ_PERSONE_152,1.0>
-                            <https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0500LAB,1.0/LAB_EMPLWAGE/DCSC_RACLI/IT1,533_957_DF_DCSC_RACLI_3,1.0>
-                            <https://github.com/giorgiacrosilla/cif/resource/intermediate_dataset/D.17>;
-        dcat:distribution <https://github.com/giorgiacrosilla/cif/blob/main/datasets/intermediate_datasets/i4.csv> ; 
-
-        dcat:startDate     "2014-01-01"^^xsd:date ;
-        dcat:endDate       "2022-12-31"^^xsd:date ;
-
-        dcat:landingPage <https://giorgiacrosilla.github.io/cif/> ;
-        dct:language    <http://publications.europa.eu/resource/authority/language/ENG/> ;
-        dcterms:license	    <https://creativecommons.org/publicdomain/zero/1.0/> ;
-        dcterms:rightsHolder   <https://github.com/giorgiacrosilla/cif> ;
-        dct:type <http://inspire.ec.europa.eu/metadata-codelist/ResourceType/series>
-    .
-
-<https://github.com/giorgiacrosilla/cif/resource/intermediate_dataset/D.17>
-        dct:hasPart <https://www2.almalaurea.it/cgi-php/universita/statistiche/visualizza.php?anno=2022&corstipo=tutti&ateneo=tutti&facolta=tutti&gruppo=tutti&livello=tutti&area4=tutti&pa=tutti&classe=tutti&postcorso=tutti&isstella=0&annolau=3&condocc=tutti&iscrls=tutti&disaggregazione=corstipo&LANG=it&CONFIG=occupazione>;
-        dct:hasPart <https://www2.almalaurea.it/cgi-php/universita/statistiche/visualizza.php?anno=2021&corstipo=tutti&ateneo=tutti&facolta=tutti&gruppo=tutti&livello=tutti&area4=tutti&pa=tutti&classe=tutti&postcorso=tutti&isstella=0&annolau=3&condocc=tutti&iscrls=tutti&disaggregazione=corstipo&LANG=it&CONFIG=occupazione>;
-        dct:hasPart <https://www2.almalaurea.it/cgi-php/universita/statistiche/visualizza.php?anno=2020&corstipo=tutti&ateneo=tutti&facolta=tutti&gruppo=tutti&livello=tutti&area4=tutti&pa=tutti&classe=tutti&postcorso=tutti&isstella=0&annolau=3&condocc=tutti&iscrls=tutti&disaggregazione=corstipo&LANG=it&CONFIG=occupazione>;
-        dct:hasPart <https://www2.almalaurea.it/cgi-php/universita/statistiche/visualizza.php?anno=2019&corstipo=tutti&ateneo=tutti&facolta=tutti&gruppo=tutti&livello=tutti&area4=tutti&pa=tutti&classe=tutti&postcorso=tutti&isstella=0&annolau=3&condocc=tutti&iscrls=tutti&disaggregazione=corstipo&LANG=it&CONFIG=occupazione>;
-        dct:hasPart <https://www2.almalaurea.it/cgi-php/universita/statistiche/visualizza.php?anno=2018&corstipo=tutti&ateneo=tutti&facolta=tutti&gruppo=tutti&livello=tutti&area4=tutti&pa=tutti&classe=tutti&postcorso=tutti&isstella=0&annolau=3&condocc=tutti&iscrls=tutti&disaggregazione=corstipo&LANG=it&CONFIG=occupazione>;
-        dct:hasPart <https://www2.almalaurea.it/cgi-php/universita/statistiche/visualizza.php?anno=2017&corstipo=tutti&ateneo=tutti&facolta=tutti&gruppo=tutti&livello=tutti&area4=tutti&pa=tutti&classe=tutti&postcorso=tutti&isstella=0&annolau=3&condocc=tutti&iscrls=tutti&disaggregazione=corstipo&LANG=it&CONFIG=occupazione>;
-        dct:hasPart <https://www2.almalaurea.it/cgi-php/universita/statistiche/visualizza.php?anno=2016&corstipo=tutti&ateneo=tutti&facolta=tutti&gruppo=tutti&livello=tutti&area4=tutti&pa=tutti&classe=tutti&postcorso=tutti&isstella=0&annolau=3&condocc=tutti&iscrls=tutti&disaggregazione=corstipo&LANG=it&CONFIG=occupazione>;
-        dct:hasPart <https://www2.almalaurea.it/cgi-php/universita/statistiche/visualizza.php?anno=2015&corstipo=tutti&ateneo=tutti&facolta=tutti&gruppo=tutti&livello=tutti&area4=tutti&pa=tutti&classe=tutti&postcorso=tutti&isstella=0&annolau=3&condocc=tutti&iscrls=tutti&disaggregazione=corstipo&LANG=it&CONFIG=occupazione>;
-        dct:hasPart <https://www2.almalaurea.it/cgi-php/universita/statistiche/visualizza.php?anno=2014&corstipo=tutti&ateneo=tutti&facolta=tutti&gruppo=tutti&livello=tutti&area4=tutti&pa=tutti&classe=tutti&postcorso=tutti&isstella=0&annolau=3&condocc=tutti&iscrls=tutti&disaggregazione=corstipo&LANG=it&CONFIG=occupazione>.
-        
-
+<https://github.com/giorgiacrosilla/cif/resource/intermediate_dataset/D.17> dc:hasPart <https://www2.almalaurea.it/cgi-php/universita/statistiche/visualizza.php?anno=2022&corstipo=tutti&ateneo=tutti&facolta=tutti&gruppo=tutti&livello=tutti&area4=tutti&pa=tutti&classe=tutti&postcorso=tutti&isstella=0&annolau=3&condocc=tutti&iscrls=tutti&disaggregazione=corstipo&LANG=it&CONFIG=occupazione>, <https://www2.almalaurea.it/cgi-php/universita/statistiche/visualizza.php?anno=2021&corstipo=tutti&ateneo=tutti&facolta=tutti&gruppo=tutti&livello=tutti&area4=tutti&pa=tutti&classe=tutti&postcorso=tutti&isstella=0&annolau=3&condocc=tutti&iscrls=tutti&disaggregazione=corstipo&LANG=it&CONFIG=occupazione>, <https://www2.almalaurea.it/cgi-php/universita/statistiche/visualizza.php?anno=2020&corstipo=tutti&ateneo=tutti&facolta=tutti&gruppo=tutti&livello=tutti&area4=tutti&pa=tutti&classe=tutti&postcorso=tutti&isstella=0&annolau=3&condocc=tutti&iscrls=tutti&disaggregazione=corstipo&LANG=it&CONFIG=occupazione>, <https://www2.almalaurea.it/cgi-php/universita/statistiche/visualizza.php?anno=2019&corstipo=tutti&ateneo=tutti&facolta=tutti&gruppo=tutti&livello=tutti&area4=tutti&pa=tutti&classe=tutti&postcorso=tutti&isstella=0&annolau=3&condocc=tutti&iscrls=tutti&disaggregazione=corstipo&LANG=it&CONFIG=occupazione>, <https://www2.almalaurea.it/cgi-php/universita/statistiche/visualizza.php?anno=2018&corstipo=tutti&ateneo=tutti&facolta=tutti&gruppo=tutti&livello=tutti&area4=tutti&pa=tutti&classe=tutti&postcorso=tutti&isstella=0&annolau=3&condocc=tutti&iscrls=tutti&disaggregazione=corstipo&LANG=it&CONFIG=occupazione>, <https://www2.almalaurea.it/cgi-php/universita/statistiche/visualizza.php?anno=2017&corstipo=tutti&ateneo=tutti&facolta=tutti&gruppo=tutti&livello=tutti&area4=tutti&pa=tutti&classe=tutti&postcorso=tutti&isstella=0&annolau=3&condocc=tutti&iscrls=tutti&disaggregazione=corstipo&LANG=it&CONFIG=occupazione>, <https://www2.almalaurea.it/cgi-php/universita/statistiche/visualizza.php?anno=2016&corstipo=tutti&ateneo=tutti&facolta=tutti&gruppo=tutti&livello=tutti&area4=tutti&pa=tutti&classe=tutti&postcorso=tutti&isstella=0&annolau=3&condocc=tutti&iscrls=tutti&disaggregazione=corstipo&LANG=it&CONFIG=occupazione>, <https://www2.almalaurea.it/cgi-php/universita/statistiche/visualizza.php?anno=2015&corstipo=tutti&ateneo=tutti&facolta=tutti&gruppo=tutti&livello=tutti&area4=tutti&pa=tutti&classe=tutti&postcorso=tutti&isstella=0&annolau=3&condocc=tutti&iscrls=tutti&disaggregazione=corstipo&LANG=it&CONFIG=occupazione>, <https://www2.almalaurea.it/cgi-php/universita/statistiche/visualizza.php?anno=2014&corstipo=tutti&ateneo=tutti&facolta=tutti&gruppo=tutti&livello=tutti&area4=tutti&pa=tutti&classe=tutti&postcorso=tutti&isstella=0&annolau=3&condocc=tutti&iscrls=tutti&disaggregazione=corstipo&LANG=it&CONFIG=occupazione> .
+                                                                            dc:licence <https://creativecommons.org/licenses/by-sa/4.0/>.
 <http://eurovoc.europa.eu/3907>
-        a    skos:Concept ;
-        skos:prefLabel  "occupational satisfaction"@en.
+  a skos:Concept ;
+  skos:prefLabel "occupational satisfaction"@en .
 
 <https://publications.europa.eu/resource/authority/dir-eu-legal-act/05202020>
-        a    skos:Concept ;
-        skos:prefLabel  "Wages, income and working hours"@en.
+  a skos:Concept ;
+  skos:prefLabel "Wages, income and working hours"@en .
 
 <https://github.com/giorgiacrosilla/cif/blob/main/datasets/intermediate_datasets/i4.csv>
-        a dcat:Distribution ;
-        dcterms:title "CSV I4"@en ;
-        dcterms:description "Mashup dataset regarding  graduates' employment status based on satisfaction, occupational levels and hourly wages (2014-2021)"@en ;
-        dct:format    <http://publications.europa.eu/resource/authority/file-type/CSV> ;
-        dcat:mediaType    <http://www.iana.org/assignments/media-types/text/csv> ;
-        dct:licence     <https://creativecommons.org/publicdomain/zero/1.0/>.
+  a dcat:Distribution ;
+  dc:title "CSV I4"@en ;
+  dc:description "Mashup dataset regarding  graduates' employment status based on satisfaction, occupational levels and hourly wages (2014-2021)"@en ;
+  dc:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+  dcat:mediaType <http://www.iana.org/assignments/media-types/text/csv> ;
+  dc:licence <https://creativecommons.org/licenses/by-nc/4.0/>, <https://creativecommons.org/licenses/by-sa/4.0/> .
 
-<https://github.com/giorgiacrosilla/cif> 
-            a dcatapit:Agent , 
-            dct:identifier "cif".
-   
-<https://creativecommons.org/publicdomain/zero/1.0/>
-            a  dcatapit:LicenseDocument , dct:LicenseDocument ;
-            dct:type  <http://purl.org/adms/licencetype/Attribution> ;
-            foaf:name  "CCO" ;
-            owl:versionInfo  "1.0" .
+<https://github.com/giorgiacrosilla/cif>
+  a <http://dati.gov.it/onto/dcatapit/Agent> ;
+  dc:identifier "cif" .
+
+<https://creativecommons.org/licenses/by-nc/4.0/>
+  a <http://dati.gov.it/onto/dcatapit/LicenseDocument>, dc:LicenseDocument ;
+  dc:type <http://purl.org/adms/licencetype/Attribution> ;
+  foaf:name "CC BY-NC" ;
+  owl:versionInfo "4.0" .
+
+<https://creativecommons.org/licenses/by-sa/4.0/>
+  a <http://dati.gov.it/onto/dcatapit/LicenseDocument>, dc:LicenseDocument ;
+  dc:type <http://purl.org/adms/licencetype/Attribution> ;
+  foaf:name "CC BY-SA" ;
+  owl:versionInfo "4.0" .
