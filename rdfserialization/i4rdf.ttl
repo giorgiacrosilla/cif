@@ -36,7 +36,7 @@
 
         dcat:landingPage <https://giorgiacrosilla.github.io/cif/> ;
         dct:language    <http://publications.europa.eu/resource/authority/language/ENG/> ;
-        dcterms:license	    <https://creativecommons.org/licenses/by/4.0/> ;
+        dcterms:license	    <https://creativecommons.org/publicdomain/zero/1.0/> ;
         dcterms:rightsHolder   <https://github.com/giorgiacrosilla/cif> ;
         dct:type <http://inspire.ec.europa.eu/metadata-codelist/ResourceType/series>
     .

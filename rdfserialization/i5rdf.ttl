@@ -8,17 +8,17 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix cc: <https://wiki.creativecommons.org/wiki/License_Output>.
 
-<https://github.com/giorgiacrosilla/cif/resource/intermediate_dataset/i3>
- 		a dcatapit:Dataset ,
+<https://github.com/giorgiacrosilla/cif/resource/intermediate_dataset/i5>
+ 	a dcatapit:Dataset ,
         dcat:Dataset ,
         prov:Entity;
 
-        adms:identifier "I3." ;            
-        dct:title "I3." ;
-        dct:description "Mashup dataset regarding the average salary based on type of contract, age of the employees and educational qualification (2014-2021)." ;
-        dcat:subject  <https://publications.europa.eu/resource/authority/dir-eu-legal-act/05202020>; <https://publications.europa.eu/resource/authority/ed1/ecoicop/10>
-        dcat:keyword "work wages"@en, "working youth"@en , "educational qualification"@en , "italy"@en ;
-        dcat:keyword  "stipendi"@it, "giovan* lavorator*"@it,"competenza"@en "italia"@it ;
+        adms:identifier "I5." ;            
+        dct:title "I5." ;
+        dct:description "Mashup dataset regarding emigration and economic independence (2014-2022)" ;
+        dcat:subject  <http://eurovoc.europa.eu/724>, <http://eurovoc.europa.eu/1345>;
+        dcat:keyword "emigration"@en, "economic independence"@en , "italy"@en ;
+        dcat:keyword  "emigrazione"@it, "indipendenza economica"@it, "italia"@it ;
         dcterms:publisher <https://github.com/giorgiacrosilla/cif>;
         dcterms:creator   <https://github.com/giorgiacrosilla/cif/team/lucia1299>;
         dcterms:creator   <https://github.com/giorgiacrosilla/cif/team/GaiaOrtona>;
@@ -26,13 +26,12 @@
         dcterms:issued      "2024-01-20@"^^xsd:date;
         dcterms:modified    "2024-01-20@"^^xsd:date;
 
-        prov:wasDerivedFrom  <https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0500LAB,1.0/LAB_EMPLWAGE/DCSC_RACLI/IT1,533_957_DF_DCSC_RACLI_4,1.0>, 
-                             <https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0500LAB,1.0/LAB_EMPLWAGE/DCSC_RACLI/IT1,533_957_DF_DCSC_RACLI_1,1.0>,
-                             <https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0500LAB,1.0/LAB_EMPLWAGE/DCSC_RACLI/IT1,533_957_DF_DCSC_RACLI_3,1.0>;
-        dcat:distribution <https://github.com/giorgiacrosilla/cif/blob/main/datasets/intermediate_datasets/i3.csv> ; 
+        prov:wasDerivedFrom  <https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0400PRI,1.0/DCSP_IPAB/IT1,143_497_DF_DCSP_IPAB_2,1.0>,
+                             <https://github.com/giorgiacrosilla/cif/resource/intermediate_dataset/I1>;
+        dcat:distribution <https://github.com/giorgiacrosilla/cif/blob/main/datasets/intermediate_datasets/i5.csv> ; 
 
         dcat:startDate     "2014-01-01"^^xsd:date ;
-        dcat:endDate       "2021-12-31"^^xsd:date ;
+        dcat:endDate       "2022-12-31"^^xsd:date ;
 
         dcat:landingPage <https://giorgiacrosilla.github.io/cif/> ;
         dct:language    <http://publications.europa.eu/resource/authority/language/ENG/> ;
@@ -41,19 +40,23 @@
         dct:type <http://inspire.ec.europa.eu/metadata-codelist/ResourceType/series>
     .
 
+ <https://github.com/giorgiacrosilla/cif/resource/intermediate_dataset/I1>
+        dct:hasPart <https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,POP,1.0/POP_HOUSEHOLDS/POP_HOUS_YOUNGLIV/IT1,83_63_DF_DCCV_AVQ_PERSONE_121,1.0>;
+        dct:hasPart <https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0400PRI,1.0/DCSP_IPAB/IT1,143_497_DF_DCSP_IPAB_2,1.0>.
 
-<https://publications.europa.eu/resource/authority/dir-eu-legal-act/05202020>
+
+<http://eurovoc.europa.eu/724>
         a    skos:Concept ;
-        skos:prefLabel  "Wages, income and working hours"@en.
+        skos:prefLabel  "emigration"@en.
 
-<https://publications.europa.eu/resource/authority/ed1/ecoicop/10>
+<http://eurovoc.europa.eu/1345>
         a    skos:Concept ;
-        skos:prefLabel  "Education"@en.
+        skos:prefLabel  "economic independence"@en.
 
-<https://github.com/giorgiacrosilla/cif/blob/main/datasets/intermediate_datasets/i3.csv>
+<https://github.com/giorgiacrosilla/cif/blob/main/datasets/intermediate_datasets/i2.csv>
         a dcat:Distribution ;
-        dcterms:title "CSV I3"@en ;
-        dcterms:description "Mashup dataset regarding the average salary based on type of contract, age of the employees and educational qualification (2014-2021)."@en ;
+        dcterms:title "CSV I5"@en ;
+        dcterms:description "Mashup dataset regarding emigration and economic independence"@en ;
         dct:format    <http://publications.europa.eu/resource/authority/file-type/CSV> ;
         dcat:mediaType    <http://www.iana.org/assignments/media-types/text/csv> ;
         dct:licence     <https://creativecommons.org/publicdomain/zero/1.0/>.
