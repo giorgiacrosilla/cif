@@ -11507,6 +11507,47 @@ small a {
   line-height: 2rem;
 }
 
+#numbers {
+  background-color: var(--colore2);
+}
+
+#numbers h2 {
+  color:white !important;
+}
+
+#numbers .containeranalysis {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.el {
+  background-color: var(--colore1);
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  margin: auto;
+}
+
+.el p {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin:25%;
+}
+
+.gr p {
+  text-align: center;
+}
+
+.cont
+{
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
 #arrowz > a {
   width: 50px;
   height: 50px;
