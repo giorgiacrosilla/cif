@@ -11520,6 +11520,7 @@ small a {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
+  margin-bottom: 5%;
 }
 
 .el {
@@ -11533,8 +11534,13 @@ small a {
 
 .el p {
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.8em;
   margin:25%;
+}
+
+.gr
+{
+  height: 70px;
 }
 
 .gr p {
@@ -11546,6 +11552,7 @@ small a {
   display: flex;
   flex-direction: column;
   width: 150px;
+  gap:10px;
 }
 
 #arrowz > a {
