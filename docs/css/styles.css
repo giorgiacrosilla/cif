@@ -355,7 +355,8 @@ table {
 
 .nav.nav-pills.flex-column {
   position: sticky;
-  top: 100px;}
+  top: 100px;
+}
 
 caption {
   padding-top: 0.5rem;
@@ -741,8 +742,8 @@ progress {
     height: 10vh;
     position: absolute;
     float: right;
-top:0;
-left:0;
+    top: 0;
+    left: 0;
     border-radius: 0.5rem 0 3rem;
     z-index: 0;
     background-size: 70px;
@@ -783,9 +784,9 @@ left:0;
     background-color: var(--colore1);
     height: 10vh;
     position: absolute;
-bottom:0;
-left:0;
-background-position: bottom;
+    bottom: 0;
+    left: 0;
+    background-position: bottom;
     border-radius: 0 3rem 0 0.5rem;
     background-size: 70px;
     background-repeat: no-repeat;
@@ -11297,6 +11298,15 @@ html {
 
 #documentation {
   width: 98%;
+  margin-bottom: 5%;
+}
+
+small {
+  color:white !important;
+}
+
+small a {
+  color:white !important;
 }
 .divider-custom {
   margin: 1.25rem 0 1.5rem;
