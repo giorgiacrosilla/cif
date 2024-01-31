@@ -1,6 +1,6 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix adms: <http://www.w3.org/ns/adms#> .
-@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <https://www.w3.org/TR/prov-o/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -10,23 +10,23 @@
 <https://github.com/giorgiacrosilla/cif/resource/intermediate_dataset/i3>
   a <http://dati.gov.it/onto/dcatapit/Dataset>, dcat:Dataset, <https://www.w3.org/TR/prov-o/Entity> ;
   adms:identifier "I3." ;
-  dc:title "I3." ;
-  dc:description "Mashup dataset regarding the average salary based on type of contract, age of the employees and educational qualification (2014-2021)." ;
+  dcterms:title "I3." ;
+  dcterms:description "Mashup dataset regarding the average salary based on type of contract, age of the employees and educational qualification (2014-2021)." ;
   dcat:subject <https://publications.europa.eu/resource/authority/dir-eu-legal-act/05202020>, <https://publications.europa.eu/resource/authority/ed1/ecoicop/10> ;
   dcat:keyword "work wages"@en, "working youth"@en, "educational qualification"@en, "italy"@en, "stipendi"@it, "giovan* lavorator*"@it, "competenza"@en, "italia"@it ;
-  dc:publisher <https://github.com/giorgiacrosilla/cif> ;
-  dc:creator <https://github.com/giorgiacrosilla/cif/team/lucia1299>, <https://github.com/giorgiacrosilla/cif/team/GaiaOrtona> ;
-  dc:issued "2024-01-20@"^^xsd:date ;
-  dc:modified "2024-01-20@"^^xsd:date ;
+  dcterms:publisher <https://github.com/giorgiacrosilla/cif> ;
+  dcterms:creator <https://github.com/giorgiacrosilla/cif/team/lucia1299>, <https://github.com/giorgiacrosilla/cif/team/GaiaOrtona> ;
+  dcterms:issued "2024-01-20@"^^xsd:date ;
+  dcterms:modified "2024-01-20@"^^xsd:date ;
   prov:wasDerivedFrom <https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0500LAB,1.0/LAB_EMPLWAGE/DCSC_RACLI/IT1,533_957_DF_DCSC_RACLI_4,1.0>, <https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0500LAB,1.0/LAB_EMPLWAGE/DCSC_RACLI/IT1,533_957_DF_DCSC_RACLI_1,1.0>, <https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0500LAB,1.0/LAB_EMPLWAGE/DCSC_RACLI/IT1,533_957_DF_DCSC_RACLI_3,1.0> ;
   dcat:distribution <https://github.com/giorgiacrosilla/cif/blob/main/datasets/intermediate_datasets/i3.csv> ;
   dcat:startDate "2014-01-01"^^xsd:date ;
   dcat:endDate "2021-12-31"^^xsd:date ;
   dcat:landingPage <https://giorgiacrosilla.github.io/cif/> ;
-  dc:language <http://publications.europa.eu/resource/authority/language/ENG/> ;
-  dc:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
-  dc:rightsHolder <https://github.com/giorgiacrosilla/cif> ;
-  dc:type <http://inspire.ec.europa.eu/metadata-codelist/ResourceType/series> .
+  dcterms:language <http://publications.europa.eu/resource/authority/language/ENG/> ;
+  dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+  dcterms:rightsHolder <https://github.com/giorgiacrosilla/cif> ;
+  dcterms:type <http://inspire.ec.europa.eu/metadata-codelist/ResourceType/series> .
 
 <https://publications.europa.eu/resource/authority/dir-eu-legal-act/05202020>
   a skos:Concept ;
@@ -38,18 +38,18 @@
 
 <https://github.com/giorgiacrosilla/cif/blob/main/datasets/intermediate_datasets/i3.csv>
   a dcat:Distribution ;
-  dc:title "CSV I3"@en ;
-  dc:description "Mashup dataset regarding the average salary based on type of contract, age of the employees and educational qualification (2014-2021)."@en ;
-  dc:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+  dcterms:title "CSV I3"@en ;
+  dcterms:description "Mashup dataset regarding the average salary based on type of contract, age of the employees and educational qualification (2014-2021)."@en ;
+  dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
   dcat:mediaType <http://www.iana.org/assignments/media-types/text/csv> ;
-  dc:licence <https://creativecommons.org/licenses/by-sa/4.0/> .
+  dcterms:licence <https://creativecommons.org/licenses/by-sa/4.0/> .
 
 <https://github.com/giorgiacrosilla/cif>
   a <http://dati.gov.it/onto/dcatapit/Agent> ;
-  dc:identifier "cif" .
+  dcterms:identifier "cif" .
 
 <https://creativecommons.org/licenses/by-sa/4.0/>
-  a <http://dati.gov.it/onto/dcatapit/LicenseDocument>, dc:LicenseDocument ;
-  dc:type <http://purl.org/adms/licencetype/Attribution> ;
+  a <http://dati.gov.it/onto/dcatapit/LicenseDocument>, dcterms:LicenseDocument ;
+  dcterms:type <http://purl.org/adms/licencetype/Attribution> ;
   foaf:name "CC BY_SA" ;
   owl:versionInfo "4.0" .

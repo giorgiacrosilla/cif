@@ -1,5 +1,5 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
-@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix adms: <http://www.w3.org/ns/adms#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <https://www.w3.org/TR/prov-o/> .
@@ -8,25 +8,25 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
 <https://github.com/giorgiacrosilla/cif/resource/intermediate_dataset/i2>
-  a <http://dati.gov.it/onto/dcatapit/Dataset>, dcat:Dataset, <https://www.w3.org/TR/prov-o/Entity>, <http://dati.gov.it/onto/dcatapit/LicenseDocument>, dc:LicenseDocument ;
+  a <http://dati.gov.it/onto/dcatapit/Dataset>, dcat:Dataset, <https://www.w3.org/TR/prov-o/Entity>, <http://dati.gov.it/onto/dcatapit/LicenseDocument>, dcterms:LicenseDocument ;
   adms:identifier "I2." ;
-  dc:title "I2." ;
-  dc:description "Mashup dataset regarding working satisfaction per hourly wage of workers between 15 and 24 y/o (2014-2021)" ;
+  dcterms:title "I2." ;
+  dcterms:description "Mashup dataset regarding working satisfaction per hourly wage of workers between 15 and 24 y/o (2014-2021)" ;
   dcat:subject <http://eurovoc.europa.eu/3907> ;
   dcat:keyword "working satisfaction"@en, "working youth"@en, "italy"@en, "soddisfazione lavorativa"@it, "giovan* lavorator*"@it, "italia"@it ;
-  dc:publisher <https://github.com/giorgiacrosilla/cif> ;
-  dc:creator <https://github.com/giorgiacrosilla/cif/team/lucia1299>, <https://github.com/giorgiacrosilla/cif/team/GaiaOrtona> ;
-  dc:issued "2024-01-20"^^xsd:date ;
-  dc:modified "2024-01-20"^^xsd:date ;
+  dcterms:publisher <https://github.com/giorgiacrosilla/cif> ;
+  dcterms:creator <https://github.com/giorgiacrosilla/cif/team/lucia1299>, <https://github.com/giorgiacrosilla/cif/team/GaiaOrtona> ;
+  dcterms:issued "2024-01-20"^^xsd:date ;
+  dcterms:modified "2024-01-20"^^xsd:date ;
   prov:wasDerivedFrom <http://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0850DAI,1.0/SATISF_LW/WORK_SATISF/IT1,83_63_DF_DCCV_AVQ_PERSONE_152,1.0>, <http://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0500LAB,1.0/LAB_EMPLWAGE/DCSC_RACLI/IT1,533_957_DF_DCSC_RACLI_1,1.0> ;
   dcat:distribution <https://github.com/giorgiacrosilla/cif/blob/main/datasets/intermediate_datasets/i2.csv> ;
   dcat:startDate "2014-01-01"^^xsd:date ;
   dcat:endDate "2021-12-31"^^xsd:date ;
   dcat:landingPage <https://giorgiacrosilla.github.io/cif/> ;
-  dc:language <http://publications.europa.eu/resource/authority/language/ENG/> ;
-  dc:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
-  dc:rightsHolder <https://github.com/giorgiacrosilla/cif> ;
-  dc:type <http://inspire.ec.europa.eu/metadata-codelist/ResourceType/series> .
+  dcterms:language <http://publications.europa.eu/resource/authority/language/ENG/> ;
+  dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+  dcterms:rightsHolder <https://github.com/giorgiacrosilla/cif> ;
+  dcterms:type <http://inspire.ec.europa.eu/metadata-codelist/ResourceType/series> .
 
 <http://eurovoc.europa.eu/3907>
   a skos:Concept ;
@@ -34,18 +34,18 @@
 
 <https://github.com/giorgiacrosilla/cif/blob/main/datasets/intermediate_datasets/i2.csv>
   a dcat:Distribution ;
-  dc:title "CSV I2"@en ;
-  dc:description "Mashup dataset regarding working satisfaction per hourly wage of workers between 15 and 24 y/o (2014-2021)"@en ;
-  dc:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+  dcterms:title "CSV I2"@en ;
+  dcterms:description "Mashup dataset regarding working satisfaction per hourly wage of workers between 15 and 24 y/o (2014-2021)"@en ;
+  dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
   dcat:mediaType <http://www.iana.org/assignments/media-types/text/csv> ;
-  dc:licence <https://creativecommons.org/licenses/by-sa/4.0/> .
+  dcterms:licence <https://creativecommons.org/licenses/by-sa/4.0/> .
 
 <https://github.com/giorgiacrosilla/cif>
-  a <http://dati.gov.it/onto/dcatapit/Agent>, dc:Agent ;
-  dc:identifier "cif" .
+  a <http://dati.gov.it/onto/dcatapit/Agent>, dcterms:Agent ;
+  dcterms:identifier "cif" .
 
 <https://creativecommons.org/licenses/by-sa/4.0/>
-  a <http://dati.gov.it/onto/dcatapit/LicenseDocument>, dc:LicenseDocument ;
-  dc:type <http://purl.org/adms/licencetype/Attribution> ;
+  a <http://dati.gov.it/onto/dcatapit/LicenseDocument>, dcterms:LicenseDocument ;
+  dcterms:type <http://purl.org/adms/licencetype/Attribution> ;
   foaf:name "CC BY-SA" ;
   owl:versionInfo "4.0" .
