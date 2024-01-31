@@ -11507,6 +11507,118 @@ small a {
   line-height: 2rem;
 }
 
+#tabi {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap:3%;
+}
+
+#tabi div {
+  width: 50%;
+  margin: 0% 3% 5% 3%;
+}
+
+#tabi div img {
+  width: 100%;
+  padding-top:5px;
+}
+
+#rq
+{
+  margin-left: 7%;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1.1em;
+  font-family: 'Montserrat';
+}
+
+#ciao {
+  border-radius: 0.5rem;
+  padding: 2%;
+  height:35vh;
+  font-weight: 500;
+  color: white;
+  position:relative;
+  background: var(--colore1);
+  margin: 0 5%;
+}
+
+#element0 {
+  background-color: var(--colore2);
+  width: 15vh;
+  height: 15vh;
+  position: absolute;
+  border-radius: 50%;
+  left: 95%;
+  margin-top: -5%;
+}
+
+#element0 p
+{
+  text-align: center;
+  font-weight: bold;
+  font-size: 4em;
+  margin:5%;
+}
+
+#ciao h3 {
+  margin-top: 6%;
+  font-weight: 500;
+  font-size: 1.6em;
+}
+#numbers {
+  background-color: var(--colore2);
+}
+
+#numbers h2 {
+  color:white !important;
+}
+
+#numbers .containeranalysis {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 5%;
+}
+
+.el {
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  margin: auto;
+  background-image: url("pngegg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: bottom;
+}
+
+.el p {
+  font-weight: bold;
+  font-size: 2em;
+  margin: 30% 20%;
+}
+
+.gr
+{
+  height: 70px;
+}
+
+.gr p {
+  text-align: center;
+}
+
+.cont
+{
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  gap:10px;
+}
+
 #arrowz > a {
   width: 50px;
   height: 50px;
