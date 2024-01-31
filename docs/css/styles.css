@@ -11507,6 +11507,67 @@ small a {
   line-height: 2rem;
 }
 
+#tabi {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap:5%;
+}
+
+#tabi div {
+  width: 50%;
+  margin: 3% 3% 5% 3%;
+}
+
+#tabi div img {
+  width: 100%;
+  padding-top:10px;
+}
+
+#rq
+{
+  margin-left: 7%;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1.1em;
+  font-family: 'Montserrat';
+}
+
+#ciao {
+  border-radius: 0.5rem;
+  padding: 2%;
+  height:35vh;
+  font-weight: 500;
+  color: white;
+  position:relative;
+  background: var(--colore1);
+  margin: 0 5%;
+}
+
+#element0 {
+  background-color: var(--colore2);
+  width: 15vh;
+  height: 15vh;
+  position: absolute;
+  border-radius: 50%;
+  left: 95%;
+  margin-top: -5%;
+}
+
+#element0 p
+{
+  text-align: center;
+  font-weight: bold;
+  font-size: 4em;
+  margin:5%;
+}
+
+#ciao h3 {
+  margin-top: 6%;
+  font-weight: 500;
+  font-size: 1.6em;
+}
 #numbers {
   background-color: var(--colore2);
 }
@@ -11524,18 +11585,21 @@ small a {
 }
 
 .el {
-  background-color: var(--colore1);
-  border-radius: 50%;
   height: 150px;
   width: 150px;
   text-align: center;
   margin: auto;
+  background-image: url("pngegg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: bottom;
 }
 
 .el p {
   font-weight: bold;
-  font-size: 1.8em;
-  margin:25%;
+  font-size: 2em;
+  margin: 30% 20%;
 }
 
 .gr
