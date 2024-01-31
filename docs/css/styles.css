@@ -106,7 +106,7 @@
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
-  font-size: var(--bs-body-font-size);
+  font-size: 1.05em !important;
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
@@ -11289,7 +11289,7 @@ html {
 }
 
 .containeranalysis {
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 .scrollspy {
@@ -11511,17 +11511,10 @@ small a {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  gap:3%;
 }
 
 #tabi div {
-  width: 50%;
-  margin: 0% 3% 5% 3%;
-}
-
-#tabi div img {
-  width: 100%;
-  padding-top:5px;
+  margin: 0% 5% 3%;
 }
 
 #rq
