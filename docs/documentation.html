@@ -76,7 +76,8 @@
               </nav>
               <a class="nav-link" href="#item-3">Mashup</a>
               <a class="nav-link" href="#item-4">Visualization</a>
-              <a class="nav-link" href="#item-5">Conclusion</a>
+              <a class="nav-link" href="#item-5">RDF assertion of the metadata</a>
+              <a class="nav-link" href="#item-6">Conclusion</a>
             </nav>
           </nav>
         </div>
@@ -546,6 +547,81 @@
               </ul>
             </div>
             <div id="item-5">
+              <h4>RDF assertion of the metadata</h4>
+              <p>The produced mashed-up datasets have been described in their metadata specification following <a href="https://www.w3.org/TR/vocab-dcat-2/">DCAT AP version 2.0.0</a>, 
+                an RDF vocabulary designed to facilitate interoperability between data-catalogs published on the Web, and the resulting 
+                Turtle serialization can be accessed by selecting the item of interest in the following list:</p>
+                <ul>
+                  <li><a href="https://github.com/giorgiacrosilla/cif/blob/main/rdfserialization/i2rdf.ttl">Mashup dataset I2</a></li>
+                </ul>
+                <ul>
+                  <li><a href="https://github.com/giorgiacrosilla/cif/blob/main/rdfserialization/i3rdf.ttl">Mashup dataset I3</a></li>
+                </ul>
+                <ul>
+                  <li><a href="https://github.com/giorgiacrosilla/cif/blob/main/rdfserialization/i4rdf.ttl">Mashup dataset I4</a></li>
+                </ul>
+                <ul>
+                  <li><a href="https://github.com/giorgiacrosilla/cif/blob/main/rdfserialization/i5rdf.ttl">Mashup dataset I5</a></li>
+                </ul>
+                <div class="table-responsive-sm">
+                  <table class="table">
+                      <thead>
+                          <tr>
+                              <th scope="col"></th>
+                              <th scope="col">Datasets</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <th scope="row">Identifiers</th>
+                              <td class="table-txt">adms:identifier, dcterms:title</td>
+                          </tr>
+                          <tr>
+                              <th scope="row">Description</th>
+                              <td class="table-txt">dcterms:description, dcat:keyword</td>
+                              
+                          </tr>
+                          <tr>
+                              <th scope="row">Temporal</th>
+                              <td class="table-txt">dcterms:issued, dcterms:modified</td>
+                              
+                          </tr>
+                          <tr>
+                              <th scope="row">Spatial</th>
+                              <td class="table-txt">prov:wasDerivedFrom</td>
+                          </tr>
+                          <tr>
+                              <th scope="row">Composition</th>
+                              <td class="table-txt">dcterms:hasPart</td>
+                    
+                          </tr>
+                          <tr>
+                              <th scope="row">Agents</th>
+                              <td class="table-txt">dcterms:publisher, dcterms:creator</td>
+                              
+                          </tr>
+                          <tr>
+                              <th scope="row">Legal</th>
+                              <td class="table-txt">dcterms:rightsHolder, dcterms:license</td>
+                          </tr>
+                          <tr>
+                              <th scope="row">Distribution</th>
+                              <td class="table-txt">dcat:distribution</td>
+                          </tr>
+                          <tr>
+                              <th scope="row">Language</th>
+                              <td class="table-txt">dcterms:language</td>
+                          </tr>
+                          <tr>
+                              <th scope="row">Web</th>
+                              <td class="table-txt">dcat:Landingpage</td>
+                              
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+            </div>
+            <div id="item-6">
               <h4>Conclusion</h4>
               <p>
                 We've conducted thorough research on the status of young people
