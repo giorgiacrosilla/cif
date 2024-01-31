@@ -11540,20 +11540,20 @@ small a {
 
 #element0 {
   background-color: var(--colore2);
-  width: 15vh;
-  height: 15vh;
+  width: 13vh;
+  height: 13vh;
   position: absolute;
   border-radius: 50%;
-  left: -5%;
-  margin-top: -5%;
+  left: -4%;
+  margin-top: -4%;
 }
 
 #element0 p
 {
   text-align: center;
   font-weight: bold;
-  font-size: 4em;
-  margin:5%;
+  font-size: 3.8em;
+  margin: 4.8%;
 }
 
 #ciao h3 {
