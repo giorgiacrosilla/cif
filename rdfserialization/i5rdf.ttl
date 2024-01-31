@@ -38,7 +38,7 @@
   a skos:Concept ;
   skos:prefLabel "economic independence"@en .
 
-<https://github.com/giorgiacrosilla/cif/blob/main/datasets/intermediate_datasets/i2.csv>
+<https://github.com/giorgiacrosilla/cif/blob/main/datasets/intermediate_datasets/i5_final.csv>
   a dcat:Distribution ;
   dc:title "CSV I5"@en ;
   dc:description "Mashup dataset regarding emigration and economic independence"@en ;
