@@ -11529,8 +11529,8 @@ small a {
 
 #ciao {
   border-radius: 0.5rem;
-  padding: 2%;
-  height:35vh;
+  padding: 1%;
+  height:30vh;
   font-weight: 500;
   color: white;
   position:relative;
@@ -11557,7 +11557,7 @@ small a {
 }
 
 #ciao h3 {
-  margin-top: 6%;
+  margin-top: 5%;
   font-weight: 500;
   font-size: 1.6em;
 }
