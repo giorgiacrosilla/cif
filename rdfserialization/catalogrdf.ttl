@@ -1,0 +1,53 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://github.com/ManueleVeggi/initinere/resource/metadata/initinereCat>
+  a <http://data.europa.eu/r5r/Catalogue>, dcat:Catalog ;
+  dc:title "catalogrdf"@en ;
+  ns0:identifier "catalogrdf" ;
+  dc:description "Catalogue containing mashed-up datasets for the Project CIF" ;
+  dcat:keyword "university"@en, "wages"@en, "working satisfaction"@en, "emigration"@en, "educational level"@en, "università"@it, "stipendi"@it, "soddisfazione lavorativa"@it, "emigrazione"@it, "livello di istruzione"@it ;
+  dc:issued "2024-02-01@"^^xsd:date ;
+  dc:modified "2024-02-01@"^^xsd:date ;
+  dcat:datasets <https://github.com/giorgiacrosilla/cif/resource/intermediate_dataset/i2>, <https://github.com/giorgiacrosilla/cif/resource/intermediate_dataset/i3>, <https://github.com/giorgiacrosilla/cif/resource/intermediate_dataset/i4>, <https://github.com/giorgiacrosilla/cif/resource/intermediate_dataset/i5> ;
+  dc:publisher <https://github.com/giorgiacrosilla/cif> ;
+  dc:creator <https://github.com/giorgiacrosilla/cif/team/lucia1299>, <https://github.com/giorgiacrosilla/cif/team/GaiaOrtona>, <https://github.com/giorgiacrosilla/cif/team/GiorgiaCrosilla> ;
+  dc:language <http://publications.europa.eu/resource/authority/language/ENG> ;
+  dc:license <https://creativecommons.org/licenses/by-nc/4.0/>, <https://creativecommons.org/licenses/by-sa/4.0/> ;
+  foaf:homepage <https://github.com/giorgiacrosilla/cif> .
+
+<https://github.com/giorgiacrosilla/cif/resource/intermediate_dataset/i2> a <http://data.europa.eu/r5r/Dataset>, dcat:Dataset .
+<https://github.com/giorgiacrosilla/cif/resource/intermediate_dataset/i3> a <http://data.europa.eu/r5r/Dataset>, dcat:Dataset .
+<https://github.com/giorgiacrosilla/cif/resource/intermediate_dataset/i4> a <http://data.europa.eu/r5r/Dataset>, dcat:Dataset .
+<https://github.com/giorgiacrosilla/cif/resource/intermediate_dataset/i5> a <http://data.europa.eu/r5r/Dataset>, dcat:Dataset .
+<https://github.com/giorgiacrosilla/cif>
+  a foaf:agent ;
+  foaf:name "cif"@en .
+
+<https://github.com/giorgiacrosilla/cif/team/lucia1299>
+  a foaf:Person ;
+  foaf:name "Lucia Bertoldini"@it .
+
+<https://github.com/giorgiacrosilla/cif/team/GaiaOrtona>
+  a foaf:Person ;
+  foaf:name "Gaia Ortona"@it .
+
+<https://github.com/giorgiacrosilla/cif/team/GiorgiaCrosilla>
+  a foaf:Person ;
+  foaf:name "Giorgia Crosilla"@it .
+
+<https://creativecommons.org/licenses/by-nc/4.0/>
+  a <http://dati.gov.it/onto/dcatapit/LicenseDocument>, dc:LicenseDocument ;
+  dc:type <http://purl.org/adms/licencetype/Attribution> ;
+  foaf:name "CC BY-NC" ;
+  owl:versionInfo "4.0" .
+
+<https://creativecommons.org/licenses/by-sa/4.0/>
+  a <http://dati.gov.it/onto/dcatapit/LicenseDocument>, dc:LicenseDocument ;
+  dc:type <http://purl.org/adms/licencetype/Attribution> ;
+  foaf:name "CC BY-SA" ;
+  owl:versionInfo "4.0" .
