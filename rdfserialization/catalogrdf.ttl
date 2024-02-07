@@ -8,7 +8,7 @@
 <https://github.com/ManueleVeggi/initinere/resource/metadata/initinereCat>
   a <http://data.europa.eu/r5r/Catalogue>, dcat:Catalog ;
   dc:title "catalogrdf"@en ;
-  ns0:identifier "catalogrdf" ;
+  adms:identifier "catalogrdf" ;
   dc:description "Catalogue containing mashed-up datasets for the Project CIF" ;
   dcat:keyword "university"@en, "wages"@en, "working satisfaction"@en, "emigration"@en, "educational level"@en, "università"@it, "stipendi"@it, "soddisfazione lavorativa"@it, "emigrazione"@it, "livello di istruzione"@it ;
   dc:issued "2024-02-01@"^^xsd:date ;

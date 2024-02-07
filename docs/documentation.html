@@ -740,21 +740,35 @@
                   >
                 </li>
               </ul>
+              <ul>
+                <li>
+                  <a
+                    href="https://github.com/giorgiacrosilla/cif/blob/main/rdfserialization/catalogrdf.ttl"
+                    >Cif Catalogue</a
+                  >
+                </li>
+              </ul>
+              <p>The datasets have been analysed both as single individual <b>dcat:Dataset</b> and as a whole as a <b>dcat:Catalog</b> gathering them all. The main used metadata properties have been summarized in the next table, with specific attention at including both mandatory elements and the highest number of reccomended and optional information as possible to meaningfully enrich the collection.</p>
               <div class="table-responsive-sm">
                 <table class="table">
                   <thead>
                     <tr>
                       <th scope="col"></th>
                       <th scope="col">Datasets</th>
+                      <th scope="col">Catalogue</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <th scope="row">Identifiers</th>
                       <td class="table-txt">adms:identifier, dcterms:title</td>
+                      <td class="table-txt">adms:identifier, dcterms:title</td>
                     </tr>
                     <tr>
                       <th scope="row">Description</th>
+                      <td class="table-txt">
+                        dcterms:description, dcat:keyword
+                      </td>
                       <td class="table-txt">
                         dcterms:description, dcat:keyword
                       </td>
@@ -764,17 +778,25 @@
                       <td class="table-txt">
                         dcterms:issued, dcterms:modified
                       </td>
+                      <td class="table-txt">
+                        dcterms:issued, dcterms:modified
+                      </td>
                     </tr>
                     <tr>
                       <th scope="row">Spatial</th>
                       <td class="table-txt">prov:wasDerivedFrom</td>
+                      <td class="table-txt"></td>
                     </tr>
                     <tr>
                       <th scope="row">Composition</th>
                       <td class="table-txt">dcterms:hasPart</td>
+                      <td class="table-txt">dcat:datasets</td>
                     </tr>
                     <tr>
                       <th scope="row">Agents</th>
+                      <td class="table-txt">
+                        dcterms:publisher, dcterms:creator
+                      </td>
                       <td class="table-txt">
                         dcterms:publisher, dcterms:creator
                       </td>
@@ -784,18 +806,24 @@
                       <td class="table-txt">
                         dcterms:rightsHolder, dcterms:license
                       </td>
+                      <td class="table-txt">
+                        dcterms:license
+                      </td>
                     </tr>
                     <tr>
                       <th scope="row">Distribution</th>
                       <td class="table-txt">dcat:distribution</td>
+                      <td class="table-txt"></td>
                     </tr>
                     <tr>
                       <th scope="row">Language</th>
+                      <td class="table-txt">dcterms:language</td>
                       <td class="table-txt">dcterms:language</td>
                     </tr>
                     <tr>
                       <th scope="row">Web</th>
                       <td class="table-txt">dcat:Landingpage</td>
+                      <td class="table-txt">foaf:homepage</td>
                     </tr>
                   </tbody>
                 </table>
